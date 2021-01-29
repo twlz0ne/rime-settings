@@ -1,0 +1,83 @@
+patch:
+  # 开关
+  switches:
+    - name: zh_simp
+      states: ["漢字", "汉字"] # 简繁切换，舍去繁体的配置方案，在这里切换繁体就可以
+      reset: 1
+    - name: ascii_mode
+      reset: 0
+      # states: ["中文", "西文"] # 注释掉了，不使用菜单切换中英文
+    - name: full_shape
+      # states: ["半角", "全角"] # 注释掉了，从不使用全角
+      reset: 0
+    - name: gbk
+      # states: ["增廣", "常用"] # 注释掉了，大多数简中用户根本没必要设置超大字符集，找字的时候徒增烦恼。。。
+      reset: 1 
+ 
+  # 基础设定
+  engine/filters:
+    - charset_filter@gbk
+    - simplifier
+    - uniquifier
+  
+  # 扩展词库，在 luna_pinyin.extended.dict.yaml 中设定
+  "translator/dictionary": luna_pinyin.extended
+
+  # easy_en
+  "schema/dependencies/@next": easy_en
+  # 載入翻譯英文的碼表翻譯器，取名爲 english
+  "engine/translators/@next": table_translator@english
+  # english 翻譯器的設定項
+  english:
+    dictionary: easy_en
+    spelling_hints: 9
+    enable_completion: true
+    enable_sentence: false
+    initial_quality: -3
+
+  # 改写拼音运算，使得含英文的字词（位于 luna_pinyin.cn_en.dict.yaml 中）不影响简拼功能（注意，此功能只适用于於朙月拼音系列方案，不适用于各类双拼方案）
+  # 本条补丁只在「小狼毫 0.9.30」、「鼠须管 0.9.25 」、「Rime-1.2」及更高的版本中起作用
+  "speller/algebra/@before 0": xform/^([b-df-np-z])$/$1_/
+
+  # 标点符号 # 不要任何转换
+  punctuator:
+    import_preset: symbols # 不加这个会只有英文标点
+    half_shape:
+      "#": "#"
+      "`": "`"
+      "~": "~"
+      "@": "@"
+      "=": "="
+      "/": "/"
+      '\': "、"
+      "'": {pair: ["‘", "’"]}
+      "[" : "["
+      "]" : "]"
+      "{" : "{"
+      "}" : "}" 
+      "$": "￥"
+      "%": "%"
+      "<": "《"
+      ">": "》"
+      "*" : "*"
+      "|" : "|"
+  # recognizer/patterns/punct: "^/([a-z]+|[0-9]0?)$" # 注释掉了，不需要“/”模式
+
+  # 模糊拼音
+  'speller/algebra/+':
+    - erase/^xx$/                        # 第一行保留 # ？
+    # 以下是一組容錯拼寫
+    - derive/^([nl])ve$/$1ue/          # nve = nue, lve = lue
+    # 自動糾正一些常見的按鍵錯誤
+    - derive/ia$/ai/
+    - derive/ua$/au/                   # shau => shua
+    - derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian
+    - derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian
+    - derive/ao$/oa/                   # hoa => hao
+    - derive/ai$/ia/                   # zia => zai
+    - derive/an$/na/                   # hna => han
+
+# librime-lua 输入动态时间和日期
+  engine/translators/+: 
+    - lua_translator@date_translator
+    - lua_translator@time_translator
