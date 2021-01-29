@@ -1,0 +1,9 @@
+.DS_Store
+
+build/
+easy_en.userdb/
+ext_dict/d.dict.yaml
+luna_pinyin.userdb/
+custom_phrase.txt
+installation.yaml
+user.yaml
