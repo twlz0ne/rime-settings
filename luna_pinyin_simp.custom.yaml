@@ -16,9 +16,9 @@ patch:
  
   # 基础设定
   engine/filters:
-    - charset_filter@gbk
     - simplifier
     - uniquifier
+    - charset_filter@gbk
   
   # 扩展词库，在 luna_pinyin.extended.dict.yaml 中设定
   "translator/dictionary": luna_pinyin.extended
