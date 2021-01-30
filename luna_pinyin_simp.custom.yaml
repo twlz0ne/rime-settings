@@ -24,16 +24,30 @@ patch:
   "translator/dictionary": luna_pinyin.extended
 
   # easy_en
-  "schema/dependencies/@next": easy_en
-  # 載入翻譯英文的碼表翻譯器，取名爲 english
-  "engine/translators/@next": table_translator@english
-  # english 翻譯器的設定項
-  english:
-    dictionary: easy_en
+  # "schema/dependencies/@next": easy_en
+  # # 載入翻譯英文的碼表翻譯器，取名爲 english
+  # "engine/translators/@next": table_translator@english
+  # # english 翻譯器的設定項
+  # english:
+  #   dictionary: easy_en
+  #   spelling_hints: 9
+  #   enable_completion: true
+  #   enable_sentence: false
+  #   initial_quality: -3
+  "schema/dependencies/@next": melt_eng
+  "engine/translators/@before 0": table_translator@melt_eng
+  
+  melt_eng:
+    dictionary: melt_eng
     spelling_hints: 9
     enable_completion: true
     enable_sentence: false
-    initial_quality: -3
+    initial_quality: -1
+  # 關閉外語自造詞，節約候選詞列表
+  # easy_en/enable_sentence: false
+  # 令輸入方案對大寫字符生效
+  "speller/alphabet": zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-_
+  recognizer/patterns/uppercase: ''
 
   # 改写拼音运算，使得含英文的字词（位于 luna_pinyin.cn_en.dict.yaml 中）不影响简拼功能（注意，此功能只适用于於朙月拼音系列方案，不适用于各类双拼方案）
   # 本条补丁只在「小狼毫 0.9.30」、「鼠须管 0.9.25 」、「Rime-1.2」及更高的版本中起作用
