@@ -34,7 +34,7 @@ patch:
     spelling_hints: 9
     enable_completion: true
     enable_sentence: false
-    initial_quality: -1
+    initial_quality: 0 # 值为-1时，在能得到中文结果的情况下英文永远不会出现在第一个候选项。
   # 關閉外語自造詞，節約候選詞列表
   # easy_en/enable_sentence: false
   # 令輸入方案對大寫字符生效
