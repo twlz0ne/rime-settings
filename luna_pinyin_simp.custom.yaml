@@ -14,7 +14,7 @@ patch:
       reset: 1 
       # states: ["增廣", "常用"] # 注释掉了，大多数简中用户根本没必要设置超大字符集，找字的时候徒增烦恼。。。
  
-  # 基础设定
+  # 过滤器
   engine/filters:
     - simplifier
     - uniquifier
@@ -23,20 +23,9 @@ patch:
   # 扩展词库，在 luna_pinyin.extended.dict.yaml 中设定
   "translator/dictionary": luna_pinyin.extended
 
-  # easy_en
-  # "schema/dependencies/@next": easy_en
-  # # 載入翻譯英文的碼表翻譯器，取名爲 english
-  # "engine/translators/@next": table_translator@english
-  # # english 翻譯器的設定項
-  # english:
-  #   dictionary: easy_en
-  #   spelling_hints: 9
-  #   enable_completion: true
-  #   enable_sentence: false
-  #   initial_quality: -3
+  # Easy English Nano
   "schema/dependencies/@next": melt_eng
   "engine/translators/@before 0": table_translator@melt_eng
-  
   melt_eng:
     dictionary: melt_eng
     spelling_hints: 9
