@@ -18,22 +18,23 @@ import_tables:
   - ext_dict/luna_pinyin.cn_en
   # 自己的：
   - ext_dict/d
-  # 其他：
+  # 有点用的：
   - ext_dict/luna_pinyin.i
   - ext_dict/luna_pinyin.computer
   - ext_dict/luna_pinyin.chengyusuyu
-  - ext_dict/luna_pinyin.dianshiju
-  - ext_dict/luna_pinyin.falv
-  - ext_dict/luna_pinyin.gushici
   - ext_dict/luna_pinyin.kaifazhuanyongciku
-  - ext_dict/luna_pinyin.mingxing
-  - ext_dict/luna_pinyin.movie
-  - ext_dict/luna_pinyin.music
   - ext_dict/luna_pinyin.poetry
-  - ext_dict/luna_pinyin.sgmain
-  - ext_dict/luna_pinyin.shoujicihui
-  - ext_dict/luna_pinyin.wangluoliuxingci
   - ext_dict/luna_pinyin.xiandaihanyuchangyongcibiao
-  - ext_dict/luna_pinyin.yixue
+  - ext_dict/luna_pinyin.mingxing
+  # 其他：
+  # - ext_dict/luna_pinyin.dianshiju
+  # - ext_dict/luna_pinyin.falv
+  # - ext_dict/luna_pinyin.gushici
+  # - ext_dict/luna_pinyin.movie
+  # - ext_dict/luna_pinyin.music
+  # - ext_dict/luna_pinyin.sgmain
+  # - ext_dict/luna_pinyin.shoujicihui
+  # - ext_dict/luna_pinyin.wangluoliuxingci
+  # - ext_dict/luna_pinyin.yixue
   
 
