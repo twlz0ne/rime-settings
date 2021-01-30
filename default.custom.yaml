@@ -37,16 +37,16 @@ patch:
       - { when: composing, accept: Tab, send: Shift+Right }
 
       # paging_with_minus_equal:
-      # - { when: has_menu, accept: minus, send: Page_Up }
-      # - { when: has_menu, accept: equal, send: Page_Down }
+      - { when: has_menu, accept: minus, send: Page_Up }
+      - { when: has_menu, accept: equal, send: Page_Down }
 
       # paging_with_comma_period:
       # - { when: paging, accept: comma, send: Page_Up }
       # - { when: has_menu, accept: period, send: Page_Down }
 
       # paging_with_brackets:
-      # - { when: paging, accept: bracketleft, send: Page_Up }
-      # - { when: has_menu, accept: bracketright, send: Page_Down }
+      - { when: paging, accept: bracketleft, send: Page_Up }
+      - { when: has_menu, accept: bracketright, send: Page_Down }
 
       # numbered_mode_switch:
       # - { when: always, accept: Control+Shift+1, select: .next }
