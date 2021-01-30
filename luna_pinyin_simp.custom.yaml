@@ -74,12 +74,11 @@ patch:
     # 以下是一組容錯拼寫
     - derive/^([nl])ve$/$1ue/          # nve = nue, lve = lue
     # 自動糾正一些常見的按鍵錯誤
-    - derive/ia$/ai/
     - derive/ua$/au/                   # shau => shua
     - derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian
     - derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian
     - derive/ao$/oa/                   # hoa => hao
-    - derive/ai$/ia/                   # zia => zai
+    - derive/zai$/zia/                 # zia => zai
     - derive/an$/na/                   # hna => han
 
   # librime-lua 输入动态时间和日期
