@@ -2,7 +2,17 @@
 
 配置基础源自：[liuour](https://github.com/liuour)/**[rime](https://github.com/liuour/rime)** （感谢！）
 
+
+
 输入方案为 luna_pinyin_simp，使用的主要词库为 luna_pinyin。
+
+
+
+字符集过滤使用了 GB2312，这样大大减少了生僻字的出现。
+
+但同时也增加了切换繁体的步骤，需要先切换到扩展字符集，再切换到繁体才能输入繁体字。
+
+不过对于很少用繁体字输入的人来说没什么影响。
 
 
 
@@ -14,6 +24,7 @@
 -   创了个落格输入法的暗色皮肤
 -   扩展词库归类到文件夹里
 -   快捷键与官方示例同步，主要是调出 tab 切换光标、快速切换简繁的功能 [rime](https://github.com/rime)/**[rime-prelude](https://github.com/rime/rime-prelude)** （官方示例）
+-   默认使用 gb2312 字符集过滤
 -   将 easy_en 替换为 Easy English Nano，参考于 [mityliu](https://github.com/mityliu)/**[rime-custom](https://github.com/mityliu/rime-custom)** （感谢！）
 -   增加了常见的拼音纠错
 -   保留快速输入日期时间的小功能
@@ -34,7 +45,7 @@
 -   `luna_pinyin_simp.custom.yaml` 
     -   主要设定文件，简中全拼方案的所有设定
 -   `luna_pinyin.extended.dict.yaml`
-    -   词库选择，不是默认组件，此文件于 `luna_pinyin_simp.custom.yaml` 中定义
+    -   词库选择，此文件于 `luna_pinyin_simp.custom.yaml` 中定义
 
 
 
@@ -45,17 +56,15 @@
 
 ```
 # 这里需要自己加入代码来完成同步用户资料的功能，如果没有或不小心删了，部署一次自动生成。
-...
+# ...
 # 默认为随机的 UUID，可以起一个好记的名字
-installation_id: "my windows or my mac"
+installation_id: "my computer"
 # 需要手动添加下行，设定用户同步目录
 sync_dir: "/Users/<your username>/Dropbox/Rime_Sync"
-...
+# ...
 ```
 
--   `*.userdb/` 
-
-`*` 前缀是各个输入方案简称，这个目录是用户词库
+-   `*.userdb/`  各方案的用户词库
 
 
 

@@ -3,7 +3,7 @@ patch:
   switches:
     - name: zh_simp
       reset: 1
-      # states: [ 繁體", 简体 ]
+      states: [ 繁體", 简体 ]
     - name: ascii_mode
       reset: 0
       # states: ["中文", "西文"]
@@ -12,7 +12,7 @@ patch:
       # states: ["半角", "全角"]
     - name: gb2312
       reset: 1 
-      # states: [ 增廣, 常用 ]
+      states: [ 增廣, 常用 ]
 
   # 过滤器
   engine/filters:
