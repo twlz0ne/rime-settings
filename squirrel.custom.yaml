@@ -1,5 +1,5 @@
 patch:
-  show_notifications_when: appropriate # 状态通知，可设为全开（always）全关（never）  
+  show_notifications_when: always #appropriate # 状态通知，可设为全开（always）全关（never）  
 
   # 无（#）表示当前皮肤
   style/color_scheme: luoge

@@ -13,15 +13,18 @@ patch:
     - name: gb2312
       reset: 1 
       states: [ 增廣, 常用 ]
+    - name: emoji-symbol
+      reset: 1
 
   # 过滤器
   engine/filters:
     - simplifier
-    - uniquifier
     - charset_filter@gb2312
+    - simplifier@emoji-symbol
+    - uniquifier
   
   # 这个好像写不写都无所谓
-  # "translator/enable_charset_filter": false
+  "translator/enable_charset_filter": true
 
   # 扩展词库，在 luna_pinyin.extended.dict.yaml 中设定
   "translator/dictionary": luna_pinyin.extended
@@ -47,11 +50,24 @@ patch:
   # 本条补丁只在「小狼毫 0.9.30」、「鼠须管 0.9.25 」、「Rime-1.2」及更高的版本中起作用
   "speller/algebra/@before 0": xform/^([b-df-np-z])$/$1_/
 
+  # 引入 opencc 内的 emoji-symbol，只引入了这一个
+  emoji-symbol:
+    opencc_config: emoji-symbol.json
+    option_name: emoji-symbol
 
   punctuator:
-    # 不加这个会只有英文标点
     import_preset: symbols
-    # 标点符号 # 不要任何转换
+    # 引入“v”模式
+    symbols:
+      "vv": [/bq] # 表情
+      "vs": [/ss] # 手势
+      "vam": [/am] # 动物
+      "vk": [/aj] # 键盘符号
+      "vf": [/fs] # 分号
+      "vb": [/fh] # 标志
+      "vx": [/xh] # 星号
+      "vm": [/hb] # money
+    # 标点符号，不要任何转换，标点直接上屏
     half_shape:
       "#": "#"
       "`": "`"
@@ -71,7 +87,9 @@ patch:
       ">": "》"
       "*" : "*"
       "|" : "|"
-  # recognizer/patterns/punct: "^/([a-z]+|[0-9]0?)$" # 注释掉了，不需要“/”模式
+      
+  # “/”模式转为“v”模式
+  recognizer/patterns/punct: "^v([a-z]+|[0-9]0?)$"
 
   'speller/algebra/+':
     - erase/^xx$/ # ？
