@@ -73,18 +73,18 @@ patch:
       "|" : "|"
   # recognizer/patterns/punct: "^/([a-z]+|[0-9]0?)$" # 注释掉了，不需要“/”模式
 
-  # 模糊拼音
   'speller/algebra/+':
-    - erase/^xx$/                        # 第一行保留 # ？
-    # 以下是一組容錯拼寫
+    - erase/^xx$/ # ？
+    # 模糊拼音：
+      # 没有
+    # 容错拼写：
     - derive/^([nl])ve$/$1ue/          # nve = nue, lve = lue
-    # 自動糾正一些常見的按鍵錯誤
-    - derive/ua$/au/                   # shau => shua
-    - derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian
-    - derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian
-    - derive/ao$/oa/                   # hoa => hao
-    - derive/zai$/zia/                 # zia => zai
-    - derive/an$/na/                   # hna => han
+    # 自动纠错：
+    - derive/ua$/au/  # shau => shua
+    - derive/([iu])a(o|ng?)$/a$1$2/   # tain => tian
+    - derive/a([on])$/$1a/  # hoa => hao  hna  => han
+    - derive/zai$/zia/   # zia => zai
+    - derive/([zcs])hi$/$1ih/ # zih => zhi cih => chi sih => shi
 
   # librime-lua 输入动态时间和日期
   engine/translators/+: 
