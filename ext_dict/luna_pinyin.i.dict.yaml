@@ -13,6 +13,33 @@ use_preset_vocabulary: true
 
 # #####################################################
 
+# 常见符号
+°	du
+℃	she shi du
+℉	hua shi du
+♂	nan
+♀	nv
+↑	shang
+↓	xia
+→	you
+↗	you shang
+↘	you xia
+←	zuo
+↖	zuo shang
+↙	zuo xia
+★	xing	10000
+①	yi	10000
+②	er	10000
+③	san	10000
+④	si	10000
+⑤	wu	10000
+⑥	liu	10000
+⑦	qi	10000
+⑧	ba	10000
+⑨	jiu	10000
+⑩	shi	10000
+
+
 # 中文特有名词
 笑哭	xiao ku
 傲娇	ao jiao

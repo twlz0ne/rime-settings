@@ -26,9 +26,9 @@ import_tables:
   - ext_dict/luna_pinyin.chengyusuyu
   - ext_dict/luna_pinyin.kaifazhuanyongciku
   - ext_dict/luna_pinyin.poetry
-  - ext_dict/luna_pinyin.xiandaihanyuchangyongcibiao
   - ext_dict/luna_pinyin.mingxing
   # 其他：
+  # - ext_dict/luna_pinyin.xiandaihanyuchangyongcibiao
   # - ext_dict/luna_pinyin.dianshiju
   # - ext_dict/luna_pinyin.falv
   # - ext_dict/luna_pinyin.gushici
@@ -38,5 +38,4 @@ import_tables:
   # - ext_dict/luna_pinyin.shoujicihui
   # - ext_dict/luna_pinyin.wangluoliuxingci
   # - ext_dict/luna_pinyin.yixue
-  
-
+...
