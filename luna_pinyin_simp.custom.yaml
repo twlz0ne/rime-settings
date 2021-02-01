@@ -38,6 +38,7 @@ patch:
     enable_completion: true
     enable_sentence: false
     # initial_quality值为负数时，在能得到中文结果的情况下英文永远不会出现在第一个候选项。
+    # 但值为0或正数，会扰乱单个编码时的中文输入，如果在自定义词库中固定了词频就没这烦恼了
     initial_quality: 0 # -3
   # 關閉外語自造詞，節約候選詞列表
   # easy_en/enable_sentence: false

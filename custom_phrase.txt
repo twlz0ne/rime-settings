@@ -1,0 +1,127 @@
+# Rime table
+# coding: utf-8
+#@/db_name  custom_phrase.txt
+#@/db_type	tabledb
+#
+# 用於【朙月拼音】系列輸入方案
+# 【小狼毫】0.9.21 以上
+#
+# 請將該文件以UTF-8編碼保存爲
+# Rime用戶文件夾/custom_phrase.txt
+#
+# 碼表各字段以製表符（Tab）分隔
+# 順序爲：文字、編碼、權重（決定重碼的次序、可選）
+#
+# 雖然文本碼表編輯較爲方便，但不適合導入大量條目
+#
+# author: Dvel
+# version: 2021-02-02
+# desc: 这里存放需要给予最高权重的字词
+#
+# no comment 
+
+去	q	1
+我	w	1
+呃	e	1
+也	y	1
+有	u	2
+又	u	1
+一	i	1
+哦	o	1
+是	s	1
+的	d	1
+个	g	1
+和	h	1
+就	j	1
+了	l	1
+在	z	1
+小	x	1
+吧	b	1
+你	n	1
+没	m	1
+
+他	t	3
+她	t	2
+它	t	1
+他们	tamen	3
+她们	tamen	2
+它们	tamen	1
+他的	tade	3
+她的	tade	2
+它的	tade	1
+那	na	2
+哪	na	1
+那个	nage	2
+哪个	nage	1
+那些	naxie	2
+哪些	naxie	1
+
+一会	ihui	1
+一下	ixia	1
+一个	ig	1
+一个	ige	1
+一份	ifen	1
+
+知道	zd	1
+没有	my	1
+知道	zhidao	2
+直到	zhidao	1
+接受	jieshou	2
+接收	jieshou	1
+
+买	mai	2
+卖	mai	1
+这	zh
+去	qv	1
+我	wo	1
+也	ye	1
+有	you	2
+又	you	1
+一	yi	3
+以	yi	2
+已	yi	1
+是	shi	2
+时	shi	1
+的	de	3
+得	de	2
+地	de	1
+个	ge	2
+各	ge	1
+和	he	1
+就	jiu	1
+了	le	1
+在	zai	2
+再	zai	1
+小	xiao	1
+吧	ba	2
+把	ba	1
+你	ni	1
+没	mei	1
+这	zhe	1
+吗	ma	1
+等	deng	1
+刚	gang	1
+还	hai	1
+到	dao	1
+不	bu	1
+被	bei	1
+开	kai	1
+上	shang	1
+下	xia	1
+做	zuo	1
+只	zhi	1
+想	xiang	1
+主	zhu	1
+最	zui	1
+杀	sha	2
+啥	sha	1
+滚	gun	1
+但	dan	1
+好	hao	1
+对	dui	1
+楼	lou	1
+前	qian	2
+钱	qian	1
+所	suo	1
+日	ri	1
+月	yue	1
