@@ -2,7 +2,6 @@
 
 build/
 *.userdb/
-ext_dict/d.dict.yaml
-custom_phrase.txt
+
 installation.yaml
 user.yaml
