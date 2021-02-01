@@ -19,8 +19,8 @@ patch:
   # 过滤器
   engine/filters:
     - simplifier
-    - simplifier@emoji-symbol
     - charset_filter@gb2312
+    - simplifier@emoji-symbol
     - uniquifier
   
   # 这个好像写不写都无所谓
