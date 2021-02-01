@@ -3,7 +3,7 @@ patch:
   switches:
     - name: zh_simp
       reset: 1
-      states: [ 繁體", 简体 ]
+      states: [繁體", 简体]
     - name: ascii_mode
       reset: 0
       # states: ["中文", "西文"]
@@ -11,8 +11,8 @@ patch:
       reset: 0
       # states: ["半角", "全角"]
     - name: gb2312
-      reset: 1 
-      states: [ 增廣, 常用 ]
+      reset: 1
+      states: [增廣, 常用]
     - name: emoji-symbol
       reset: 1
 
@@ -22,7 +22,7 @@ patch:
     - charset_filter@gb2312
     - simplifier@emoji-symbol
     - uniquifier
-  
+
   # 这个好像写不写都无所谓
   "translator/enable_charset_filter": true
 
@@ -43,7 +43,7 @@ patch:
   # easy_en/enable_sentence: false
   # 令輸入方案對大寫字符生效
   "speller/alphabet/+": zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
-  recognizer/patterns/uppercase: ''
+  recognizer/patterns/uppercase: ""
 
   # 改写拼音运算，使得含英文的字词（位于 luna_pinyin.cn_en.dict.yaml 中）不影响简拼功能（注意，此功能只适用于於朙月拼音系列方案，不适用于各类双拼方案）
   # 本条补丁只在「小狼毫 0.9.30」、「鼠须管 0.9.25 」、「Rime-1.2」及更高的版本中起作用
@@ -75,35 +75,35 @@ patch:
       "=": "="
       "/": "/"
       '\': "、"
-      "'": {pair: ["‘", "’"]}
-      "[" : "["
-      "]" : "]"
-      "{" : "{"
-      "}" : "}" 
+      "'": { pair: ["‘", "’"] }
+      "[": "["
+      "]": "]"
+      "{": "{"
+      "}": "}"
       "$": "￥"
       "%": "%"
       "<": "《"
       ">": "》"
-      "*" : "*"
-      "|" : "|"
+      "*": "*"
+      "|": "|"
 
   # “/”模式转为“v”模式
   recognizer/patterns/punct: "^v([a-z]+|[0-9]0?)$"
 
-  'speller/algebra/+':
+  "speller/algebra/+":
     - erase/^xx$/ # ？
     # 模糊拼音：
       # 没有
     # 容错拼写：
       # v u 的容错拼写，上层方案已经自带了。
     # 自动纠错：
-    - derive/ua$/au/  # shau => shua
-    - derive/([iu])a(o|ng?)$/a$1$2/   # tain => tian laing => liang
-    - derive/a([on])$/$1a/  # hoa => hao  hna  => han
-    - derive/zai$/zia/   # zia => zai
+    - derive/ua$/au/ # shau => shua
+    - derive/([iu])a(o|ng?)$/a$1$2/ # tain => tian laing => liang
+    - derive/a([on])$/$1a/ # hoa => hao  hna  => han
+    - derive/zai$/zia/ # zia => zai
     - derive/([zcs])hi$/$1ih/ # zih => zhi cih => chi sih => shi
 
   # librime-lua 输入动态时间和日期
-  engine/translators/+: 
+  engine/translators/+:
     - lua_translator@date_translator
     - lua_translator@time_translator
