@@ -2,6 +2,6 @@
 
 build/
 *.userdb/
-
+ext_dict/d.ext_dict.yaml
 installation.yaml
 user.yaml
