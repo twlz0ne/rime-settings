@@ -27,6 +27,7 @@ import_tables:
   - ext_dict/luna_pinyin.mingxing
   - ext_dict/luna_pinyin.chengyusuyu
   - ext_dict/luna_pinyin.poetry
+  - ext_dict/luna_pinyin.yixue
   # 这个古诗词还挺全的，但是我发现它是两种词典组成的
   # 下面那一组都是用空格隔开的，不符合Rime的词典规则
   # 于是分成两个组，组1是正常没有变动的，将组2词语后面的空格转换成了Tab
@@ -42,4 +43,3 @@ import_tables:
   # - ext_dict/luna_pinyin.sgmain
   # - ext_dict/luna_pinyin.shoujicihui
   # - ext_dict/luna_pinyin.wangluoliuxingci
-  # - ext_dict/luna_pinyin.yixue

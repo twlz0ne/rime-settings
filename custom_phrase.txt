@@ -26,10 +26,14 @@
 也	y	1
 有	u	2
 又	u	1
-一	i	1
+一	i	3
+已	i	2
+以	i	1
 哦	o	1
 是	s	1
-的	d	1
+的	d	3
+得	d	2
+地	d	1
 个	g	1
 和	h	1
 就	j	1
@@ -61,6 +65,7 @@
 一个	ig	1
 一个	ige	1
 一份	ifen	1
+一方面	ifangmian	1
 
 知道	zd	1
 没有	my	1
@@ -128,6 +133,7 @@
 定	ding	1
 懂	dong	1
 都	dou	1
+读	du	1
 端	duan	1
 对	dui	1
 吨	dun	1
@@ -304,7 +310,7 @@
 破	po	1
 剖	pou	1
 普	pu	1
-皮	qi	1
+起	qi	1
 啪	qia	1
 前	qian	2
 钱	qian	1
@@ -414,8 +420,8 @@
 要	yao	1
 也	ye	1
 一	yi	3
-以	yi	2
-已	yi	1
+已	yi	2
+以	yi	1
 因	yin	1
 应	ying	1
 哟	yo	1
