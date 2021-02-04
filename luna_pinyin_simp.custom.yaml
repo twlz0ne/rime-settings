@@ -52,7 +52,7 @@ patch:
     option_name: emoji-symbol
 
   # 解决 ` 不能直接上屏
-  recognizer/patterns/reverse_lookup: "[a-z]*'?$" # "`[a-z]*'?$"
+  recognizer/patterns/reverse_lookup: "好像只要不写`符号就行了。。。[a-z]*'?$" # "`[a-z]*'?$"
 
   punctuator:
     import_preset: symbols.custom
