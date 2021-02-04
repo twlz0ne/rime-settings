@@ -12,7 +12,7 @@ use_preset_vocabulary: true
 ...
 
 # 容错词
-# 什么	sheme
+什么	sheme
 为什么	weisheme
 谁的	sheid
 
@@ -27,8 +27,7 @@ VSCode	vscode
 VSCode	VSCode
 gakki	gakki
 
-
-# 自造词
+# 因为在custom_phrase中而无法完成造词的极少数词：
 剧里
 看呀
 海面上
@@ -36,6 +35,8 @@ gakki	gakki
 等会
 而那
 这便是
+
+# 自造词
 武藤绫香	wutenglingxiang
 武藤あやか	wutenglingxiang
 夏希栗	xiaxili
