@@ -2,7 +2,8 @@ patch:
   show_notifications_when: always #appropriate # 状态通知，可设为全开（always）全关（never）  
 
   # 无（#）表示当前皮肤
-  style/color_scheme: luoge
+  style/color_scheme: purity_of_form_custom
+  # style/color_scheme: luoge
   #style/color_scheme: native   # 系统配色
   # style/color_scheme: macos_light   # Mac仿原生亮色
   # style/color_scheme: macos_dark    # Mac仿原生暗色
@@ -10,12 +11,12 @@ patch:
   #style/color_scheme: aqua   # 碧水
   #style/color_scheme: azure    # 青天
   #style/color_scheme: clean_white    # 简约白
-  #style/color_scheme: dark_temple    # 暗堂
+  # style/color_scheme: dark_temple    # 暗堂
   # style/color_scheme: dust   #浮尘
-  #style/color_scheme: ink    #墨池
+  # style/color_scheme: ink    #墨池
   #style/color_scheme: google   # 谷歌
   #style/color_scheme: luna   # 明月
-  #style/color_scheme: lost_temple    # 孤寺
+  # style/color_scheme: lost_temple    # 孤寺
   #style/color_scheme: psionics   # 幽能
   # style/color_scheme: purity_of_form   # 纯粹的形式
   # style/color_scheme: purity_of_essence    # 纯粹的本质
@@ -24,7 +25,7 @@ patch:
   # style/color_scheme: solarized_light   # 晒经日
   # style/color_scheme: solarized_dark   # 晒经月
 
-  text_orientation: horizontal  # horizontal | vertical
+  text_orientation: vertical  # horizontal | vertical
   inline_preedit: true
   corner_radius: 10
   hilited_corner_radius: 0
@@ -44,6 +45,23 @@ patch:
   preset_color_schemes:
     native:
       name: 系統配色
+
+    purity_of_form_custom:
+      name: 純粹的形式／Purity of Form
+      author: 雨過之後、佛振
+      text_color: 0x333333 #0xc2c2c2
+      back_color: 0x545554 #0x444444
+      candidate_text_color: 0xeeeeee
+      hilited_text_color: 0xeeeeee
+      hilited_back_color: 0x444444
+      hilited_candidate_text_color: 0x000000
+      hilited_candidate_back_color: 0xE3E3E3 #0xFAFAFA #0xfafafa
+      comment_text_color: 0x808080
+      font_point: 18
+      label_font_point: 13    # 候选编号大小
+      # border_height: 4     # 窗口上下高度
+      # border_width: 4   # 窗口左右宽度
+      border_color_width: 4   #输入条边框宽度
 
     luoge:
       name: 落格输入法暗色配色
@@ -70,8 +88,9 @@ patch:
       hilited_corner_radius: 5    # 高亮圆角
       border_height: 4     # 窗口上下高度
       border_width: 4   # 窗口左右宽度
-      border_color_width: 0   #输入条边框宽度
-      #label_font_face: "SFCompactText-Regular"  # 候选词编号字体
+      border_color_width: 4   #输入条边框宽度
+      border_color: 0x282c34
+      label_font_face: "SFCompactText-Regular"  # 候选词编号字体
 
     macos_light:
       name: Mac仿原生亮色/macos_light
