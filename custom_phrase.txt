@@ -27,8 +27,8 @@
 有	u	2
 又	u
 一	i	3
-已	i	2
-以	i
+以	i	2
+已	i
 哦	o
 是	s
 的	d	3
@@ -60,13 +60,6 @@
 那些	naxie	2
 哪些	naxie
 
-一会	ihui
-一下	ixia
-一个	ig
-一个	ige
-一份	ifen
-一方面	ifangmian
-
 知道	zd
 没有	my
 知道	zhidao	2
@@ -77,9 +70,6 @@
 这是	zhshi
 这是	zhs
 只能	zhineng
-
-这	zh
-去	qv
 
 爱	ai
 安	an
@@ -182,7 +172,7 @@
 红	hong
 后	hou
 胡	hu
-花	hua
+话	hua
 坏	huai
 换	huan
 黄	huang
@@ -237,7 +227,7 @@
 里	li
 俩	lia
 连	lian
-亮	liang
+两	liang
 聊	liao
 列	lie
 林	lin
@@ -324,6 +314,7 @@
 穷	qiong
 求	qiu
 去	qu
+去	qv
 全	quan
 却	que
 群	qun
@@ -422,8 +413,8 @@
 要	yao
 也	ye
 一	yi	3
-已	yi	2
-以	yi
+以	yi	2
+已	yi
 因	yin
 应	ying
 哟	yo
@@ -444,6 +435,7 @@
 贼	zei
 怎	zen
 增	zeng
+这	zh
 炸	zha
 摘	zhai
 站	zhan
