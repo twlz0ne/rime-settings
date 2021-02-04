@@ -52,7 +52,7 @@ patch:
     option_name: emoji-symbol
 
   punctuator:
-    import_preset: symbols
+    import_preset: symbols.custom
     # 引入“v”模式
     symbols:
       "vv": [/bq] # 表情
