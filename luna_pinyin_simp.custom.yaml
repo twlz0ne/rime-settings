@@ -7,7 +7,7 @@ patch:
     - name: ascii_mode
       reset: 0
       # states: ["中文", "西文"]
-    - name: full_shape
+    - name: half_shape
       reset: 0
       # states: ["半角", "全角"]
     - name: emoji-symbol
@@ -50,6 +50,9 @@ patch:
   emoji-symbol:
     opencc_config: emoji-symbol.json
     option_name: emoji-symbol
+
+  # 解决 ` 不能直接上屏
+  recognizer/patterns/reverse_lookup: "[a-z]*'?$" # "`[a-z]*'?$"
 
   punctuator:
     import_preset: symbols.custom
