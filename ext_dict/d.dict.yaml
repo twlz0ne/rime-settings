@@ -1,0 +1,41 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# d.dict.yaml
+#
+
+---
+name: d
+version: "2021-02-02"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+# 容错词
+# 什么	sheme
+为什么	weisheme
+谁的	sheid
+
+# 其他词库缺失的英文 大写开头的字母需要配置中配合启用，详见配置
+Java	java
+Java	Java
+Git	git
+Git	Git
+IQOS	iqos
+IQOS	IQOS
+VSCode	vscode
+VSCode	VSCode
+gakki	gakki
+
+
+# 自造词
+看呀
+海面上
+着的
+等会
+而那
+这便是
+武藤绫香	wutenglingxiang
+武藤あやか	wutenglingxiang
+夏希栗	xiaxili
+夏希まろん	xiaxili

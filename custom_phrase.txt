@@ -76,6 +76,7 @@
 这是	zheshi
 这是	zhshi
 这是	zhs
+只能	zhineng
 
 这	zh
 去	qv
@@ -462,7 +463,7 @@
 追	zhui
 准	zhun
 桌	zhuo
-自	zi
+字	zi
 总	zong
 走	zou
 组	zu
