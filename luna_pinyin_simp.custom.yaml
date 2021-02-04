@@ -10,22 +10,19 @@ patch:
     - name: full_shape
       reset: 0
       # states: ["半角", "全角"]
-    - name: gb2312
-      reset: 1
-      states: [增廣, 常用]
     - name: emoji-symbol
       reset: 1
 
   # 过滤器
   engine/filters:
     - simplifier
-    - charset_filter@gb2312
+    # - charset_filter@gb2312 # 因为 charset_filter 失效，词库换到袖珍简体字，虽然也有不少生僻字。。。
     - simplifier@emoji-symbol
     - uniquifier
 
-  # 使在 gb2312 时，可以打出破折号 https://github.com/rime/home/issues/469
-  gb2312/tags:
-    [abc, reverse_lookup, luna_pinyin_lookup, stroke_lookup]
+  # 使在 gb2312 时，可以打出破折号 https://github.com/rime/home/issues/469 
+  # gb2312/tags:
+  #   [abc, reverse_lookup, luna_pinyin_lookup, stroke_lookup]
 
   # 扩展词库，在 luna_pinyin.extended.dict.yaml 中设定
   "translator/dictionary": luna_pinyin.extended

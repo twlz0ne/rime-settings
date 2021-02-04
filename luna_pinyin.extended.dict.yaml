@@ -14,8 +14,8 @@ use_preset_vocabulary: true
 
 import_tables:
   # 主要的：
-  # - ext_dict/pinyin_simp
-  - ext_dict/luna_pinyin
+  - ext_dict/pinyin_simp
+  # - ext_dict/luna_pinyin
   # cn_en
   - ext_dict/luna_pinyin.cn_en
   # 自己的：
