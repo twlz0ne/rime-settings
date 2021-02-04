@@ -26,7 +26,6 @@ import_tables:
   - ext_dict/luna_pinyin.kaifazhuanyongciku
   - ext_dict/luna_pinyin.mingxing
   - ext_dict/luna_pinyin.chengyusuyu
-  - ext_dict/luna_pinyin.poetry
   - ext_dict/luna_pinyin.yixue
   # 这个古诗词还挺全的，但是我发现它是两种词典组成的
   # 下面那一组都是用空格隔开的，不符合Rime的词典规则
@@ -35,6 +34,7 @@ import_tables:
   - ext_dict/gushici_1
   - ext_dict/gushici_2
   # 其他：
+  # - ext_dict/luna_pinyin.poetry
   # - ext_dict/luna_pinyin.xiandaihanyuchangyongcibiao
   # - ext_dict/luna_pinyin.dianshiju
   # - ext_dict/luna_pinyin.falv
