@@ -13,11 +13,18 @@ patch:
       reset: 0
       states: [简, 繁]
 
+  # 主词库
   translator/dictionary: pinyin_simp.extended
 
+  # 动态日期时间
   engine/translators/@next: lua_translator@date_translator
+
+  # 八股文长句模型
+  __include: grammar:/hans
   
+  # 袖珍方案也能输出繁体哦
   engine/filters:
+    - simplifier
     - simplifier@traditionalize
     - uniquifier
   
