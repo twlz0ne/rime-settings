@@ -12,6 +12,9 @@ import_tables:
   - dicts/pinyin_simp
   # 个人词库
   - dicts/d
+  # 中英词库
+  - dicts/cn_en
   # 扩展词库
-  # - dicts/i # 英文的都由 melt_eng 引入
+  # - dicts/i # 全是英文，由 melt_eng 引入
+  
 ...
