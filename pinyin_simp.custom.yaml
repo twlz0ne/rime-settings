@@ -20,7 +20,7 @@ patch:
   # 主词库
   translator/dictionary: pinyin_simp.extended
 
-  # custom_phrase 固顶单编码的字
+  # custom_phrase
   engine/translators/@before 2: table_translator@custom_phrase
   custom_phrase:
     dictionary: ""
@@ -60,8 +60,8 @@ patch:
     # initial_quality值为负数时，在能得到中文结果的情况下英文永远不会出现在第一个候选项。
     initial_quality: 0 # -3
   # 令輸入方案對大寫字符生效
-  speller/alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
-  # recognizer/patterns/uppercase: "" # 这个好像没用
+  speller/alphabet/+: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+  recognizer/patterns/uppercase: "" # 这个好像没用
 
   speller/algebra:
     # 原装

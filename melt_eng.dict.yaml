@@ -12,6 +12,8 @@ name: melt_eng
 version: "2020.10.02"		
 sort: by_weight
 vocabulary: essay-zh-hans
+import_tables:
+  - dicts/i
 ...	
 # 自己补充的
 gakki	gakki
@@ -27,7 +29,7 @@ WebStorm	WebStorm
 PyCharm	PyCharm
 GoLand	GoLand
 
-# 原词库
+# 原装：
 OK	OK	100
 NG	NG	100
 TRUE	TRUE	100

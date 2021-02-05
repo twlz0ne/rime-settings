@@ -13,5 +13,5 @@ import_tables:
   # 个人词库
   - dicts/d
   # 扩展词库
-
+  # - dicts/i # 英文的都由 melt_eng 引入
 ...
