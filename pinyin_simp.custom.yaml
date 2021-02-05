@@ -57,15 +57,6 @@ patch:
   recognizer/patterns/punct: "^v([a-z]+|[0-9]0?)$"
   punctuator:
     import_preset: symbols.custom
-    # symbols:
-    #   "vv": [/bq] # 表情
-    #   "vs": [/ss] # 手势
-    #   "vam": [/am] # 动物
-    #   "vk": [/aj] # 键盘符号
-    #   "vf": [/fs] # 分号
-    #   "vb": [/fh] # 标志
-    #   "vx": [/xh] # 星号
-    #   "vm": [/hb] # money
     # 标点符号，不要任何转换，标点直接上屏
     half_shape:
       "#": "#"
