@@ -38,6 +38,7 @@ patch:
   
   # 袖珍方案也能输出繁体哦
   engine/filters:
+    - simplifier
     - simplifier@traditionalize
     - uniquifier
   

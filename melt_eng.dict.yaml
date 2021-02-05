@@ -14,6 +14,7 @@ sort: by_weight
 vocabulary: essay-zh-hans
 import_tables:
   - dicts/i
+  - dicts/cn_en
 ...	
 # 自己补充的
 gakki	gakki

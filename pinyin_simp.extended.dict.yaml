@@ -12,9 +12,21 @@ import_tables:
   - dicts/pinyin_simp
   # 个人词库
   - dicts/d
-  # 中英词库
-  - dicts/cn_en
   # 扩展词库
-  # - dicts/i # 全是英文，由 melt_eng 引入
-  
+  - dicts/1chengshixinxi
+  - dicts/2zirankexue
+  - dicts/3shehuikexue
+  - dicts/4gongchengyingyong
+  - dicts/5nonglinyuchu
+  - dicts/6yixueyiyao
+  - dicts/7dianziyouxi
+  - dicts/8yishusheji
+  - dicts/9shenghuobaike
+  - dicts/10yundongxiuxian
+  - dicts/11renwenkexue
+  - dicts/12yulexiuxian
+
+  # 由 melt_eng 引入，否则总出问题，比如超级简拼没了，打字必须100%正确才出字。不知道咋回事。。。
+  # - dicts/cn_en
+  # - dicts/i
 ...
