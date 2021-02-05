@@ -2,15 +2,27 @@ patch:
   switches:
     - name: ascii_mode
       reset: 0
-      # states: [ 中文, 西文 ] # 永远不会切所以注释了
+      # states: [中文, 西文] # 永远不会切所以注释了
     - name: full_shape
       reset: 0
-      # states: [ 半角, 全角 ] # 永远不会切所以注释了
+      # states: [半角, 全角] # 永远不会切所以注释了
     - name: ascii_punct
       reset: 0
-      # states: [ 。，, ．， ] # 永远不会切所以注释了
+      # states: [。，, ．，] # 永远不会切所以注释了
+    - name: traditionalization
+      reset: 0
+      states: [简, 繁]
   
   translator/dictionary: pinyin_simp.extended
+
+  engine/filters:
+    - simplifier@traditionalize  # 简入繁出
+    - uniquifier
+  
+  traditionalize:
+    opencc_config: s2t.json
+    option_name: traditionalization
+    tips: all # 简入繁出，注销掉可直接出繁
 
   speller/algebra/+:
     # - erase/^xx$/ # ？
