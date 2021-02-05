@@ -9,5 +9,9 @@ vocabulary: essay-zh-hans
 use_preset_vocabulary: true
 
 import_tables:
+  # 主词库
   - pinyin_simp
+  # 个人词库
+  - d
+
 ...
