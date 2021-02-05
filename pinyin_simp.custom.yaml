@@ -10,7 +10,7 @@ patch:
       reset: 0
       # states: [ 。，, ．， ] # 永远不会切所以注释了
   
-  translator/dictionary: extended
+  translator/dictionary: pinyin_simp.extended
 
   speller/algebra/+:
     # - erase/^xx$/ # ？
