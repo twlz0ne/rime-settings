@@ -10,5 +10,4 @@ use_preset_vocabulary: true
 
 import_tables:
   - pinyin_simp
-  - placeless_punct
 ...

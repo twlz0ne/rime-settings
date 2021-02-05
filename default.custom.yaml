@@ -1,5 +1,5 @@
 patch:
   schema_list:
-    - schema: placeless_flypy
+    - schema: pinyin_simp
   switcher/hotkeys:
     - "Control+grave"

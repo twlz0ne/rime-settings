@@ -1,40 +1,27 @@
 patch:
-  show_notifications_via_notification_center: true
-  app_options: {}
-  style:
-    color_scheme: apathy
-    horizontal: true # deprecated
-    candidate_list_layout: linear # stacked | linear
-    text_orientation: horizontal
-    inline_preedit: true
+  show_notifications_when: always # options: always | never | appropriate
+
+  style/color_scheme: purity_of_form_custom
+
   preset_color_schemes:
-    apathy:
-      author: "LIANG Hai | placeless"
-      candidate_format: "%c'%@''"
-      comment_text_color: 0x999999
-      corner_radius: 5
-      font_face: PingFangSC
-      font_point: 17
-      label_font_point: 17
-      back_color: 0xFFFFFF
-      text_color: 0x424242
-      label_color: 0xFFFFFF
-      hilited_candidate_back_color: 0xFFF0E4
-      hilited_candidate_text_color: 0xEE6E00
-      hilited_candidate_label_color: 0xFFF0E4
-      name: "冷漠／Apathy"
-    pill:
-      author: "placeless"
-      candidate_format: "%c'%@''"
-      comment_text_color: 0x999999
-      corner_radius: 5
-      font_face: PingFangSC
-      font_point: 17
-      label_font_point: 17
-      back_color: 0x283228
-      text_color: 0xF0F0F0
-      label_color: 0x283228
-      hilited_candidate_back_color: 0xF0F0F0
-      hilited_candidate_text_color: 0x283228
-      hilited_candidate_label_color: 0xF0F0F0
-      name: "药丸／Pill"
+    # purity_of_form 略微调整版
+    purity_of_form_custom:
+      name: 純粹的形式／Purity of Form
+      author: 雨過之後、佛振
+      text_color: 0x333333 #0xc2c2c2
+      back_color: 0x545554 #0x444444
+      candidate_text_color: 0xeeeeee
+      hilited_text_color: 0xeeeeee
+      hilited_back_color: 0x444444
+      hilited_candidate_text_color: 0x000000
+      hilited_candidate_back_color: 0xE3E3E3 #0xfafafa
+      comment_text_color: 0x808080
+      font_point: 18
+      label_font_point: 13
+  
+  # app_options:    # App默认英文
+    # com.apple.Spotlight:
+    #     ascii_mode: true      # 默认英文
+    # com.microsoft.VSCode:
+    #     ascii_mode: false     # 关闭默认英文
+
