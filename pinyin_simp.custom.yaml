@@ -9,8 +9,6 @@ patch:
     - name: ascii_punct
       reset: 0
       # states: [。，, ．，] # 永远不会切所以注释了
-    - name: emoji-symbol
-      reset: 1
     - name: traditionalization
       reset: 0
       states: [简, 繁]
@@ -21,17 +19,12 @@ patch:
   
   engine/filters:
     - simplifier@traditionalize
-    - simplifier@emoji-symbol
     - uniquifier
   
   traditionalize:
     opencc_config: s2t.json
     option_name: traditionalization
     tips: all # 简入繁出，注销掉可直接出繁
-
-  emoji-symbol:
-    opencc_config: emoji-symbol.json
-    option_name: emoji-symbol
   
   # Easy English Nano
   schema/dependencies/@next: melt_eng
@@ -60,17 +53,19 @@ patch:
     - derive/zai$/zia/ # zia => zai
     - derive/([zcs])hi$/$1ih/ # zih => zhi cih => chi sih => shi
 
+  # “/”模式转为“v”模式
+  recognizer/patterns/punct: "^v([a-z]+|[0-9]0?)$"
   punctuator:
-    import_preset: symbols
-    symbols:
-      "vv": [/bq] # 表情
-      "vs": [/ss] # 手势
-      "vam": [/am] # 动物
-      "vk": [/aj] # 键盘符号
-      "vf": [/fs] # 分号
-      "vb": [/fh] # 标志
-      "vx": [/xh] # 星号
-      "vm": [/hb] # money
+    import_preset: symbols.custom
+    # symbols:
+    #   "vv": [/bq] # 表情
+    #   "vs": [/ss] # 手势
+    #   "vam": [/am] # 动物
+    #   "vk": [/aj] # 键盘符号
+    #   "vf": [/fs] # 分号
+    #   "vb": [/fh] # 标志
+    #   "vx": [/xh] # 星号
+    #   "vm": [/hb] # money
     # 标点符号，不要任何转换，标点直接上屏
     half_shape:
       "#": "#"
@@ -91,5 +86,4 @@ patch:
       ">": "》"
       "*": "*"
       "|": "|"
-  # “/”模式转为“v”模式
-  recognizer/patterns/punct: "^v([a-z]+|[0-9]0?)$"
+  
