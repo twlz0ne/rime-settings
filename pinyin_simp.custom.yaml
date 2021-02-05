@@ -20,6 +20,16 @@ patch:
   # 主词库
   translator/dictionary: pinyin_simp.extended
 
+  # custom_phrase 固顶单编码的字
+  engine/translators/@before 2: table_translator@custom_phrase
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+
   # 动态日期时间
   engine/translators/@next: lua_translator@date_translator
 
