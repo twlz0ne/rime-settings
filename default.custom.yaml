@@ -15,10 +15,11 @@ patch:
     Control_L: noop
     Control_R: noop
 
-  # 按键绑定 https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
   switcher/hotkeys:
     - "Control+grave"
-    
+
+  # 按键绑定 https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
+  key_binder/bindings:
     # emacs_editing
     # - { when: composing, accept: Control+p, send: Up }
     # - { when: composing, accept: Control+n, send: Down }
