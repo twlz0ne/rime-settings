@@ -1,2 +1,47 @@
 patch:
+  switches:
+    - name: ascii_mode
+      reset: 0
+      # states: [ 中文, 西文 ] # 永远不会切所以注释了
+    - name: full_shape
+      reset: 0
+      # states: [ 半角, 全角 ] # 永远不会切所以注释了
+    - name: ascii_punct
+      reset: 0
+      # states: [ 。，, ．， ] # 永远不会切所以注释了
   
+  punctuator:
+    import_preset: symbols
+    # 标点符号，不要任何转换，标点直接上屏
+    half_shape:
+      "#": "#"
+      "`": "`"
+      "~": "~"
+      "@": "@"
+      "=": "="
+      "/": "/"
+      '\': "、"
+      "'": { pair: ["「", "」"] }
+      "[": "["
+      "]": "]"
+      "{": "{"
+      "}": "}"
+      "$": "￥"
+      "%": "%"
+      "<": "《"
+      ">": "》"
+      "*": "*"
+      "|": "|"
+
+  speller/algebra/+:
+    # - erase/^xx$/ # ？
+    # 模糊拼音：
+      # 没有
+    # 容错拼写：
+      # v u 和一般的容错拼写，上层方案已经自带了。
+    # 自动纠错：
+    - derive/ua$/au/ # shau => shua
+    - derive/([iu])a(o|ng?)$/a$1$2/ # tain => tian laing => liang
+    - derive/([wrtypsdfghjklzcbnm])a([on])$/$1$2a/ # hoa => hao  hna  => han
+    - derive/zai$/zia/ # zia => zai
+    - derive/([zcs])hi$/$1ih/ # zih => zhi cih => chi sih => shi

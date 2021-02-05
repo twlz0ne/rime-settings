@@ -17,6 +17,8 @@ patch:
 
   # 按键绑定 https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
   switcher/hotkeys:
+    - "Control+grave"
+    
     # emacs_editing
     # - { when: composing, accept: Control+p, send: Up }
     # - { when: composing, accept: Control+n, send: Down }
@@ -47,8 +49,8 @@ patch:
     # - { when: has_menu, accept: period, send: Page_Down }
 
     # paging_with_brackets:
-    - { when: paging, accept: bracketleft, send: Page_Up }
-    - { when: has_menu, accept: bracketright, send: Page_Down }
+    # - { when: paging, accept: bracketleft, send: Page_Up }
+    # - { when: has_menu, accept: bracketright, send: Page_Down }
 
     # numbered_mode_switch:
     # - { when: always, accept: Control+Shift+1, select: .next }

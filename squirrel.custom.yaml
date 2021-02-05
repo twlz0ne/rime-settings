@@ -19,9 +19,9 @@ patch:
       font_point: 18
       label_font_point: 13
   
-  # app_options:    # App默认英文
-    # com.apple.Spotlight:
-    #     ascii_mode: true      # 默认英文
-    # com.microsoft.VSCode:
-    #     ascii_mode: false     # 关闭默认英文
+  app_options:    # App默认英文
+    com.apple.Spotlight:
+        ascii_mode: true      # 默认英文
+    com.microsoft.VSCode:
+        ascii_mode: false     # 关闭默认英文
 
