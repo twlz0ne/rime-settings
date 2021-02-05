@@ -99,7 +99,7 @@ patch:
     # 自动纠错：
     - derive/ua$/au/ # shau => shua
     - derive/([iu])a(o|ng?)$/a$1$2/ # tain => tian laing => liang
-    - derive/a([on])$/$1a/ # hoa => hao  hna  => han
+    - derive/([wrtypsdfghjklzcbnm])a([on])$/$1$2a/ # hoa => hao  hna  => han
     - derive/zai$/zia/ # zia => zai
     - derive/([zcs])hi$/$1ih/ # zih => zhi cih => chi sih => shi
 
