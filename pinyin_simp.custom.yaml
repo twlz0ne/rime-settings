@@ -50,20 +50,28 @@ patch:
     # initial_quality值为负数时，在能得到中文结果的情况下英文永远不会出现在第一个候选项。
     initial_quality: 0 # -3
   # 令輸入方案對大寫字符生效
-  speller/alphabet/+: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
-  recognizer/patterns/uppercase: ""
+  speller/alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+  # recognizer/patterns/uppercase: "" # 这个好像没用
 
   speller/algebra:
-    - erase/^xx$/ # ？
-    # 模糊拼音：# 没有
-    # 容错拼写：
+    # 原装
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([zcs]h).+$/$1/
     - derive/^([nl])ue$/$1ve/
     - derive/^([jqxy])u/$1v/
-    # 自动纠错：
+    - derive/un$/uen/
+    - derive/ui$/uei/
+    - derive/iu$/iou/
+    - derive/([aeiou])ng$/$1gn/
+    - derive/([dtngkhrzcs])o(u|ng)$/$1o/
+    - derive/ong$/on/
+    - derive/ao$/oa/
+    - derive/([iu])a(o|ng?)$/a$1$2/
+    # 自己的：
     - derive/ua$/au/ # shau => shua
     - derive/([iu])a(o|ng?)$/a$1$2/ # tain => tian laing => liang
     - derive/([wrtypsdfghjklzcbnm])a([on])$/$1$2a/ # hoa => hao  hna  => han
-    - derive/zai$/zia/ # zia => zai
+    - derive/([wtpsdghkzcbnm])ai$/$1ia/ # zia => zai
     - derive/([zcs])hi$/$1ih/ # zih => zhi cih => chi sih => shi
 
   # “/” 模式转为 “v” 模式
