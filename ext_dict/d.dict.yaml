@@ -11,6 +11,25 @@ sort: by_weight
 use_preset_vocabulary: true
 ...
 
+# 其他词库缺失的英文
+gakki	gakki
+Git	git
+Git	Git
+hey	hey
+IQOS	iqos
+IQOS	IQOS
+Java	java
+Java	Java
+Rime	rime
+VSCode	vscode
+VSCode	VSCode
+
+# 自造词
+武藤绫香	wutenglingxiang
+武藤あやか	wutenglingxiang
+夏希栗	xiaxili
+夏希まろん	xiaxili
+
 # 方便词
 儿	r
 一	i
@@ -26,31 +45,53 @@ use_preset_vocabulary: true
 为什么	weisheme
 谁的	sheid
 
-# 其他词库缺失的英文 大写开头的字母需要配置中配合启用，详见配置
-Java	java
-Java	Java
-Git	git
-Git	Git
-IQOS	iqos
-IQOS	IQOS
-VSCode	vscode
-VSCode	VSCode
-gakki	gakki
-hey	hey
+# 日麻
+日麻
+立直
+一发
+放铳
+荣和
+自风
+场风
+亲家
+闲家
 
-# 因为在custom_phrase中而无法完成造词的极少数词：
-反引号
-来的	laid
-剧里
-看呀
-海面上
-着的
-等会
-而那
-这便是
+# 拼词
+鑫	jinjinjin
+淼	shuishuishui
+垚	tututu
+焱	huohuohuo
+壵	shishishi
+掱	shoushoushou
+舙	shesheshe
+畾	tiantiantian
+孨	zizizi
+羴	yangyangyang
+矗	zhizhizhi
+尛	xiaoxiaoxiao
+毳	maomaomao
+麤	lululu
+鱻	yuyuyu
+猋	quanquanquan
+犇	niuniuniu
+驫	mamama
+骉	mamama
+㐂	qiqiqi
+龘	longlonglong
 
-# 自造词
-武藤绫香	wutenglingxiang
-武藤あやか	wutenglingxiang
-夏希栗	xiaxili
-夏希まろん	xiaxili
+# 常见符号
+°	du
+℃	she shi du
+℉	hua shi du
+
+# 修饰键
+cmd	cmd	10000
+opt	opt	10000
+cap	cap	10000
+backspace	backs	10000
+backspace	backs pa	10000
+backspace	backs pa ce	10000
+del	del	10000
+eject	eject	10000
+
+

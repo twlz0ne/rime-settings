@@ -56,6 +56,8 @@
 那些	naxie	2
 哪些	naxie
 
+这	zh
+
 知道	zd
 没有	my
 知道	zhidao	2
