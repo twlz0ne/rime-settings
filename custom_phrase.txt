@@ -1,0 +1,61 @@
+# Rime table
+# coding: utf-8
+#@/db_name  custom_phrase.txt
+#@/db_type	tabledb
+#
+# 用於【朙月拼音】系列輸入方案
+# 【小狼毫】0.9.21 以上
+#
+# 請將該文件以UTF-8編碼保存爲
+# Rime用戶文件夾/custom_phrase.txt
+#
+# 碼表各字段以製表符（Tab）分隔
+# 順序爲：文字、編碼、權重（決定重碼的次序、可選）
+#
+# 雖然文本碼表編輯較爲方便，但不適合導入大量條目
+#
+# no comment 
+
+去	q
+我	w
+呃	e
+也	y
+有	u	2
+又	u
+一	i	3
+以	i	2
+已	i
+哦	o
+是	s
+的	d	3
+得	d	2
+地	d
+个	g
+和	h
+就	j
+了	l
+在	z
+小	x
+吧	b
+你	n
+没	m
+
+他	t	3
+她	t	2
+它	t
+他们	tamen	3
+她们	tamen	2
+它们	tamen
+他的	tade	3
+她的	tade	2
+它的	tade
+那	na	2
+哪	na
+那个	nage	2
+哪个	nage
+那些	naxie	2
+哪些	naxie
+
+这	zh
+知道	zd
+没有	my

@@ -329,5 +329,18 @@ punctuator:
     # 自己常用的
     'vjt': [↑, ↓, ←, →]
     'vvv': [😂, 😅, 😰]
-
+    # 键盘符号
+    'cmd': ['Cmd', 'Command', ⌘]
+    'ctrl': ['Ctrl', 'Control', ⌃]
+    'opt': ['Alt', 'Option', ⌥]
+    'shift': ['Shift', '⇧']
+    'cap': ['Cap', 'CapsLock', ⇪]
+    'return': ['Ruturn', '⏎']
+    'enter': ['Enter', '⏎']]
+    'space': ['Space', '␣']
+    'backspace': ['Backspace', ⌫]
+    'del': ['Del', 'Delete', ⌦]
+    'escape': ['Esc', 'Escape', ⎋]
+    'eject': ['Eject', ⏏]
+    'xiushijian': [⌘, '⌥', ⇧, ⌃, ⎋, ⇪, , ⌫, ⌦, ↩︎, ⏎, ␣, ⏏]
     
