@@ -24,6 +24,21 @@ patch:
     option_name: traditionalization
     tips: all # 简入繁出，注销掉可直接出繁
 
+  # Easy English Nano
+  "schema/dependencies/@next": melt_eng
+  "engine/translators/@before 0": table_translator@melt_eng
+  melt_eng:
+    dictionary: melt_eng
+    spelling_hints: 9
+    enable_completion: true
+    enable_sentence: false
+    # initial_quality值为负数时，在能得到中文结果的情况下英文永远不会出现在第一个候选项。
+    # 但值为0或正数，会扰乱单个编码时的中文输入，如果在自定义词库中固定了词频就没这烦恼了
+    initial_quality: 0 # -3
+  # 令輸入方案對大寫字符生效
+  "speller/alphabet/+": zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+  recognizer/patterns/uppercase: ""
+
   speller/algebra/+:
     # - erase/^xx$/ # ？
     # 模糊拼音：

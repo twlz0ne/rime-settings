@@ -8,21 +8,10 @@
 name: d
 version: "2021-02-02"
 sort: by_weight
-use_preset_vocabulary: true
+vocabulary: essay-zh-hans
 ...
 
-# 其他词库缺失的英文
-gakki	gakki
-Git	git
-Git	Git
-hey	hey
-IQOS	iqos
-IQOS	IQOS
-Java	java
-Java	Java
-Rime	rime
-VSCode	vscode
-VSCode	VSCode
+# 英文 补充到 melt_eng 词典中
 
 # 自造词
 武藤绫香	wutenglingxiang
@@ -49,8 +38,9 @@ VSCode	VSCode
 日麻
 立直
 一发
-放铳
+自摸
 荣和
+放铳
 自风
 场风
 亲家
