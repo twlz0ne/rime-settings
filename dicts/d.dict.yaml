@@ -74,14 +74,5 @@ vocabulary: essay-zh-hans
 ℃	she shi du
 ℉	hua shi du
 
-# 修饰键
-cmd	cmd	10000
-opt	opt	10000
-cap	cap	10000
-backspace	backs	10000
-backspace	backs pa	10000
-backspace	backs pa ce	10000
-del	del	10000
-eject	eject	10000
 
 

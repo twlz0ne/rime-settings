@@ -14,13 +14,18 @@ sort: by_weight
 vocabulary: essay-zh-hans
 ...	
 # 自己补充的
-gakki
+gakki	gakki
+hey	hey
+IQOS	IQOS
+Rime	Rime
 Git	Git
-hey	
-IQOS
-Java
-Rime
-VSCode
+Java	Java
+Xcode	Xcode
+VSCode	VSCode
+JetBrains	JetBrains
+WebStorm	WebStorm
+PyCharm	PyCharm
+GoLand	GoLand
 
 # 原词库
 OK	OK	100
@@ -70,7 +75,7 @@ Ethernet	Ethernet	100
 SOCKS	SOCKS	100
 PrintScreen	PrintScreen	100
 Backspace	Backspace	100
-DIY DIY 100
+DIY	DIY 100
 DNA	DNA	100
 RNA	RNA	100
 mRNA	mRNA	100
