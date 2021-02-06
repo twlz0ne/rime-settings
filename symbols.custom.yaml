@@ -2,7 +2,8 @@
 # encoding: utf-8
 #
 # copy from `/Library/Input Methods/Squirrel.app/Contents/SharedSupport/symbols.yaml`
-# 主要为了将 / 模式 修改成 v 模式
+# 原 「/」 模式 改为了 「v」 模式
+# 节气、八卦、人民币大写等改成了简体（保留了八卦的「乾」）
 
 config_version: '1.4.1'
 
