@@ -13,7 +13,7 @@ version: "2020.10.02"
 sort: by_weight
 vocabulary: essay-zh-hans
 import_tables:
-  - dicts/i
+  # - dicts/i
   - dicts/cn_en
 ...	
 # 自己补充的
@@ -31,6 +31,20 @@ JetBrains	JetBrains
 WebStorm	WebStorm
 PyCharm	PyCharm
 GoLand	GoLand
+
+# one to many，opencc中的txt文件如果是英文的，需要先解析一下
+cmd	cmd
+ctrl	ctrl
+option	opt
+shift	shift
+cap	cap
+return	return
+space	space
+enter	enter
+backspace	backspace
+del	del
+esc	esc
+eject	eject
 
 # 原装：
 OK	OK	100
@@ -73,13 +87,13 @@ Guard	Guard	100
 GND	GND	100
 VCC	VCC	100
 Alt	Alt	100
-Ctrl	Ctrl	100
-Shift	Shift	100
+#Ctrl	Ctrl	100
+#Shift	Shift	100
 Win	Win	100
 Ethernet	Ethernet	100
 SOCKS	SOCKS	100
 PrintScreen	PrintScreen	100
-Backspace	Backspace	100
+#Backspace	Backspace	100
 DIY	DIY 100
 DNA	DNA	100
 RNA	RNA	100

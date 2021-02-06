@@ -1,0 +1,16 @@
+{
+  "name": "one-to-many",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "one-to-many.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "text",
+      "file": "one-to-many.txt"
+    }
+  }]
+}

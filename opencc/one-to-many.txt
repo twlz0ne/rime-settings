@@ -1,0 +1,14 @@
+cmd	Cmd Command ⌘
+ctrl	Ctrl Control ⌃
+opt	Option ⌥
+shift	Shift ⇧
+cap	Cap CapsLock ⇪
+return	Return ⏎
+enter	Enter ⏎
+space	Space ␣
+backspace	Backspace ⌫
+del	Del Delete ⌦
+esc	Esc Escape ⎋
+eject	Eject ⏏
+修饰键	修饰键 ⌘ ⌥ ⇧ ⌃ ⎋ ⇪  ⌫ ⌦ ↩︎ ⏎ ␣ ⏏
+箭头	箭头 ↑ ↓ ← →

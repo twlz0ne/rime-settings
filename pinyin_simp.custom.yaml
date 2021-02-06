@@ -9,6 +9,8 @@ patch:
     - name: ascii_punct
       reset: 0
       # states: [。，, ．，] # 永远不会切所以注释了
+    - name: one-to-many
+      reset: 1
     - name: traditionalization
       reset: 0 # 如果不想每次切换 App 都自动变成简体，可以注释这里
       states: [简, 繁]
@@ -38,9 +40,15 @@ patch:
   
   # 过滤器
   engine/filters:
+    - simplifier@one-to-many
     - simplifier@traditionalize
     - uniquifier
   
+  # one-to-many，增加了按键符号的映射
+  one-to-many:
+    opencc_config: one-to-many.json
+    option_name: one-to-many
+
   # 繁体
   traditionalize:
     opencc_config: s2t.json
