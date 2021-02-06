@@ -12,3 +12,5 @@ esc	Esc Escape ⎋
 eject	Eject ⏏
 修饰键	修饰键 ⌘ ⌥ ⇧ ⌃ ⎋ ⇪  ⌫ ⌦ ↩︎ ⏎ ␣ ⏏
 箭头	箭头 ↑ ↓ ← →
+间隔号	间隔号 ·
+jgh	·

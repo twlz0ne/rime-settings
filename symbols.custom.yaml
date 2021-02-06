@@ -330,6 +330,8 @@ punctuator:
     # 自己常用的
     'vjt': [↑, ↓, ←, →]
     'vvv': [😂, 😅, 😰]
+    'vdian': [·]
+    'vjgh': [·]
     # 键盘符号
     'vcmd': [Cmd, Command, ⌘]
     'vctrl': [Ctrl, Control, ⌃]
