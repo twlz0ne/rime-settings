@@ -37,7 +37,9 @@ V2EX	verex
 # cn_en
 QQ 音乐	qqyinyue
 U 盘	youpan
+B 站	bzhan
 V 站	vzhan
+P 站	pzhan
 
 # one to many，opencc中的txt文件如果是英文的，需要先解析一下
 cmd	cmd
