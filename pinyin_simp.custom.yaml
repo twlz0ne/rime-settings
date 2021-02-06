@@ -45,10 +45,7 @@ patch:
     opencc_config: s2t.json
     option_name: traditionalization
     tips: all # 简入繁出，注销掉可直接出繁
-  
-  # 解决 ` 不能直接上屏
-  recognizer/patterns/reverse_lookup: "好像只要不写`符号就行了。。。[a-z]*'?$" # "`[a-z]*'?$"
-  
+    
   # Easy English Nano
   schema/dependencies/@next: melt_eng
   engine/translators/@before 0: table_translator@melt_eng
