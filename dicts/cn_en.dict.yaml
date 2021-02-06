@@ -13,10 +13,8 @@ sort: by_weight
 vocabulary: essay-zh-hans
 ...
 
-# custom ↓
-QQ 音乐	qqyinyue	-3
-U 盘	youpan
-# custom ↑
+# custom 
+# 带英文的词汇统一添加到 melt_eng.dict.yaml 中
 
 2B	erb	100
 2B	erbi	100

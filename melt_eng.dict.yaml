@@ -13,7 +13,6 @@ version: "2020.10.02"
 sort: by_weight
 vocabulary: essay-zh-hans
 import_tables:
-  # - dicts/i
   - dicts/cn_en
 ...	
 # 自己补充的
@@ -31,6 +30,14 @@ JetBrains	JetBrains
 WebStorm	WebStorm
 PyCharm	PyCharm
 GoLand	GoLand
+Facebook	Facebook
+Twitter	Twitter
+V2EX	verex
+
+# cn_en
+QQ 音乐	qqyinyue
+U 盘	youpan
+V 站	vzhan
 
 # one to many，opencc中的txt文件如果是英文的，需要先解析一下
 cmd	cmd
