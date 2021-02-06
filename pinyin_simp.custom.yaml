@@ -80,7 +80,7 @@ patch:
     - derive/ua$/au/ # shau => shua
     - derive/([iu])a(o|ng?)$/a$1$2/ # tain => tian laing => liang
     - derive/([wrtypsdfghjklzcbnm])a([on])$/$1$2a/ # hoa => hao  hna  => han
-    - derive/([wtpsdghkzcbnm])ai$/$1ia/ # zia => zai
+    - derive/([wtpsdghkzcbnm])ai$/$1ia/ # zia => zai # 主要是过滤掉 lia和lai 
     - derive/([zcs])hi$/$1ih/ # zih => zhi cih => chi sih => shi
 
   # “/” 模式转为 “v” 模式

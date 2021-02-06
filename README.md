@@ -7,7 +7,7 @@
 ## 基本套路：
 
 -   Squirrel 0.15.0 简中全拼
--   袖珍简化字方案及主词库 [rime](https://github.com/rime)/**[rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp)**
+-   袖珍简化字方案 [rime](https://github.com/rime)/**[rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp)**
 -   8150 简体字，去除大量生僻字 [placeless](https://github.com/placeless)/**[squirrel_config](https://github.com/placeless/squirrel_config)**
 -   简型八股文 [lotem](https://github.com/lotem)/**[rime-octagram-data](https://github.com/lotem/rime-octagram-data)**  hans
 -   英文输入方案 Easy English Nano [mityliu](https://github.com/mityliu)/**[rime-custom](https://github.com/mityliu/rime-custom)**
