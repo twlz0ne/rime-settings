@@ -10,14 +10,17 @@ patch:
       reset: 0
       # states: [。，, ．，] # 永远不会切所以注释了
     - name: traditionalization
-      reset: 0
+      reset: 0 # 如果不想每次切换 App 都自动变成简体，可以注释这里
       states: [简, 繁]
   
   # 切换繁体快捷键
   key_binder/bindings/+:
     - {when: always, accept: Control+Shift+4, toggle: traditionalization}
+  
+  # 八股文
+  __include: grammar:/hans
 
-  # 主词库
+  # 挂载词库
   translator/dictionary: pinyin_simp.extended
 
   # custom_phrase
@@ -32,20 +35,18 @@ patch:
 
   # 动态日期时间
   engine/translators/@next: lua_translator@date_translator
-
-  # 八股文长句模型
-  __include: grammar:/hans
   
-  # 袖珍方案输出繁体
+  # 过滤器
   engine/filters:
     - simplifier@traditionalize
     - uniquifier
   
+  # 繁体
   traditionalize:
     opencc_config: s2t.json
     option_name: traditionalization
     tips: all # 简入繁出，注销掉可直接出繁
-    
+
   # Easy English Nano
   schema/dependencies/@next: melt_eng
   engine/translators/@before 0: table_translator@melt_eng
@@ -54,10 +55,12 @@ patch:
     spelling_hints: 9
     enable_completion: true
     enable_sentence: false
-    # initial_quality值为负数时，在能得到中文结果的情况下英文永远不会出现在第一个候选项。
+    # initial_quality 值为负数时，在能得到中文结果的情况下英文永远不会出现在第一个候选项。
+    # 这里设置为 0，但同时会有单编码时被英文占据第一候选项的问题
+    # 建议在 custom_phrase 中设置单编码固顶字来解决这个问题
     initial_quality: 0 # -3
   # 令輸入方案對大寫字符生效
-  speller/alphabet/+: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+  speller/alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
 
   speller/algebra:
     # 原装
@@ -85,7 +88,7 @@ patch:
   
   punctuator:
     import_preset: symbols.custom
-    # 标点符号，不要任何转换，标点直接上屏
+    # 标点符号直接上屏
     half_shape:
       "#": "#"
       "`": "`"
