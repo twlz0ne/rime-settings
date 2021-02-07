@@ -21,15 +21,15 @@
 呃	e
 也	y
 有	u	2
-又	u
+又	u	1
 一	i	3
 以	i	2
-已	i
+已	i	1
 哦	o
 是	s
 的	d	3
 得	d	2
-地	d
+地	d	1
 个	g
 和	h
 就	j
@@ -42,19 +42,19 @@
 
 他	t	3
 她	t	2
-它	t
-他们	tamen	3
-她们	tamen	2
-它们	tamen
+它	t	1
 他的	tade	3
 她的	tade	2
-它的	tade
+它的	tade	1
+他们	tm	3
+她们	tm	2
+它们	tm	1
+他们	tamen	3
+她们	tamen	2
+它们	tamen	1
 那	na	2
-哪	na
+哪	na	1
 那个	nage	2
-哪个	nage
+哪个	nage	1
 那些	naxie	2
-哪些	naxie
-
-知道	zd
-没有	my
+哪些	naxie	1
