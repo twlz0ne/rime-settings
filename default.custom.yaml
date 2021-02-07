@@ -9,7 +9,7 @@ patch:
   ascii_composer/good_old_caps_lock: true
   # 去除其他按键功能
   ascii_composer/switch_key:
-    Caps_Lock: commit_code
+    Caps_Lock: commit_text # commit_code，上屏拼音的英文字母；commit_text，上屏拼音拼出的词语
     Shift_L: noop
     Shift_R: noop
     Control_L: noop
