@@ -54,7 +54,7 @@ patch:
   traditionalize:
     opencc_config: s2t.json
     option_name: traditionalization
-    tips: all # 简入繁出，注销掉可直接出繁
+    tips: all # 简繁提示，注销掉可直接出繁
 
   # Easy English Nano
   schema/dependencies/@next: melt_eng
