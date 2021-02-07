@@ -9,7 +9,7 @@ vocabulary: essay-zh-hans
 
 import_tables:
   # 主词库
-  - dicts/pinyin_simp
+  - dicts/pinyin_simp_8105
   # 个人词库
   - dicts/d
   # 扩展词库
