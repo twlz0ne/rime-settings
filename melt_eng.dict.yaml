@@ -60,7 +60,8 @@ cmd	cmd
 ctrl	ctrl
 option	opt
 shift	shift
-cap	cap
+tab	tab
+caps	caps
 return	return
 space	space
 enter	enter
