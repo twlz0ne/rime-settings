@@ -18,6 +18,7 @@ patch:
   # 切换繁体快捷键
   key_binder/bindings/+:
     - {when: always, accept: Control+Shift+4, toggle: traditionalization}
+    - {when: always, accept: Control+slash, toggle: traditionalization} # Ctrl + /
   
   # 引入八股文长句模型
   __include: grammar:/hans
@@ -43,7 +44,7 @@ patch:
     - simplifier@one-to-many
     - simplifier@traditionalize
     - uniquifier
-  
+
   # one-to-many，参考emoji的设置，自己改成了一些符号的映射
   one-to-many:
     opencc_config: one-to-many.json
@@ -67,14 +68,14 @@ patch:
     # 这里设置为 0，但同时会有单编码时被英文占据第一候选项的问题
     # 建议在 custom_phrase 中设置单编码固顶字来解决这个问题
     initial_quality: 0 # -3
-  # 令英文输入方案响应大写字母（Shift+[a-z]）
+  # 令英文输入方案响应大写字母（ Shift + [a-z] ）
   speller/alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
 
   speller/algebra:
     # 原装
     - abbrev/^([a-z]).+$/$1/
-    - abbrev/^([zcs]h).+$/$1/ # 令 zh sh ch 响应单字而不是 z'h c'h s'h 这种的
-    # 原装的 v u 转换
+    - abbrev/^([zcs]h).+$/$1/ # 令 zh ch sh 响应单字而不是 z'h c'h s'h 这种的
+    # 原装的 v u 容错转换
     - derive/^([nl])ue$/$1ve/
     - derive/^([jqxy])u/$1v/
     # 原装的模糊拼音
@@ -89,7 +90,7 @@ patch:
     - derive/ao$/oa/ # hoa → hao
     - derive/([iu])a(o|ng?)$/a$1$2/ # tain → tian  laing → liang  laio → liao
     # 自己的：
-    - derive/ua$/au/ # shau → shua
+    - derive/ua$/au/ # shau → shua  hau → hua
     - derive/ian$/ina/ # tina → tian linag → liang
     - derive/([wrtypsdfghjklzcbnm])a([on])$/$1$2a/ # hoa → hao  gna  → gan
     - derive/([wtpsdghkzcbnm])ai$/$1ia/ # zia → zai 主要是过滤掉l，不转换lia和lai这两个正确的拼写
@@ -101,6 +102,6 @@ patch:
   punctuator:
     # 引入自己的 symbols，全部修改为了“v”模式
     import_preset: symbols.custom
-    # 标点符号直接上屏，在 symbols.custom 已修改
+    # 标点符号直接上屏，已在 symbols.custom 中设置
     # half_shape: ...
   
