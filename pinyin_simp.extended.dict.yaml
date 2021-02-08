@@ -9,7 +9,10 @@ vocabulary: essay-zh-hans
 
 import_tables:
   # 主词库
-  - dicts/pinyin_simp_8105
+  - dicts/pinyin_simp_3500
+  # - dicts/pinyin_simp_8105
+  # - dicts/pinyin_simp_gb2312
+  # - dicts/pinyin_simp
   # 个人词库
   - dicts/d
   # 扩展词库
@@ -26,7 +29,4 @@ import_tables:
   - dicts/11renwenkexue
   - dicts/12yulexiuxian
 
-  # 由 melt_eng 引入，否则总出问题，比如超级简拼没了，打字必须100%正确才出字。不知道咋回事。。。
-  # - dicts/cn_en
-  # - dicts/i
 ...

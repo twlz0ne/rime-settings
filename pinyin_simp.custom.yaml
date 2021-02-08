@@ -13,7 +13,7 @@ patch:
       reset: 1
     - name: traditionalization
       reset: 0 # 如果不想每次切换 App 都自动变成简体，可以注释这里
-      states: [简, 繁]
+      states: [简, 繁繁繁]
   
   # 切换繁体快捷键
   key_binder/bindings/+:
