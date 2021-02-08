@@ -43,6 +43,12 @@
 他	t	3
 她	t	2
 它	t	1
+他	ta	3
+她	ta	2
+它	ta	1
+他是	tashi	3
+她是	tashi	2
+它是	tashi	1
 他的	tade	3
 她的	tade	2
 它的	tade	1

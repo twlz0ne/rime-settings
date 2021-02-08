@@ -16,7 +16,7 @@ import_tables:
   # 个人词库
   - dicts/d
   # 扩展词库
-  - dicts/sogou_all
+  - dicts/sogou_all # 合并了下面12个词库，并添加了拼音，有时候打开会卡住。。。
   # - dicts/1chengshixinxi
   # - dicts/2zirankexue
   # - dicts/3shehuikexue
