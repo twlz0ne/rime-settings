@@ -16,17 +16,18 @@ import_tables:
   # 个人词库
   - dicts/d
   # 扩展词库
-  - dicts/1chengshixinxi
-  - dicts/2zirankexue
-  - dicts/3shehuikexue
-  - dicts/4gongchengyingyong
-  - dicts/5nonglinyuchu
-  - dicts/6yixueyiyao
-  - dicts/7dianziyouxi
-  - dicts/8yishusheji
-  - dicts/9shenghuobaike
-  - dicts/10yundongxiuxian
-  - dicts/11renwenkexue
-  - dicts/12yulexiuxian
+  - dicts/sogou_all
+  # - dicts/1chengshixinxi
+  # - dicts/2zirankexue
+  # - dicts/3shehuikexue
+  # - dicts/4gongchengyingyong
+  # - dicts/5nonglinyuchu
+  # - dicts/6yixueyiyao
+  # - dicts/7dianziyouxi
+  # - dicts/8yishusheji
+  # - dicts/9shenghuobaike
+  # - dicts/10yundongxiuxian
+  # - dicts/11renwenkexue
+  # - dicts/12yulexiuxian
 
 ...
