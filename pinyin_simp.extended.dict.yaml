@@ -10,19 +10,21 @@ vocabulary: essay-zh-hans
 import_tables:
   ####### 主词库 #######
   - dicts/pinyin_simp_3500
-  # - dicts/pinyin_simp_8105
   # - dicts/pinyin_simp_gb2312
+  # - dicts/pinyin_simp_8105
   # - dicts/pinyin_simp
   ####### 个人词库 #######
   - dicts/d
   ####### 扩展词库 #######
   # 中文维基 120万
-  - dicts/zhwiki
+  # - dicts/zhwiki
+
   # 搜狗 238万 https://tieba.baidu.com/p/2758001096
-  - dicts/sogou_238w
+  # - dicts/sogou_238w
+
   # 搜狗12类扩展词库
   # - dicts/sogou_all # 200万，合并了下面12个词库，并添加了拼音，有时候打开会卡住。。。
-  # - dicts/1chengshixinxi
+  - dicts/1chengshixinxi
   # - dicts/2zirankexue
   # - dicts/3shehuikexue
   # - dicts/4gongchengyingyong
@@ -30,9 +32,9 @@ import_tables:
   # - dicts/6yixueyiyao
   # - dicts/7dianziyouxi
   # - dicts/8yishusheji
-  # - dicts/9shenghuobaike
+  - dicts/9shenghuobaike
   # - dicts/10yundongxiuxian
-  # - dicts/11renwenkexue
-  # - dicts/12yulexiuxian
+  - dicts/11renwenkexue
+  - dicts/12yulexiuxian
 
 ...
