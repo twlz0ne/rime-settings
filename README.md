@@ -19,20 +19,20 @@
 -   所有标点符号直接上屏，并将「/」模式改为「v」模式
 -   增加了 `opencc/` 键盘符号映射，删除了 emoji 映射，如需要 emoji 可参考  [liuour](https://github.com/liuour)/**[rime](https://github.com/liuour/rime)**
 -   symbols 改为简体字（如节气、八卦），增加一些自定义符号
--   常用全拼自动纠错：`ni tina tain do zia gna she me` → `你天天都在干什么`
+-   常用全拼自动纠错：`ni tina tain do zia gna she me` → `你天天都在干什么. 
 
-
+  
 
 ## 精简字库
 
--   `pinyin_simp_3500` 《通用规范汉字表（2013）》的第一级 3500 常用字
+-   `pinyin_simp_3500` 《通用规范汉字表（2013）》的第一级 3500 常用字
 -   `pinyin_simp_8105` [placeless](https://github.com/placeless)/**[squirrel_config](https://github.com/placeless/squirrel_config)** 的 8105 简体字
 -   `pinyin_simp_gb2312` GB2312 6763个字
 -   `dicts/pinyin_simp` 原版袖珍简化字词库，大约一万七千个字左右
 
-已经用了 [placeless](https://github.com/placeless)/**[squirrel_config](https://github.com/placeless/squirrel_config)** 的 8105 简体字了，不过生僻字比我之前用 GB2312 的时候要多，就又弄了一个 GB2312 的精简版，干脆再弄了一个 3500 常用字。
+已经用了 [placeless](https://github.com/placeless)/**[squirrel_config](https://github.com/placeless/squirrel_config)** 的 8105 简体字了，不过生僻字比我之前用 GB2312 的时候要多，就又弄了一个 GB2312 的精简版，干脆再弄了一个 3500 常用字。  
 
-
+  
 
 ### 删减字库的优缺点：
 
@@ -40,15 +40,17 @@
 
 切换字库要重新部署才行，不知道要怎么样才能像以前切换字符集那样切换字库，谁要知道求告知。
 
-把这些词库都放上了，可以自己选择。
+把这些词库都放上了，可以自己选择。  
 
-
+  
 
 精简字库比较方便的地方：
 
 比如「丞」字不在 3500 里面，但是扩展词库里有「丞相」这个词，也是可以打出来的。
 
-这个需要扩展词库包含大量词汇，并且带拼音。（不带拼音打不出来）
+这个需要扩展词库包含大量词汇，并且带拼音。（不带拼音打不出来）  
+
+   
 
 
 ## 详细说明
