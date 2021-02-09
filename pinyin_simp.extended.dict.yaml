@@ -27,7 +27,7 @@ import_tables:
   - dicts/sogou_shici
 
 
-  #------- 其他词库 -------# 都移到 others 文件夹了，起用的话注意修改路径
+  #------- 其他词库 -------# 都移到 others 文件夹了，启用的话注意修改路径
   # 中文维基 120万
   # - dicts/zhwiki
   # 搜狗 238万 https://tieba.baidu.com/p/2758001096
