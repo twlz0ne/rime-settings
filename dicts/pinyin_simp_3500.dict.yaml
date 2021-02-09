@@ -1,24 +1,19 @@
 # Rime dictionary
 # encoding: utf-8
 #
-# A minimal Pinyin dictionary for simplified Chinese script
-#
-# Derived from android open source project:
-# http://android.git.kernel.org/?p=platform/packages/inputmethods/PinyinIME.git
-#
-
+# 由 pinyin_simp 简化至：
+# 《通用规范汉字表（2013）》的
+# level-1 一级字表: 3500 个字（加上多音字是3808字）
+# 
 ---
 name: pinyin_simp_3500
 version: "0.2"
 sort: by_weight
 ...
-# 精简 -> 
-# 《通用规范汉字表（2013）》
-# level-1 一级字表: 3500 个字（加上多音字是3808字）
 
-
-# 在 3500 基础上增加的一些：
+# 在 3500 基础上增加的一些字词：
 妾	qie	427
+永葆	yong bao
 
 # 3500：
 耙	ba	52

@@ -1,18 +1,14 @@
 # Rime dictionary
 # encoding: utf-8
 #
-# A minimal Pinyin dictionary for simplified Chinese script
-#
-# Derived from android open source project:
-# http://android.git.kernel.org/?p=platform/packages/inputmethods/PinyinIME.git
-#
+# 由 pinyin_simp 简化至 GB2312 （6763个字）
+# 
 
 ---
 name: pinyin_simp_gb2312
 version: "0.2"
 sort: by_weight
 ...
-# zh_simp 精简 -> gb2312 （6763个字）
 
 菝	ba	2
 鲅	ba	5
