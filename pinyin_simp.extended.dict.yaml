@@ -11,8 +11,8 @@ import_tables:
   #------- 主词库 -------#
   - dicts/pinyin_simp_3500 # 《通用规范汉字表》的第一级 3500 常用字
   # - dicts/pinyin_simp_gb2312 # 根据 GB2312 字符集进行过滤
-  # - dicts/pinyin_simp_8105 # placeless/squirrel_config 提供的《通用规范汉字表》所有 8105 个字
-  # - dicts/aurora_pinyin # hosxy/rime-aurora-pinyin 提供《通用规范汉字表》的 8105 + 少许网络中常用字/字符
+  # - dicts/pinyin_simp_8105 # placeless/squirrel_config 提供的《通用规范汉字表》8105 个字
+  # - dicts/aurora_pinyin # hosxy/rime-aurora-pinyin 提供的《通用规范汉字表》的 8105 + 少许网络中常用字/字符
   # - dicts/pinyin_simp # Rime 官方的袖珍简化字词库 一万七千多个字
 
 
@@ -20,16 +20,21 @@ import_tables:
   - dicts/d
 
 
-  #------- 扩展词库 -------# 扩展词库中两个字的生僻词太多也比较难受，默认只加载了必要的诗词、城市相关之类的
+  #------- 扩展词库 -------#
+  # 搜狗成语俗语 https://pinyin.sogou.com/dict/detail/index/15097
+  - dicts/sogou_chengyusuyu
+  # 搜狗宋词精选+古诗词名句+唐诗300首+诗词名句大全，去重+去掉两个字的词。 https://pinyin.sogou.com/dict/cate/index/31
+  - dicts/sogou_shici
+
+
+  #------- 其他词库 -------# 都移到 others 文件夹了，起用的话注意修改路径
   # 中文维基 120万
   # - dicts/zhwiki
-
   # 搜狗 238万 https://tieba.baidu.com/p/2758001096
   # - dicts/sogou_238w
-
   # 搜狗12类扩展词库
   # - dicts/sogou_all # 200万，合并了下面12个词库，并添加了拼音，有时候打开会卡住。。。
-  - dicts/1chengshixinxi
+  # - dicts/1chengshixinxi
   # - dicts/2zirankexue
   # - dicts/3shehuikexue
   # - dicts/4gongchengyingyong
@@ -37,9 +42,9 @@ import_tables:
   # - dicts/6yixueyiyao
   # - dicts/7dianziyouxi
   # - dicts/8yishusheji
-  - dicts/9shenghuobaike
+  # - dicts/9shenghuobaike
   # - dicts/10yundongxiuxian
-  - dicts/11renwenkexue
-  - dicts/12yulexiuxian
+  # - dicts/11renwenkexue
+  # - dicts/12yulexiuxian
 
 ...
