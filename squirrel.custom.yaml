@@ -1,6 +1,7 @@
 patch:
   show_notifications_when: always # options: always | never | appropriate
 
+  # 皮肤可参考 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/squirrel.yaml
   style/color_scheme: purity_of_form_custom
 
   preset_color_schemes:

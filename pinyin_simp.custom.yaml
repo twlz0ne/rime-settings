@@ -20,8 +20,7 @@ patch:
     - {when: always, accept: Control+Shift+4, toggle: traditionalization}
     - {when: always, accept: Control+slash, toggle: traditionalization} # Ctrl + /
   
-  # 引入八股文长句模型
-  # __include: grammar:/hans
+  # 八股文模型
   grammar:
     language: zh-hans-t-essay-bgw
 
@@ -38,7 +37,7 @@ patch:
     enable_sentence: false
     initial_quality: 1
 
-  # 动态日期时间
+  # 动态日期、时间、星期
   engine/translators/@next: lua_translator@date_translator
   
   # 过滤器
