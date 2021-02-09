@@ -21,7 +21,9 @@ patch:
     - {when: always, accept: Control+slash, toggle: traditionalization} # Ctrl + /
   
   # 引入八股文长句模型
-  __include: grammar:/hans
+  # __include: grammar:/hans
+  grammar:
+    language: zh-hans-t-essay-bgw
 
   # 挂载主词库，在主词库中再挂载其他词库
   translator/dictionary: pinyin_simp.extended
