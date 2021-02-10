@@ -28,9 +28,11 @@ sort: by_weight
 甭	beng	252
 嫖	piao	326
 铳	chong	35
-仄	ze	152
+忒	tei	425
+蛆	qu	239
+茜	qian	389
+笠	li	128
 
-屌爆了	diao bao le
 永葆	yong bao
 黄鹂	huang li
 不可小觑	bu ke xiao qu
@@ -72,7 +74,10 @@ sort: by_weight
 啰啰嗦嗦	luo luo suo suo
 锵锵	qiang qiang
 泱泱	yang yang
-
+馥郁	fu yu
+焙炒	bei chao
+焙烧	bei shao
+锦鲤	jin li
 
 # 3500：
 # 精简了约300多个字，大多是永远不会用到的多音字
@@ -162,7 +167,7 @@ sort: by_weight
 # 臂	bei	17
 狈	bei	23
 悖	bei	54
-惫	bei	87
+# 惫	bei	87
 辈	bei	421
 卑	bei	457
 碑	bei	550
@@ -327,7 +332,7 @@ sort: by_weight
 配	pei	6736
 陪	pei	9129
 # 否	pi	0
-霹	pi	24
+# 霹	pi	24
 譬	pi	38
 僻	pi	84
 啤	pi	132
@@ -575,7 +580,7 @@ sort: by_weight
 烦	fan	6871
 反	fan	6966
 饭	fan	11199
-肪	fang	19
+# 肪	fang	19
 妨	fang	73
 纺	fang	251
 访	fang	1140
@@ -586,7 +591,7 @@ sort: by_weight
 房	fang	7386
 方	fang	12765
 放	fang	26038
-吩	fen	18
+# 吩	fen	18
 氛	fen	35
 忿	fen	61
 焚	fen	189
@@ -614,7 +619,7 @@ sort: by_weight
 封	feng	6204
 风	feng	12099
 诽	fei	38
-啡	fei	70
+# 啡	fei	70
 吠	fei	111
 沸	fei	175
 匪	fei	395
@@ -704,7 +709,7 @@ sort: by_weight
 待	dai	6914
 带	dai	38459
 石	dan	9
-耽	dan	62
+# 耽	dan	62
 诞	dan	129
 旦	dan	414
 氮	dan	516
@@ -722,8 +727,8 @@ sort: by_weight
 档	dang	2850
 党	dang	4354
 当	dang	52846
-祷	dao	58
-蹈	dao	82
+# 祷	dao	58
+# 蹈	dao	82
 叨	dao	86
 悼	dao	190
 捣	dao	414
@@ -769,7 +774,7 @@ sort: by_weight
 第	di	24313
 地	di	101785
 # 玷	dian	26
-惦	dian	26
+# 惦	dian	26
 # 佃	dian	48
 奠	dian	57
 巅	dian	65
@@ -850,7 +855,7 @@ sort: by_weight
 舵	duo	132
 踱	duo	151
 跺	duo	157
-哆	duo	171
+# 哆	duo	171
 堕	duo	272
 朵	duo	1051
 夺	duo	1083
@@ -869,7 +874,7 @@ sort: by_weight
 屯	tun	680
 吞	tun	745
 # 拓	ta	9
-蹋	ta	52
+# 蹋	ta	52
 塌	ta	503
 踏	ta	815
 塔	ta	3616
@@ -1181,23 +1186,23 @@ sort: by_weight
 雷	lei	4231
 累	lei	13301
 类	lei	19235
-雳	li	10
-漓	li	57
+# 雳	li	10
+# 漓	li	57
 砾	li	61
-痢	li	69
-篱	li	93
-鲤	li	109
-璃	li	110
-狸	li	117
-隶	li	122
-荔	li	153
-俐	li	176
-犁	li	217
+# 痢	li	69
+# 篱	li	93
+# 鲤	li	109
+# 璃	li	110
+# 狸	li	117
+# 隶	li	122
+# 荔	li	153
+# 俐	li	176
+# 犁	li	217
 励	li	244
 吏	li	261
 厘	li	266
 栗	li	316
-沥	li	346
+# 沥	li	346
 厉	li	528
 历	li	804
 梨	li	882
@@ -1258,7 +1263,7 @@ sort: by_weight
 烈	lie	1000
 咧	lie	3501
 列	lie	6282
-躏	lin	4
+# 躏	lin	4
 赁	lin	19
 吝	lin	68
 凛	lin	129
