@@ -19,6 +19,7 @@ sort: by_weight
 ...
 
 # 在 3500 基础上增加的一些字词：
+囧	jiong	10
 妾	qie	427
 兮	xi	1012
 嘎	ga	3558
@@ -32,6 +33,10 @@ sort: by_weight
 蛆	qu	239
 茜	qian	389
 笠	li	128
+怂	song	123
+攘	rang	52
+屄	bi	5
+坨	tuo	251
 
 永葆	yong bao
 黄鹂	huang li
