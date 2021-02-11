@@ -10,7 +10,7 @@ vocabulary: essay-zh-hans
 import_tables:
   #------- 主词库 -------#
   - dicts/pinyin_simp_3500 # 《通用规范汉字表》的第一级 3500 常用字
-  - dicts/pinyin_simp_words_only
+  - dicts/pinyin_simp_words_only # 从极光拼音分拆出词汇列表
   # - dicts/pinyin_simp_gb2312 # 根据 GB2312 字符集进行过滤
   # - dicts/pinyin_simp_8105 # placeless/squirrel_config 提供的《通用规范汉字表》8105 个字
   # - dicts/aurora_pinyin # hosxy/rime-aurora-pinyin 提供的《通用规范汉字表》的 8105 + 少许网络中常用字/字符
