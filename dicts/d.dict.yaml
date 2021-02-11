@@ -40,6 +40,7 @@ vocabulary: essay-zh-hans
 没有	my
 没有啊	mya
 知道啊	zda
+又有	uu
 
 # 容错词
 什么	sheme
@@ -69,10 +70,6 @@ vocabulary: essay-zh-hans
 㐂	qiqiqi
 龘	longlonglong
 
-# 常见符号
-°	du
-℃	she shi du
-℉	hua shi du
 
 
 

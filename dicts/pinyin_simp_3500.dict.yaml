@@ -43,7 +43,16 @@ sort: by_weight
 嗨	hai	31
 幺	yao	491
 嗲	dia	10
+釜	fu	10
+蘸	zhan	10
+炖	dun	10
+翟	zhai	10
+孜	zi	10
+眸	mou	10
 
+黄栌	huang lu
+伽蓝	jia lan
+尼泊尔	ni bo er
 罢黜	ba chu
 吁气	xu qi
 家雀	jia qiao
@@ -408,7 +417,7 @@ sort: by_weight
 圃	pu	126
 葡	pu	174
 仆	pu	181
-# 瀑	pu	194
+瀑	pu	194
 朴	pu	438
 蒲	pu	557
 浦	pu	752
@@ -652,7 +661,7 @@ sort: by_weight
 袱	fu	11
 咐	fu	20
 # 脯	fu	28
-蝠	fu	57
+# 蝠	fu	57
 俘	fu	61
 辐	fu	62
 孵	fu	74
@@ -2875,7 +2884,7 @@ sort: by_weight
 橱	chu	96
 锄	chu	133
 雏	chu	141
-# 畜	chu	152
+畜	chu	152
 厨	chu	306
 储	chu	685
 触	chu	815

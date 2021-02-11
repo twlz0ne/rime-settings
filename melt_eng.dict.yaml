@@ -58,6 +58,7 @@ exe	exe
 Excel	Excel
 Word	Word
 PowerPoint	ppt
+PowerPoint	PowerPoint
 
 # one to many，发现opencc中的txt里的配置如果是以英文开头的，需要这里先解析一下才能正确使用
 cmd	cmd
