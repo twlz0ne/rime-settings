@@ -15,43 +15,14 @@ import_tables:
   # - dicts/pinyin_simp_8105 # placeless/squirrel_config 提供的《通用规范汉字表》8105 个字
   # - dicts/aurora_pinyin # hosxy/rime-aurora-pinyin 提供的《通用规范汉字表》的 8105 + 少许网络中常用字/字符
   # - dicts/pinyin_simp # Rime 官方的袖珍简化字词库 一万七千多个字
-  
-  # 备选方案，切换字符集 = 切换输入方案
-  # - plan_b   # hosxy/rime-aurora-pinyin 提供的《通用规范汉字表》的 8105 + 少许网络中常用字/字符
-
-
 
   #------- 个人词库 -------#
   - dicts/d
-
-
 
   #------- 扩展词库 -------#
   # 搜狗成语俗语 https://pinyin.sogou.com/dict/detail/index/15097
   # 搜狗宋词精选+古诗词名句+唐诗300首+诗词名句大全，去重+去掉两个字的词。 https://pinyin.sogou.com/dict/cate/index/31
   - dicts/sogou_chengyusuyu
   - dicts/sogou_shici
-
-
-
-  #------- 其他词库 -------# 都移到 others 文件夹了，启用的话注意修改路径
-  # 中文维基 120万
-  # - dicts/zhwiki
-  # 搜狗 238万 https://tieba.baidu.com/p/2758001096
-  # - dicts/sogou_238w
-  # 搜狗12类扩展词库
-  # - dicts/sogou_all # 200万，合并了下面12个词库，并添加了拼音，有时候打开会卡住。。。
-  # - dicts/1chengshixinxi
-  # - dicts/2zirankexue
-  # - dicts/3shehuikexue
-  # - dicts/4gongchengyingyong
-  # - dicts/5nonglinyuchu
-  # - dicts/6yixueyiyao
-  # - dicts/7dianziyouxi
-  # - dicts/8yishusheji
-  # - dicts/9shenghuobaike
-  # - dicts/10yundongxiuxian
-  # - dicts/11renwenkexue
-  # - dicts/12yulexiuxian
 
 ...
