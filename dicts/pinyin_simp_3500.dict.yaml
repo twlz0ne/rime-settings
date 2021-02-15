@@ -15,7 +15,7 @@ version: "0.2"
 sort: by_weight
 ...
 
-# 在 3500 基础上增加的一些字词：
+# 在基础上增加的一些字：
 囧	jiong	10
 妾	qie	427
 兮	xi	1012
@@ -46,8 +46,11 @@ sort: by_weight
 眸	mou	10
 钗	chai	10
 倪	ni	10
+呗	bei	22
 
-
+# 在基础上增加的一些词：
+角色	jiao se
+哔哩	bi li
 黄栌	huang lu
 伽蓝	jia lan
 尼泊尔	ni bo er
@@ -190,7 +193,7 @@ sort: by_weight
 # 臂	bei	17
 狈	bei	23
 悖	bei	54
-# 惫	bei	87
+惫	bei	87
 辈	bei	421
 卑	bei	457
 碑	bei	550
