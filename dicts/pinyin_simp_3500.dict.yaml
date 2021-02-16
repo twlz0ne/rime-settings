@@ -48,8 +48,12 @@ sort: by_weight
 倪	ni	10
 呗	bei	22
 泯	min	101
+镂	lou	50
+谪	zhe	51
+朔	shuo	263
 
 # 在基础上增加的一些词：
+帷幄	wei wo
 角色	jiao se
 哔哩	bi li
 黄栌	huang lu
@@ -1224,7 +1228,7 @@ sort: by_weight
 # 隶	li	122
 # 荔	li	153
 # 俐	li	176
-# 犁	li	217
+犁	li	217
 励	li	244
 吏	li	261
 厘	li	266
@@ -2104,10 +2108,10 @@ sort: by_weight
 车	ju	2
 # 且	ju	5
 # 柜	ju	7
-# 沮	ju	48
-# 炬	ju	118
+沮	ju	48
+炬	ju	118
 拘	ju	133
-# 驹	ju	137
+驹	ju	137
 桔	ju	215
 橘	ju	216
 惧	ju	221
@@ -2144,7 +2148,7 @@ sort: by_weight
 却	que	43347
 裙	qun	745
 群	qun	13451
-# 缉	qi	1
+缉	qi	1
 # 稽	qi	3
 # 迄	qi	55
 凄	qi	125
