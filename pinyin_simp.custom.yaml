@@ -94,7 +94,7 @@ patch:
     - derive/ua$/au/ # shau → shua  hau → hua
     - derive/ian$/ina/ # tina → tian linag → liang
     - derive/([wrtypsdfghjklzcbnm])a([on])$/$1$2a/ # hoa → hao  gna  → gan
-    - derive/([wtpsghkzcbnm])ai$/$1ia/ # zia → zai 主要是过滤掉l，不转换lia和lai这两个正确的拼写
+    - derive/([wtpsghkzcbnm])ai$/$1ia/ # zia → zai 不转换[lia, lai][dia, dai]这两个正确的拼写
     - derive/([zcs])hi$/$1ih/ # zih → zhi cih → chi sih → shi
 
   # “/” 模式转为 “v” 模式，并增加识别大写字母
@@ -103,6 +103,4 @@ patch:
   punctuator:
     # 引入自己的 symbols，全部修改为了“v”模式
     import_preset: symbols.custom
-    # 标点符号直接上屏，已在 symbols.custom 中设置
-    # half_shape: ...
   
