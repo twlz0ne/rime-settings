@@ -10,7 +10,7 @@ version: "2021-02-02"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
-# 英文 补充到 melt_eng 词典中
+# 英文、中英 补充到 melt_eng 词典中
 
 # 自造词
 朙月拼音	mingyuepinyin
@@ -21,6 +21,10 @@ vocabulary: essay-zh-hans
 瞬光斩黯黮	shun guang zhan an dan
 昭明破晦夜	zhao ming po hui ye
 鞠婧祎	ju jing yi
+锟斤拷	kun jin kao
+烫烫烫	tang tang tang
+锘锘锘	nuo nuo nuo
+屯屯屯	tun tun tun
 
 # 嘿嘿嘿
 樱井步	yingjingbu
@@ -45,11 +49,11 @@ vocabulary: essay-zh-hans
 没有啊	mya
 知道啊	zda
 又有	uu
+谁的	sheid
 
 # 容错词
 什么	sheme
 为什么	weisheme
-谁的	sheid
 
 # 拼词
 鑫	jinjinjin
