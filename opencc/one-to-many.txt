@@ -11,13 +11,3 @@ backspace	Backspace ⌫
 del	Del Delete ⌫
 esc	Esc Escape ⎋
 eject	Eject ⏏
-修饰键	修饰键 ⌘ ⌥ ⇧ ⌃ ⎋ ⇪  ⌫ ⌦ ↩︎ ⏎ ␣ ⏏
-箭头	箭头 ↑ ↓ ← →
-间隔号	间隔号 ·
-度	度 °
-摄氏度	摄氏度 ℃
-华氏度	华氏度 ℉
-对	对 √
-错	错 ×
-乘	成 ×
-除	出 ÷
