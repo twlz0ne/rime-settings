@@ -7982,7 +7982,7 @@ sort: by_weight
 额	e	12039
 蒽	en	137
 摁	en	319
-唔	en	1126
+# 唔	en	1126
 嗯	en	31982
 恩	en	162015
 咡	er	1
@@ -8020,7 +8020,7 @@ sort: by_weight
 唔	ng	1126
 嗯	ng	31982
 
-# 词语
+## 词语
 粑粑	ba ba	149
 巴巴	ba ba	322
 爸爸	ba ba	9814
