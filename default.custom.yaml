@@ -1,7 +1,6 @@
 patch:
   schema_list:
-    - schema: pinyin_simp # 正常使用精简字库
-    - schema: plan_b      # 临时使用大字符集
+    - schema: pinyin_simp
   
   # 候选词个数
   menu/page_size: 5   

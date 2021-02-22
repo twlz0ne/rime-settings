@@ -1,10 +1,7 @@
 # Rime dictionary
 # encoding: utf-8
 #
-# A minimal Pinyin dictionary for simplified Chinese script
-#
-# Derived from android open source project:
-# http://android.git.kernel.org/?p=platform/packages/inputmethods/PinyinIME.git
+# 由 pinyin_simp 简化至 《通用规范汉字表》8105字
 #
 
 ---
@@ -13,7 +10,6 @@ version: "0.2"
 sort: by_weight
 ...
 
-# zh_simp 精简 -> 8105
 蚆	ba	1
 朳	ba	1
 胈	ba	1
@@ -2625,6 +2621,7 @@ sort: by_weight
 录	lu	2662
 陆	lu	3000
 路	lu	20471
+啰	luo
 硌	luo	0
 蓏	luo	1
 跞	luo	1
@@ -8022,6 +8019,8 @@ sort: by_weight
 偶	ou	24864
 唔	ng	1126
 嗯	ng	31982
+
+# 词语
 粑粑	ba ba	149
 巴巴	ba ba	322
 爸爸	ba ba	9814
@@ -9228,6 +9227,7 @@ sort: by_weight
 标志	biao zhi	5191
 表中	biao zhong	528
 标注	biao zhu	1153
+飚车	biao che	158
 标称	biao cheng	162
 标尺	biao chi	149
 标出	biao chu	183
@@ -18769,6 +18769,7 @@ sort: by_weight
 流过	liu guo	333
 硫化	liu hua	149
 刘欢	liu huan	134
+硫磺	liu huang	161
 刘海	liu hai	329
 流汗	liu han	262
 六号	liu hao	167
@@ -19067,7 +19068,7 @@ sort: by_weight
 罗斯	luo si	330
 螺丝	luo si	672
 罗素	luo su	112
-罗嗦	luo suo	687
+啰嗦	luo suo	687
 洛阳	luo yang	1339
 落叶	luo ye	772
 罗衣	luo yi	221
@@ -22847,6 +22848,7 @@ sort: by_weight
 宏基	hong ji	302
 红警	hong jing	210
 红酒	hong jiu	914
+宏碁	hong qi	158
 红旗	hong qi	829
 虹桥	hong qiao	361
 红霞	hong xia	130
@@ -28451,7 +28453,7 @@ sort: by_weight
 相像	xiang xiang	166
 香香	xiang xiang	490
 想像	xiang xiang	2632
-想象	xiang xiang	5402
+# 想象	xiang xiang	5402
 想想	xiang xiang	7535
 想写	xiang xie	308
 相信	xiang xin	20728

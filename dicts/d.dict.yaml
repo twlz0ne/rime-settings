@@ -12,20 +12,6 @@ vocabulary: essay-zh-hans
 ...
 # 英文、中英 补充到 melt_eng 词典中
 
-# 自造词
-朙月拼音	mingyuepinyin
-放铳	fang chong
-荣和	rong hu
-天和	tian hu
-地和	di hu
-瞬光斩黯黮	shun guang zhan an dan
-昭明破晦夜	zhao ming po hui ye
-鞠婧祎	ju jing yi
-锟斤拷	kun jin kao
-烫烫烫	tang tang tang
-锘锘锘	nuo nuo nuo
-屯屯屯	tun tun tun
-
 # 嘿嘿嘿
 樱井步	yingjingbu
 桜井あゆ	yingjingbu
@@ -78,6 +64,76 @@ vocabulary: essay-zh-hans
 㐂	qiqiqi
 龘	longlonglong
 
-
-
-
+# 扩展词语
+朙月拼音	mingyuepinyin
+放铳	fang chong
+荣和	rong hu
+天和	tian hu
+地和	di hu
+黯黮	an dan
+昭明	zhao ming
+瞬光斩黯黮	shun guang zhan an dan
+昭明破晦夜	zhao ming po hui ye
+鞠婧祎	ju jing yi
+锟斤拷	kun jin kao
+烫烫烫	tang tang tang
+锘锘锘	nuo nuo nuo
+屯屯屯	tun tun tun
+嘚瑟	de se
+帷幄	wei wo
+角色	jiao se
+哔哩	bi li
+黄栌	huang lu
+伽蓝	jia lan
+尼泊尔	ni bo er
+罢黜	ba chu
+吁气	xu qi
+家雀	jia qiao
+家雀儿	jia qiao er
+吗啡	ma fei
+永葆	yong bao
+黄鹂	huang li
+不可小觑	bu ke xiao qu
+咋舌	ze she
+咋呼	zha	hu
+磅礴	pang bo
+通臂拳	tong bei quan
+扁舟	pian zhou
+屏息	bing xi
+屏住	bing zhu
+迫击炮	pai ji pao
+朴刀	po dao
+滂沱	pang tuo
+模子	mu zi
+夏侯惇	xia hou dun
+大王	dai wang
+饼铛	bing cheng
+叨咕	dao gu
+建都	jian du
+镊子	nie zi
+很拗	hen niu
+弄堂	long tang
+落枕	lao zhen
+关卡	guan qia
+发卡	fa qia
+卡在	qia zai
+卡壳	qia ke
+恫吓	dong he
+降服	xiang fu
+亲家	qing jia
+扎辫子	za bian zi
+择菜	zhai cai
+禅让	shan rang
+嘎吱	ga zhi
+吱吱	zi zi
+吱吱	zhi zhi
+逶蛇	wei yi
+尉迟	yu chi
+啰嗦	luo suo
+啰啰嗦嗦	luo luo suo suo
+锵锵	qiang qiang
+泱泱	yang yang
+馥郁	fu yu
+焙炒	bei chao
+焙烧	bei shao
+锦鲤	jin li

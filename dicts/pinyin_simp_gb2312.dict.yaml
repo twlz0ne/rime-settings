@@ -10,6 +10,7 @@ version: "0.2"
 sort: by_weight
 ...
 
+# gb2312 字表
 菝	ba	2
 鲅	ba	5
 魃	ba	15
@@ -7301,6 +7302,8 @@ sort: by_weight
 偶	ou	24864
 唔	ng	1126
 嗯	ng	31982
+
+# 词
 粑粑	ba ba	149
 巴巴	ba ba	322
 爸爸	ba ba	9814
@@ -18348,7 +18351,7 @@ sort: by_weight
 罗斯	luo si	330
 螺丝	luo si	672
 罗素	luo su	112
-罗嗦	luo suo	687
+啰嗦	luo suo	687
 洛阳	luo yang	1339
 落叶	luo ye	772
 罗衣	luo yi	221
@@ -27733,7 +27736,7 @@ sort: by_weight
 相像	xiang xiang	166
 香香	xiang xiang	490
 想像	xiang xiang	2632
-想象	xiang xiang	5402
+# 想象	xiang xiang	5402
 想想	xiang xiang	7535
 想写	xiang xie	308
 相信	xiang xin	20728
