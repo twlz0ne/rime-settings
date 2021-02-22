@@ -6,11 +6,10 @@
 
 ---
 name: pinyin_simp_gb2312
-version: "0.2"
+version: "2021-02-23"
 sort: by_weight
 ...
 
-# gb2312 字表
 菝	ba	2
 鲅	ba	5
 魃	ba	15

@@ -28,7 +28,7 @@
 -   `pinyin_simp_3500` 《通用规范汉字表》的第一级 3500 常用字
 -   `pinyin_simp_gb2312` GB2312 6763个字
 -   `pinyin_simp_8105` 《通用规范汉字表》 8105 字
--   `dicts/pinyin_simp` 原版袖珍简化字词库，大约一万七千个字左右
+-   `pinyin_simp` 原版袖珍简化字词库，大约一万七千个字左右
 
 <br>
 
