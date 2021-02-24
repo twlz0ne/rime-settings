@@ -12,14 +12,6 @@ vocabulary: essay-zh-hans
 ...
 # 英文、中英 补充到 melt_eng 词典中
 
-# 嘿嘿嘿
-樱井步	yingjingbu
-桜井あゆ	yingjingbu
-武藤绫香	wutenglingxiang
-武藤あやか	wutenglingxiang
-夏希栗	xiaxili
-夏希まろん	xiaxili
-
 # 方便词
 儿	r
 一	i
@@ -66,9 +58,23 @@ vocabulary: essay-zh-hans
 
 # 符号
 ·	jiangehao
+·	dian
 °	du
 ℃	sheshidu
 ℉	huashidu
+
+# 人名
+鞠婧祎	ju jing yi
+樱井步	ying jing bu
+桜井あゆ	ying jing bu
+武藤绫香	wu teng ling xiang
+武藤あやか	wu teng ling xiang
+夏希栗	xia xi li
+夏希まろん	xia xi li
+美雪爱莉丝	mei xue ai li si
+美雪ありす	mei xue ai li si
+林由奈	lin you nai
+林ゆな	lin you nai
 
 # 扩展词语
 那你	na ni
@@ -81,7 +87,6 @@ vocabulary: essay-zh-hans
 昭明	zhao ming
 瞬光斩黯黮	shun guang zhan an dan
 昭明破晦夜	zhao ming po hui ye
-鞠婧祎	ju jing yi
 锟斤拷	kun jin kao
 烫烫烫	tang tang tang
 锘锘锘	nuo nuo nuo
@@ -138,6 +143,7 @@ vocabulary: essay-zh-hans
 尉迟	yu chi
 啰嗦	luo suo
 啰啰嗦嗦	luo luo suo suo
+啰哩啰嗦	luo li luo suo
 锵锵	qiang qiang
 泱泱	yang yang
 馥郁	fu yu
