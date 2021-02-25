@@ -96,6 +96,8 @@ patch:
     - derive/([wrtypsdfghjklzcbnm])a([on])$/$1$2a/ # hoa → hao  gna  → gan
     - derive/([wtpsghkzcbnm])ai$/$1ia/ # zia → zai 不转换[lia, lai][dia, dai]这两个正确的拼写
     - derive/([zcs])hi$/$1ih/ # zih → zhi cih → chi sih → shi
+    - derive/([wrpsdfghklzcbm])en$/$1ne/ # zne → zen
+    - derive/([zcs])h(a|e|i|o|u|an|en|ang|eng|ou|ai|ei)$/h$1$2/ # hzi → zhi  hsang → shang
 
   # “/” 模式转为 “v” 模式，并增加识别大写字母
   recognizer/patterns/punct: "^v([a-zA-Z]+|[0-9]0?)$" # "^/([a-z]+|[0-9]0?)$"
