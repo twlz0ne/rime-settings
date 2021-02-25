@@ -16,6 +16,8 @@
 #
 # no comment 
 
+这	zh
+
 他	t	3
 她	t	2
 它	t	1
