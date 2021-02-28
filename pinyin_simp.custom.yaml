@@ -90,11 +90,12 @@ patch:
     - derive/ong$/on/ # lon → long  ton → tong ...
     - derive/ao$/oa/ # hoa → hao
     - derive/([iu])a(o|ng?)$/a$1$2/ # tain → tian  laing → liang  laio → liao
-    # 自己的：
+    # 自己添加的：
     - derive/ua$/au/ # shau → shua  hau → hua
     - derive/ian$/ina/ # tina → tian linag → liang
     - derive/([wrtypsdfghjklzcbnm])a([on])$/$1$2a/ # hoa → hao  gna  → gan
-    - derive/([wtpsghkzcbnm])ai$/$1ia/ # zia → zai 不转换[lia, lai][dia, dai]这两个正确的拼写
+    - derive/([wtpsghkzcbnm])ai$/$1ia/ # zia → zai 不转换[lia, lai][dia, dai]这两组正确的拼写
+    - derive/([qjx])ia$/$1ai/ # jai → jia
     - derive/([zcs])hi$/$1ih/ # zih → zhi cih → chi sih → shi
     - derive/([wrpsdfghklzcbm])en$/$1ne/ # zne → zen
     - derive/([zcs])h(a|e|i|o|u|an|en|ang|eng|ou|ai|ei)$/h$1$2/ # hzi → zhi  hsang → shang
