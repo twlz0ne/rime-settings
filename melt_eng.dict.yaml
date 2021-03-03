@@ -63,6 +63,7 @@ Word	Word
 PowerPoint	ppt
 PowerPoint	PowerPoint
 Spiritfarer	Spiritfarer
+Firefox	Firefox
 
 # one to many，发现opencc中的txt里的配置如果是以英文开头的，需要这里先解析一下才能正确使用
 cmd	cmd
@@ -162,7 +163,6 @@ CDN	cdn	100
 Charles	charles	100
 CheatSheet	cheatsheet	100
 ChemBioDraw	chembiodraw	100
-Chrome	chrome	100
 CleanMyMac	cleanmymac	100
 Clear	clear	100
 CloudApp	cloudapp	100
