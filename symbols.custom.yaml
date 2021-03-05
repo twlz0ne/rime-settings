@@ -372,6 +372,9 @@ punctuator:
     'vcuo': [×]
     'vcheng': [×]
     'vchu': [÷]
+    'vsheshidu': [℃]
+    'vhuashidu': [℉]
+    'vdu': [°]
     # 键盘符号
     'vcmd': [⌘]
     'vctrl': [⌃]
