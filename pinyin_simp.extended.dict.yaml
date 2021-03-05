@@ -27,7 +27,7 @@ import_tables:
   # 搜狗中外药品名称大全，来源：https://pinyin.sogou.com/dict/detail/index/20666 注释掉了 4001 个两个字的词语
   - dicts/sogou_yaoming
   # 中文维基词库
-  - dicts/zhwiki
+  # - dicts/zhwiki
 
   # ------- 其他 ------- #
   # - dicts/pinyin_simp # 官方原版袖珍简化字词库（一万七千多个字）
