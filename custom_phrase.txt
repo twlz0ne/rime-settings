@@ -21,9 +21,12 @@
 他	t	3
 她	t	2
 它	t	1
-他的	tade	3
-她的	tade	2
-它的	tade	1
+他的	td	3
+她的	td	2
+它的	td	1
+他的	tad	3
+她的	tad	2
+它的	tad	1
 他们	tm	3
 她们	tm	2
 它们	tm	1
@@ -32,8 +35,12 @@
 它们	tam	1
 那个	ng	2
 哪个	ng	1
+那个	nag	2
+哪个	nag	1
 那些	nx	2
 哪些	nx	1
+那些	nax	2
+哪些	nax	1
 
 去	q
 我	w
