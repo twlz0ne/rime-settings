@@ -92,7 +92,8 @@ patch:
     - derive/([iu])a(o|ng?)$/a$1$2/ # tain → tian  laing → liang  laio → liao
     # 自己添加的：
     - derive/ua$/au/ # shau → shua  hau → hua
-    - derive/ian$/ina/ # tina → tian linag → liang
+    - derive/ian$/ina/ # tina → tian 
+    - derive/iang$/inag/ # linag → liang 
     - derive/([wrtypsdfghjklzcbnm])a([on])$/$1$2a/ # hoa → hao  gna  → gan
     - derive/([wtpsghkzcbnm])ai$/$1ia/ # zia → zai 不转换[lia, lai][dia, dai]这两组正确的拼写
     - derive/([qjx])ia$/$1ai/ # jai → jia
