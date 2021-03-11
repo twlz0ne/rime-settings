@@ -18,30 +18,6 @@
 
 这	zh
 
-他	t	3
-她	t	2
-它	t	1
-他的	td	3
-她的	td	2
-它的	td	1
-他的	tad	3
-她的	tad	2
-它的	tad	1
-他们	tm	3
-她们	tm	2
-它们	tm	1
-他们	tam	3
-她们	tam	2
-它们	tam	1
-那个	ng	2
-哪个	ng	1
-那个	nag	2
-哪个	nag	1
-那些	nx	2
-哪些	nx	1
-那些	nax	2
-哪些	nax	1
-
 去	q
 我	w
 呃	e
@@ -69,3 +45,40 @@
 那	n	2
 哪	n	1
 没	m
+
+他	t	3
+她	t	2
+它	t	1
+他的	td	3
+她的	td	2
+它的	td	1
+他的	tad	3
+她的	tad	2
+它的	tad	1
+他们	tm	3
+她们	tm	2
+它们	tm	1
+他们	tam	3
+她们	tam	2
+它们	tam	1
+
+那儿	nr	2
+哪儿	nr	1
+那儿	nar	2
+哪儿	nar	1
+那个	ng	2
+哪个	ng	1
+那个	nag	2
+哪个	nag	1
+那些	nx	2
+哪些	nx	1
+那些	nax	2
+哪些	nax	1
+那里	nl	2
+哪里	nl	1
+那里	nal	2
+哪里	nal	1
+那边	nb	2
+哪边	nb	1
+那边	nab	2
+哪边	nab	1
