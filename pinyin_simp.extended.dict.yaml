@@ -14,7 +14,7 @@ import_tables:
   # - dicts/pinyin_simp_gb2312 # 根据 GB2312 字符集进行过滤
   # - dicts/pinyin_simp_8105 # 《通用规范汉字表》8105 个字
   # 词库
-  - dicts/pinyin_simp_words_only
+  - dicts/clover.phrase # 四叶草拼音的词库
 
   # ------- 个人词库 ------- #
   - dicts/d
@@ -31,4 +31,5 @@ import_tables:
 
   # ------- 其他 ------- #
   # - dicts/pinyin_simp # 官方原版袖珍简化字词库（一万七千多个字）
+  # - dicts/pinyin_simp_words_only  # 官方原版袖珍简化字词库，仅含词语，不含字表
 ...

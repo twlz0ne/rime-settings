@@ -19,12 +19,8 @@ patch:
   key_binder/bindings/+:
     - {when: always, accept: Control+Shift+4, toggle: traditionalization}
     - {when: always, accept: Control+slash, toggle: traditionalization} # Ctrl + /
-  
-  # 八股文模型
-  grammar:
-    language: zh-hans-t-essay-bgw
 
-  # 挂载主词库，在主词库中再挂载其他词库
+  # 挂载词库
   translator/dictionary: pinyin_simp.extended
 
   # custom_phrase
