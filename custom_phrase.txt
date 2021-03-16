@@ -85,3 +85,7 @@
 哪边	nb	1
 那边	nab	2
 哪边	nab	1
+那位	nw	2
+哪位	nw	1
+那位	naw	2
+哪位	naw	1

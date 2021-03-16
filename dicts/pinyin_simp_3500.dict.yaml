@@ -821,7 +821,7 @@ vocabulary: essay-zh-hans
 独	du	2124
 杜	du	3411
 毒	du	3811
-# 都	du	5545
+都	du	5545
 度	du	11468
 读	du	12702
 # 度	duo	3
@@ -1037,7 +1037,7 @@ vocabulary: essay-zh-hans
 尼	ni	2504
 拟	ni	2833
 你	ni	973526
-# 辗	nian	20
+辗	nian	20
 撵	nian	137
 碾	nian	167
 捻	nian	308
@@ -1049,7 +1049,7 @@ vocabulary: essay-zh-hans
 鸟	niao	9418
 酿	niang	340
 娘	niang	3079
-# 摄	nie	4
+摄	nie	4
 孽	nie	197
 聂	nie	810
 捏	nie	4237
@@ -1060,7 +1060,7 @@ vocabulary: essay-zh-hans
 拧	ning	686
 凝	ning	1031
 宁	ning	3897
-# 拗	niu	69
+拗	niu	69
 钮	niu	297
 纽	niu	335
 扭	niu	854
@@ -1136,7 +1136,7 @@ vocabulary: essay-zh-hans
 浪	lang	2108
 狼	lang	4237
 # 络	lao	4
-# 落	lao	23
+落	lao	23
 酪	lao	54
 姥	lao	77
 唠	lao	126
@@ -1163,23 +1163,23 @@ vocabulary: essay-zh-hans
 雷	lei	4231
 累	lei	13301
 类	lei	19235
-# 雳	li	10
-# 漓	li	57
+雳	li	10
+漓	li	57
 砾	li	61
-# 痢	li	69
-# 篱	li	93
-# 鲤	li	109
-# 璃	li	110
-# 狸	li	117
-# 隶	li	122
-# 荔	li	153
-# 俐	li	176
+痢	li	69
+篱	li	93
+鲤	li	109
+璃	li	110
+狸	li	117
+隶	li	122
+荔	li	153
+俐	li	176
 犁	li	217
 励	li	244
 吏	li	261
 厘	li	266
 栗	li	316
-# 沥	li	346
+沥	li	346
 厉	li	528
 历	li	804
 梨	li	882
@@ -1240,7 +1240,7 @@ vocabulary: essay-zh-hans
 烈	lie	1000
 咧	lie	3501
 列	lie	6282
-# 躏	lin	4
+躏	lin	4
 赁	lin	19
 吝	lin	68
 凛	lin	129
@@ -1286,7 +1286,7 @@ vocabulary: essay-zh-hans
 陋	lou	86
 娄	lou	331
 搂	lou	569
-# 露	lou	1126
+露	lou	1126
 漏	lou	1850
 楼	lou	12718
 咙	long	18
@@ -1330,7 +1330,7 @@ vocabulary: essay-zh-hans
 洛	luo	1822
 落	luo	5191
 罗	luo	7793
-# 啰	luo
+啰	luo
 # 括	gua	1
 褂	gua	70
 寡	gua	305
