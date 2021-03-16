@@ -8,19 +8,23 @@ sort: by_weight
 vocabulary: essay-zh-hans
 
 import_tables:
-  # ------- 主词库 ------- #
-  # 字表
+  # --------------------- 字表 --------------------- #
   - dicts/pinyin_simp_3500 # 《通用规范汉字表》的第一级 3500 常用字
   # - dicts/pinyin_simp_gb2312 # 根据 GB2312 字符集进行过滤
   # - dicts/pinyin_simp_8105 # 《通用规范汉字表》8105 个字
   # - dicts/clover.base # 四叶草拼音输入方案的字表
-  # 词库
-  - dicts/clover.phrase # 四叶草拼音输入方案的词库
+  
 
-  # ------- 个人词库 ------- #
+  # --------------------- 基础词库 --------------------- #
+  - dicts/clover.phrase # 四叶草拼音输入方案的词库
+  # - dicts/pinyin_simp_words_only  # 官方原版袖珍简化字词库，仅含词语，不含字表
+
+
+  # --------------------- 个人词库 --------------------- #
   - dicts/d
 
-  # ------- 扩展词库 ------- #
+
+  # --------------------- 扩展词库 --------------------- #
   # 搜狗成语俗语 https://pinyin.sogou.com/dict/detail/index/15097
   - dicts/sogou_chengyusuyu
   # 搜狗宋词精选+古诗词名句+唐诗300首+诗词名句大全，去重+去掉两个字的词。 https://pinyin.sogou.com/dict/cate/index/31
@@ -30,7 +34,7 @@ import_tables:
   # 中文维基词库，来源：https://github.com/felixonmars/fcitx5-pinyin-zhwiki
   - dicts/zhwiki-20210301
 
-  # ------- 其他 ------- #
+
+  # --------------------- 其他 --------------------- #
   # - dicts/pinyin_simp # 官方原版袖珍简化字词库（一万七千多个字）
-  # - dicts/pinyin_simp_words_only  # 官方原版袖珍简化字词库，仅含词语，不含字表
 ...
