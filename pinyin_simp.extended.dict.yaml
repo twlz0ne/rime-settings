@@ -13,8 +13,9 @@ import_tables:
   - dicts/pinyin_simp_3500 # 《通用规范汉字表》的第一级 3500 常用字
   # - dicts/pinyin_simp_gb2312 # 根据 GB2312 字符集进行过滤
   # - dicts/pinyin_simp_8105 # 《通用规范汉字表》8105 个字
+  # - dicts/clover.base # 四叶草拼音输入方案的字表
   # 词库
-  - dicts/clover.phrase # 四叶草拼音的词库
+  - dicts/clover.phrase # 四叶草拼音输入方案的词库
 
   # ------- 个人词库 ------- #
   - dicts/d
