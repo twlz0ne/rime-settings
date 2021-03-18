@@ -61,6 +61,7 @@ vocabulary: essay-zh-hans
 咎	jiu	50164
 犟	jiang	46475
 煲	bao	114140
+喃	nan	216467
 
 # 精简了约300多个字，大多是永远不会用到的多音字
 耙	ba	50136
@@ -212,7 +213,7 @@ vocabulary: essay-zh-hans
 宾	bin	143305
 彬	bin	160914
 斌	bin	234225
-# 屏	bing	901
+屏	bing	901
 禀	bing	54320
 秉	bing	80706
 柄	bing	113399
@@ -235,7 +236,7 @@ vocabulary: essay-zh-hans
 膊	bo	71655
 # 泊	bo	20341
 勃	bo	81540
-# 柏	bo	22801
+柏	bo	22801
 搏	bo	98383
 剥	bo	106500
 薄	bo	75301
@@ -250,13 +251,13 @@ vocabulary: essay-zh-hans
 埠	bu	74285
 簿	bu	80346
 捕	bu	95531
-# 卜	bu	29221
+卜	bu	29221
 步	bu	529405
 布	bu	673347
 补	bu	904519
 部	bu	1729759
 不	bu	71256971
-# 耙	pa	3781
+耙	pa	3781
 扒	pa	12181
 啪	pa	69649
 趴	pa	128390
@@ -314,12 +315,12 @@ vocabulary: essay-zh-hans
 配	pei	861860
 陪	pei	1150734
 # 否	pi	1
-# 霹	pi	34088
+霹	pi	34088
 譬	pi	37233
 僻	pi	44545
 啤	pi	55550
 疲	pi	65195
-# 辟	pi	111377
+辟	pi	111377
 坯	pi	61819
 匹	pi	96413
 劈	pi	101812
@@ -357,7 +358,7 @@ vocabulary: essay-zh-hans
 平	ping	1025980
 # 繁	po	61
 # 朴	po	301
-# 泊	po	84369
+泊	po	84369
 魄	po	70892
 迫	po	87029
 泼	po	122843
@@ -370,7 +371,7 @@ vocabulary: essay-zh-hans
 # 堡	pu	1621
 脯	pu	42291
 菩	pu	41044
-# 曝	pu	71470
+曝	pu	71470
 圃	pu	54647
 葡	pu	61467
 仆	pu	102175
@@ -401,7 +402,7 @@ vocabulary: essay-zh-hans
 麦	mai	373712
 卖	mai	4345338
 买	mai	12099569
-# 埋	man	241
+埋	man	241
 馒	man	34929
 蔓	man	68732
 瞒	man	92575
@@ -410,7 +411,7 @@ vocabulary: essay-zh-hans
 蛮	man	1167918
 满	man	1533563
 慢	man	1773740
-# 氓	mang	43467
+氓	mang	43467
 茫	mang	54909
 莽	mang	56664
 芒	mang	100321
@@ -509,7 +510,7 @@ vocabulary: essay-zh-hans
 漠	mo	66043
 陌	mo	70422
 沫	mo	79993
-# 没	mo	18661
+没	mo	18661
 默	mo	146705
 摩	mo	162920
 抹	mo	184790
@@ -524,7 +525,7 @@ vocabulary: essay-zh-hans
 谋	mou	178029
 某	mou	1576244
 # 姥	mu	1
-# 模	mu	1321
+模	mu	1321
 拇	mu	46610
 牡	mu	51491
 睦	mu	58603
@@ -562,7 +563,7 @@ vocabulary: essay-zh-hans
 烦	fan	877641
 反	fan	901500
 饭	fan	1425891
-# 肪	fang	39171
+肪	fang	39171
 妨	fang	55780
 纺	fang	74619
 访	fang	185766
@@ -573,7 +574,7 @@ vocabulary: essay-zh-hans
 房	fang	950447
 方	fang	1599206
 放	fang	3192161
-# 吩	fen	35679
+吩	fen	35679
 氛	fen	38791
 忿	fen	44429
 焚	fen	63764
@@ -601,7 +602,7 @@ vocabulary: essay-zh-hans
 封	feng	801721
 风	feng	1547335
 诽	fei	38913
-# 啡	fei	46367
+啡	fei	46367
 吠	fei	50487
 沸	fei	64193
 匪	fei	91227
@@ -618,7 +619,7 @@ vocabulary: essay-zh-hans
 袱	fu	30375
 咐	fu	33825
 # 脯	fu	1681
-# 蝠	fu	53228
+蝠	fu	53228
 俘	fu	45954
 辐	fu	44590
 孵	fu	44967
@@ -668,18 +669,18 @@ vocabulary: essay-zh-hans
 盹	dun	42763
 钝	dun	68501
 墩	dun	92065
-# 敦	dun	94454
+敦	dun	94454
 蹲	dun	128846
 盾	dun	235737
 顿	dun	273144
 吨	dun	315770
-# 瘩	da	32223
+瘩	da	32223
 搭	da	319727
 答	da	424057
 达	da	1286155
 大	da	12933219
 打	da	13031953
-# 怠	dai	48398
+怠	dai	48398
 歹	dai	47075
 # 大	dai	9421
 逮	dai	89161
@@ -691,7 +692,7 @@ vocabulary: essay-zh-hans
 待	dai	891233
 带	dai	4704173
 石	dan	541
-# 耽	dan	44124
+耽	dan	44124
 诞	dan	54930
 旦	dan	94224
 氮	dan	106511
@@ -703,14 +704,14 @@ vocabulary: essay-zh-hans
 蛋	dan	399182
 单	dan	1551963
 但	dan	14029809
-# 铛	dang	50794
+铛	dang	50794
 荡	dang	168299
 挡	dang	235330
 档	dang	397375
 党	dang	644463
 当	dang	6507094
-# 祷	dao	44490
-# 蹈	dao	50414
+祷	dao	44490
+蹈	dao	50414
 叨	dao	47078
 悼	dao	60591
 捣	dao	91942
@@ -755,13 +756,13 @@ vocabulary: essay-zh-hans
 低	di	1958604
 第	di	3004572
 地	di	6107101
-# 玷	dian	31631
-# 惦	dian	37153
+玷	dian	31631
+惦	dian	37153
 # 佃	dian	39752
 奠	dian	42633
 巅	dian	49237
 淀	dian	82138
-# 甸	dian	67931
+甸	dian	67931
 # 滇	dian	75883
 碘	dian	82982
 掂	dian	85424
@@ -829,7 +830,7 @@ vocabulary: essay-zh-hans
 都	du	332701
 度	du	1446475
 读	du	1590200
-# 度	duo	181
+度	duo	181
 # 驮	duo	301
 咄	duo	34495
 惰	duo	41323
@@ -837,7 +838,7 @@ vocabulary: essay-zh-hans
 舵	duo	55186
 踱	duo	55777
 跺	duo	57330
-# 哆	duo	64405
+哆	duo	64405
 堕	duo	74493
 朵	duo	174854
 夺	duo	181612
@@ -889,7 +890,7 @@ vocabulary: essay-zh-hans
 弹	tan	120481
 谈	tan	1686292
 膛	tang	47292
-# 倘	tang	61597
+倘	tang	61597
 淌	tang	74316
 棠	tang	76471
 塘	tang	171755
@@ -929,7 +930,7 @@ vocabulary: essay-zh-hans
 题	ti	593788
 体	ti	740830
 提	ti	1101063
-# 佃	tian	241
+佃	tian	241
 恬	tian	60541
 舔	tian	212802
 甜	tian	311781
@@ -1077,7 +1078,7 @@ vocabulary: essay-zh-hans
 努	nu	89560
 奴	nu	174234
 怒	nu	376873
-# 娜	nuo	181
+娜	nuo	181
 懦	nuo	39374
 糯	nuo	55916
 挪	nuo	125488
@@ -1119,7 +1120,7 @@ vocabulary: essay-zh-hans
 莱	lai	187956
 赖	lai	314279
 来	lai	28334141
-# 婪	lan	34463
+婪	lan	34463
 榄	lan	45362
 缆	lan	57067
 澜	lan	91208
@@ -1278,7 +1279,7 @@ vocabulary: essay-zh-hans
 浏	liu	44806
 榴	liu	45049
 琉	liu	51046
-# 陆	liu	12001
+陆	liu	12001
 硫	liu	90011
 瘤	liu	147915
 溜	liu	163877
@@ -1305,9 +1306,9 @@ vocabulary: essay-zh-hans
 隆	long	227124
 龙	long	1284697
 # 六	lu	481
-# 赂	lu	37793
+赂	lu	37793
 绿	lu	2101
-# 碌	lu	46087
+碌	lu	46087
 虏	lu	55241
 颅	lu	52857
 庐	lu	65230
@@ -1323,7 +1324,7 @@ vocabulary: essay-zh-hans
 陆	lu	427004
 路	lu	2542466
 # 烙	luo	1441
-# 逻	luo	39077
+逻	luo	39077
 骡	luo	44262
 箩	luo	46364
 锣	luo	55416
@@ -1955,7 +1956,7 @@ vocabulary: essay-zh-hans
 叫	jiao	6776451
 # 强	jiang	121
 # 虹	jiang	121
-# 缰	jiang	64750
+缰	jiang	64750
 桨	jiang	57037
 匠	jiang	74348
 疆	jiang	77793
@@ -2159,7 +2160,7 @@ vocabulary: essay-zh-hans
 钱	qian	6785711
 # 雀	qiao	61
 憔	qiao	34761
-# 壳	qiao	3121
+壳	qiao	3121
 锹	qiao	42635
 峭	qiao	43956
 跷	qiao	44953
@@ -2234,8 +2235,8 @@ vocabulary: essay-zh-hans
 去	qu	39857202
 # 县	xuan	9
 # 券	xuan	661
-# 渲	xuan	43339
-# 绚	xuan	50709
+渲	xuan	43339
+绚	xuan	50709
 癣	xuan	53574
 喧	xuan	64016
 炫	xuan	119566
@@ -2266,12 +2267,12 @@ vocabulary: essay-zh-hans
 训	xun	307058
 讯	xun	326706
 寻	xun	334095
-# 蟋	xi	28811
-# 牺	xi	33937
+蟋	xi	28811
+牺	xi	33937
 媳	xi	42734
 晰	xi	46400
-# 徙	xi	50348
-# 犀	xi	61313
+徙	xi	50348
+犀	xi	61313
 # 栖	xi	7561
 嘻	xi	58702
 # 腊	xi	9481
@@ -2338,7 +2339,7 @@ vocabulary: essay-zh-hans
 县	xian	995342
 线	xian	2119348
 先	xian	10192678
-# 淆	xiao	29712
+淆	xiao	29712
 哮	xiao	41499
 嚣	xiao	48391
 硝	xiao	56827
@@ -2379,7 +2380,7 @@ vocabulary: essay-zh-hans
 向	xiang	6425599
 想	xiang	17123924
 # 叶	xie	181
-# 解	xie	1081
+解	xie	1081
 # 契	xie	1141
 懈	xie	51949
 械	xie	61436
@@ -2447,7 +2448,7 @@ vocabulary: essay-zh-hans
 修	xiu	898027
 酗	xu	29406
 畜	xu	2101
-# 吁	xu	33319
+吁	xu	33319
 婿	xu	46627
 戌	xu	51143
 墟	xu	51687
@@ -2487,8 +2488,8 @@ vocabulary: essay-zh-hans
 # 蜡	zha	121
 # 栅	zha	7029
 # 查	zha	8041
-# 喳	zha	43505
-# 轧	zha	7201
+喳	zha	43505
+轧	zha	7201
 # 咋	zha	8041
 榨	zha	60251
 诈	zha	65827
@@ -2507,7 +2508,7 @@ vocabulary: essay-zh-hans
 宅	zhai	189164
 摘	zhai	181901
 崭	zhan	41986
-# 辗	zhan	40081
+辗	zhan	40081
 # 颤	zhan	2281
 绽	zhan	48497
 毡	zhan	54927
@@ -2572,7 +2573,7 @@ vocabulary: essay-zh-hans
 镇	zhen	1175756
 真	zhen	7897868
 # 丁	zheng	181
-# 狰	zheng	29946
+狰	zheng	29946
 拯	zheng	42044
 怔	zheng	65397
 筝	zheng	64883
@@ -2730,11 +2731,11 @@ vocabulary: essay-zh-hans
 查	cha	1644503
 差	cha	2122234
 豺	chai	36890
-# 差	chai	16861
+差	chai	16861
 柴	chai	164582
 拆	chai	356059
-# 单	chan	781
-# 阐	chan	41696
+单	chan	781
+阐	chan	41696
 搀	chan	49930
 蝉	chan	75355
 掺	chan	20221
@@ -2745,7 +2746,7 @@ vocabulary: essay-zh-hans
 缠	chan	133359
 产	chan	376078
 # 倘	chang	301
-# 裳	chang	481
+裳	chang	481
 猖	chang	31770
 敞	chang	48997
 倡	chang	53359
@@ -2804,7 +2805,7 @@ vocabulary: essay-zh-hans
 称	cheng	1724455
 成	cheng	4074240
 侈	chi	35694
-# 匙	chi	2221
+匙	chi	2221
 弛	chi	56272
 斥	chi	79065
 耻	chi	98395
@@ -2836,7 +2837,7 @@ vocabulary: essay-zh-hans
 充	chong	396469
 重	chong	272581
 冲	chong	1139582
-# 础	chu	41707
+础	chu	41707
 矗	chu	45170
 橱	chu	56971
 锄	chu	55091
@@ -2890,7 +2891,7 @@ vocabulary: essay-zh-hans
 色	shai	421
 筛	shai	76351
 晒	shai	428845
-# 禅	shan	301
+禅	shan	301
 赡	shan	42035
 # 单	shan	2821
 煽	shan	49389
@@ -3121,7 +3122,7 @@ vocabulary: essay-zh-hans
 钻	zuan	318029
 遵	zun	71380
 尊	zun	248396
-# 扎	za	111421
+扎	za	111421
 杂	za	355019
 砸	za	880572
 咋	za	1516409
@@ -3318,7 +3319,7 @@ vocabulary: essay-zh-hans
 嫂	sao	97466
 骚	sao	166453
 扫	sao	293823
-# 塞	se	19201
+塞	se	19201
 涩	se	111141
 瑟	se	109265
 色	se	972488
@@ -3511,12 +3512,12 @@ vocabulary: essay-zh-hans
 咬	yao	478038
 药	yao	1069644
 要	yao	47808401
-# 拽	ye	121
+拽	ye	121
 # 邪	ye	601
 腋	ye	44426
-# 咽	ye	4201
+咽	ye	4201
 椰	ye	84168
-# 冶	ye	82393
+冶	ye	82393
 爷	ye	213472
 液	ye	275449
 野	ye	620430
@@ -3640,7 +3641,7 @@ vocabulary: essay-zh-hans
 用	yong	20303126
 # 谷	yu	121
 # 蔚	yu	121
-# 尉	yu	361
+尉	yu	361
 迂	yu	39622
 愉	yu	48857
 吁	yu	55681
@@ -3765,7 +3766,7 @@ vocabulary: essay-zh-hans
 未	wei	2178123
 为	wei	25694312
 蜗	wo	65655
-# 涡	wo	59309
+涡	wo	59309
 沃	wo	114294
 卧	wo	126210
 握	wo	178788
@@ -3804,8 +3805,8 @@ vocabulary: essay-zh-hans
 阿	a	1906625
 啊	a	10139710
 # 呆	ai	61
-# 蔼	ai	40380
-# 隘	ai	45562
+蔼	ai	40380
+隘	ai	45562
 碍	ai	73658
 哀	ai	112115
 埃	ai	142198
