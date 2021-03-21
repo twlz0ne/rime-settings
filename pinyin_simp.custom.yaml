@@ -73,7 +73,7 @@ patch:
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^([zcs]h).+$/$1/ # 令 zh ch sh 响应单字而不是 z'h c'h s'h 这种的
     # 原装的 v u 容错转换
-    - derive/^([nl])ue$/$1ve/
+    - derive/^([nl])ve$/$1ue/
     - derive/^([jqxy])u/$1v/
     # 原装的模糊拼音
     - derive/un$/uen/
