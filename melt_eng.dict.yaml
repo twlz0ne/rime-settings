@@ -61,6 +61,8 @@ demo	demo
 jpg	jpg
 png	png
 exe	exe
+http	http
+https	https
 Excel	Excel
 Word	Word
 PowerPoint	ppt
@@ -70,6 +72,7 @@ Firefox	Firefox
 iMazing	iMazing
 TCP/IP	tcpip
 Internet	Internet
+Markdown	Markdown
 
 # one to many，发现opencc中的txt里的配置如果是以英文开头的，需要这里先解析一下才能正确使用
 cmd	cmd
