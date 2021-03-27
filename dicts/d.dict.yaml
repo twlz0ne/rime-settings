@@ -24,6 +24,8 @@ vocabulary: essay-zh-hans
 # 容错词
 什么	sheme
 为什么	weisheme
+干什么	gansheme
+因为	yiwnei
 
 # 拼词
 鑫	jinjinjin
@@ -55,8 +57,7 @@ vocabulary: essay-zh-hans
 ℃	sheshidu
 ℉	huashidu
 
-# 人名
-鞠婧祎	ju jing yi
+# 著名表演艺术家
 樱井步	ying jing bu
 桜井あゆ	ying jing bu
 武藤绫香	wu teng ling xiang
@@ -71,7 +72,6 @@ vocabulary: essay-zh-hans
 あいだ飛鳥	ai tian fei niao
 
 # 扩展词语
-〇	ling
 朙月拼音	mingyuepinyin
 放铳	fang chong
 荣和	rong hu
@@ -154,5 +154,5 @@ vocabulary: essay-zh-hans
 参参差差	cen cen ci ci
 叨教	tao jiao
 扈家庄	hu jia zhuang
-
+钢鞭锏	gang bian jian
 

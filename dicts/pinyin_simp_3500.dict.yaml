@@ -14,6 +14,7 @@ vocabulary: essay-zh-hans
 ...
 
 # 在基础上增加的一些字：
+〇	ling
 囧	jiong	406294
 妾	qie	96183
 兮	xi	168926
@@ -77,6 +78,7 @@ vocabulary: essay-zh-hans
 诛	zhu	76622
 曦	xi	96349
 喏	nuo	62060
+尹	yin	222756
 
 # 精简了（注释掉了）一些字，大多是永远不会用到的多音字
 耙	ba	50136
