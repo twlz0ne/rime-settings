@@ -16,14 +16,6 @@
 #
 # no comment 
 
-这	zh
-等等	dd
-等等等等	dddd
-往往	ww
-哈哈	hh
-看看	kk
-常常	cc
-
 去	q
 我	w
 呃	e
@@ -61,6 +53,24 @@
 哪	n	1
 没	m
 
+
+这	zh
+等等	dd
+等等等等	dddd
+往往	ww
+哈哈	hh
+看看	kk
+常常	cc
+刚刚	gg
+不知道	bzd
+为什么	wsm
+是不是	sbs
+没什么	msm
+有时候	ysh
+有时候	yshh
+有时候	yshou
+
+
 我们	wm
 我们	wom
 他	t	3
@@ -78,6 +88,7 @@
 他们	tam	3
 她们	tam	2
 它们	tam	1
+
 
 那儿	nr	2
 哪儿	nr	1
