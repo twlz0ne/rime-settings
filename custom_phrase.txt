@@ -17,6 +17,12 @@
 # no comment 
 
 这	zh
+等等	dd
+等等等等	dddd
+往往	ww
+哈哈	hh
+看看	kk
+常常	cc
 
 去	q
 我	w
