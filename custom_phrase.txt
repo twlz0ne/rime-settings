@@ -70,6 +70,7 @@
 有时候	ysh
 有时候	yshh
 有时候	yshou
+什么的	smd
 
 
 我们	wm

@@ -80,6 +80,7 @@ JSON	JSON
 Web	Web
 Sourcetree	Sourcetree
 API	API
+BGM	BGM
 
 # one to many，发现opencc中的txt里的配置如果是以英文开头的，需要这里先解析一下才能正确使用
 cmd	cmd
