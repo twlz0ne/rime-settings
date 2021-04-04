@@ -6,7 +6,7 @@
 
 ---
 name: d
-version: "2021-02-02"
+version: "2021-04-04"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -23,13 +23,15 @@ vocabulary: essay-zh-hans
 没有	my
 又有	uu
 
+
 # 容错词
 什么	sheme
 为什么	weisheme
 干什么	gansheme
 因为	yiwnei
 
-# 拼词
+
+# 叠字
 鑫	jinjinjin
 淼	shuishuishui
 垚	tututu
@@ -51,6 +53,9 @@ vocabulary: essay-zh-hans
 骉	mamama
 㐂	qiqiqi
 龘	longlonglong
+# 其他拼字
+蟊	maochongchong
+
 
 # 符号
 ·	jiangehao
@@ -58,6 +63,7 @@ vocabulary: essay-zh-hans
 °	du
 ℃	sheshidu
 ℉	huashidu
+
 
 # 著名表演艺术家
 樱井步	ying jing bu
@@ -72,6 +78,7 @@ vocabulary: essay-zh-hans
 林ゆな	lin you nai
 爱田飞鸟	ai tian fei niao
 あいだ飛鳥	ai tian fei niao
+
 
 # 扩展词语
 朙月拼音	mingyuepinyin
@@ -159,3 +166,5 @@ vocabulary: essay-zh-hans
 钢鞭锏	gang bian jian
 清倌	qing guan
 坍圮	tan pi
+已臻化境	yi zhen hua jing
+蟊虫	mao chong
