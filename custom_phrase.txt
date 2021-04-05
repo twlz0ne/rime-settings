@@ -75,6 +75,12 @@
 
 我们	wm
 我们	wom
+你们	nm
+你们	nim
+人们	rm
+人们	renm
+
+
 他	t	3
 她	t	2
 它	t	1
