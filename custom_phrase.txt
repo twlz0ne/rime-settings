@@ -63,6 +63,8 @@
 看看	kk
 常常	cc
 刚刚	gg
+想想	xx	2
+想像	xx	1
 不知道	bzd
 为什么	wsm
 是不是	sbs
