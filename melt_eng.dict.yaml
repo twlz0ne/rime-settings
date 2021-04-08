@@ -28,6 +28,10 @@ QQ 会员	qqhuiyuan
 QQ 输入法	qqshurufa
 Dock 栏	Docklan
 阿 Q 精神	aqjingshen
+Win 版	winban
+Windows 版	windowsban
+Mac 版	macban
+macOS 版	macosban
 
 # 自己补充的英文词汇
 CEO	CEO
@@ -81,6 +85,21 @@ Web	Web
 Sourcetree	Sourcetree
 API	API
 BGM	BGM
+.DS_Store	dsstore
+MySQL	MySQL
+SQLite	SQLite
+MongoDB	MongoDB
+Redis	Redis
+MariaDB	MariaDB
+Oracle	Oracle
+SQL Server	SQLServer
+Microsoft SQL Server	SQLServer
+PostgreSQL	PostgreSQL
+Access	Access
+Microsoft Access	Access
+
+
+
 
 # one to many，发现opencc中的txt里的配置如果是以英文开头的，需要这里先解析一下才能正确使用
 cmd	cmd
