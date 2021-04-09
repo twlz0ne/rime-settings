@@ -16,8 +16,9 @@ import_tables:
   
 
   # --------------------- 基础词库 --------------------- #
-  - dicts/clover.phrase # 四叶草拼音输入方案的词库
-  # - dicts/pinyin_simp_words_only  # 官方原版袖珍简化字词库，仅含词语，不含字表
+  - dicts/huayu_sys
+  # - dicts/clover.phrase # 四叶草拼音输入方案的词库 # 错误词汇很多
+  # - dicts/pinyin_simp_words_only  # 官方原版袖珍简化字词库，仅含词语，不含字表 # 错误词汇很多
 
 
   # --------------------- 个人词库 --------------------- #
