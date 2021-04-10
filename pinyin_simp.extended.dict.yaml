@@ -12,13 +12,11 @@ import_tables:
   - dicts/pinyin_simp_3500 # 《通用规范汉字表》的第一级 3500 常用字
   # - dicts/pinyin_simp_gb2312 # 根据 GB2312 字符集进行过滤
   # - dicts/pinyin_simp_8105 # 《通用规范汉字表》8105 个字
-  # - dicts/clover.base # 四叶草拼音输入方案的字表
   
 
   # --------------------- 基础词库 --------------------- #
-  - dicts/huayu_sys # 华宇（紫光）拼音的系统词库
-  # - dicts/clover.phrase # 四叶草拼音输入方案的词库 # 错误词汇很多
-  # - dicts/pinyin_simp_words_only  # 官方原版袖珍简化字词库，仅含词语，不含字表 # 错误词汇很多
+  - dicts/huayu_sys # 华宇拼音（紫光拼音）的系统词库
+  # - dicts/pinyin_simp_words_only  # 官方原版袖珍简化字词库，仅含词语，不含字表 # 错误词汇较多
 
 
   # --------------------- 个人词库 --------------------- #
@@ -37,5 +35,5 @@ import_tables:
 
 
   # --------------------- 其他 --------------------- #
-  # - dicts/pinyin_simp # 官方原版袖珍简化字词库（一万七千多个字）
+  # - dicts/pinyin_simp # 官方原版袖珍简化字词库（一万七千多个字 + 词库）
 ...
