@@ -17,6 +17,7 @@
 -   「/」模式改为「v」模式，「/」直接上屏
 -   没有 emoji 候选，`symbols` 里有一点点，如需要 emoji 可参考 [maomiui](https://github.com/maomiui)/**[rime](https://github.com/maomiui/rime)** 、[fkxxyz](https://github.com/fkxxyz)/**[rime-cloverpinyin](https://github.com/fkxxyz/rime-cloverpinyin)** 等。
 -   增加了许多全拼纠错
+-   参考谷歌、《现代汉语规范词典》、[异形词整理表](https://wucuozi.com/cuobiezi/yixingzi/)、[错别字辨析](https://wucuozi.com/bian/ ) 修正了大量的异形词、错别字。
 
 <br>
 
@@ -30,14 +31,6 @@
 <br>
 
 ## 其他
-
-由于有维基词库，使用 3500 字表也基本都能应对，大多数生僻字都在词汇中了，且很少单个打出来，遇到偶尔有需求单打出来的会增加进来。  
-
-
-
-官方袖珍简化字词库错误词汇极多，换到紫光的系统词库，错误少一点，遇到了再修改。  
-
-
 
 在  `custom_phrase.txt` 中可以设置某些字词永远只出现在前 N 个候选项，但是这样设置之后，这些字词就不能与正常的字共同造词。现在不知道如何能完美的固定某些字词的候选项顺序。  
 
