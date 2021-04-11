@@ -34,23 +34,6 @@ vocabulary: essay-zh-hans
 	apple	100
 
 
-# 著名表演艺术家
-爱田飞鸟	ai tian fei niao
-あいだ飛鳥	ai tian fei niao
-林由奈	lin you nai
-林ゆな	lin you nai
-美雪爱莉丝	mei xue ai li si
-美雪ありす	mei xue ai li si
-夏希栗	xia xi li
-夏希まろん	xia xi li
-樱井步	ying jing bu
-桜井あゆ	ying jing bu
-樱木凛	ying mu lin
-桜木凛	ying mu lin
-武藤绫香	wu teng ling xiang
-武藤あやか	wu teng ling xiang
-
-
 # 叠字
 鑫	jinjinjin
 淼	shuishuishui
@@ -77,6 +60,41 @@ vocabulary: essay-zh-hans
 蟊	maochongchong
 飙	quanquanquanfeng
 飚	fenghuohuohuo
+
+
+# 著名表演艺术家
+爱田飞鸟	ai tian fei niao
+あいだ飛鳥	ai tian fei niao
+安斋拉拉	an zhai la la
+安齋拉拉	an zhai la la
+林由奈	lin you nai
+林ゆな	lin you nai
+美雪爱莉丝	mei xue ai li si
+美雪ありす	mei xue ai li si
+目黑惠	mu hei hui
+目黒めぐみ	mu hei hui
+明里䌷	ming li chou
+明里つむぎ	ming li chou
+三上悠亚	san shang you ya
+三上悠亜	san shang you ya
+山岸逢花	shan an feng hua
+桃乃木香奈	tao nai mu xiang nai
+桃乃木かな	tao nai mu xiang nai
+武藤绫香	wu teng ling xiang
+武藤あやか	wu teng ling xiang
+夏希栗	xia xi li
+夏希まろん	xia xi li
+相泽南	xiang ze nan
+相沢みなみ	xiang ze nan
+星宫一花	xing gong yi hua
+星宮一花	xing gong yi hua
+樱井步	ying jing bu
+桜井あゆ	ying jing bu
+宇都宫紫苑	yu du gong zi yuan
+宇都宮しをん	yu du gong zi yuan
+樱木凛	ying mu lin
+桜木凛	ying mu lin
+
 
 # 扩展词语
 朙月拼音	mingyuepinyin
