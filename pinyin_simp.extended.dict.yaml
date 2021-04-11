@@ -25,11 +25,11 @@ import_tables:
 
   # --------------------- 扩展词库 --------------------- #
   # 搜狗成语俗语 https://pinyin.sogou.com/dict/detail/index/15097
-  # - dicts/sogou_chengyusuyu
+  - dicts/sogou_chengyusuyu
+  # 搜狗中外药品名称大全，来源：https://pinyin.sogou.com/dict/detail/index/20666 注释掉了 4001 个两个字的词语
+  - dicts/sogou_yaoming
   # 搜狗宋词精选+古诗词名句+唐诗300首+诗词名句大全，去重+去掉两个字的词。 https://pinyin.sogou.com/dict/cate/index/31
   # - dicts/sogou_shici
-  # 搜狗中外药品名称大全，来源：https://pinyin.sogou.com/dict/detail/index/20666 注释掉了 4001 个两个字的词语
-  # - dicts/sogou_yaoming
   # 中文维基词库，来源：https://github.com/felixonmars/fcitx5-pinyin-zhwiki
   # - dicts/zhwiki-20210301
 

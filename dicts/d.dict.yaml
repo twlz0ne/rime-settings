@@ -6,7 +6,7 @@
 
 ---
 name: d
-version: "2021-04-04"
+version: "2021-04-11"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -66,18 +66,20 @@ vocabulary: essay-zh-hans
 
 
 # 著名表演艺术家
-樱井步	ying jing bu
-桜井あゆ	ying jing bu
-武藤绫香	wu teng ling xiang
-武藤あやか	wu teng ling xiang
-夏希栗	xia xi li
-夏希まろん	xia xi li
-美雪爱莉丝	mei xue ai li si
-美雪ありす	mei xue ai li si
-林由奈	lin you nai
-林ゆな	lin you nai
 爱田飞鸟	ai tian fei niao
 あいだ飛鳥	ai tian fei niao
+林由奈	lin you nai
+林ゆな	lin you nai
+美雪爱莉丝	mei xue ai li si
+美雪ありす	mei xue ai li si
+夏希栗	xia xi li
+夏希まろん	xia xi li
+樱井步	ying jing bu
+桜井あゆ	ying jing bu
+樱木凛	ying mu lin
+桜木凛	ying mu lin
+武藤绫香	wu teng ling xiang
+武藤あやか	wu teng ling xiang
 
 
 # 扩展词语
@@ -171,9 +173,10 @@ vocabulary: essay-zh-hans
 世间安得双全法	shi jian an de shuang quan fa
 不负如来不负卿	bu fu ru lai bu fu qing
 吓阻	he zu
+背嵬	bei wei
 趟浑水	tang hun shui
 趟地	tang di
 趟水	tang shui
-
+兔起鹘落	tu qi hu luo
 
 

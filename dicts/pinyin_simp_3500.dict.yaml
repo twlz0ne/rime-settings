@@ -6,7 +6,7 @@
 # 额外增加一些常用的字
 ---
 name: pinyin_simp_3500
-version: "2021-04-10"
+version: "2021-04-11"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -87,6 +87,7 @@ vocabulary: essay-zh-hans
 锭	ding	347
 镖	biao	208
 懵	meng	184
+唰	shua	92
 
 # 精简了（注释掉了）一些字，大多是永远不会用到的多音字
 耙	ba	52
