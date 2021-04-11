@@ -30,6 +30,6 @@ import_tables:
   # 搜狗宋词精选+古诗词名句+唐诗300首+诗词名句大全，去重+去掉两个字的词。 https://pinyin.sogou.com/dict/cate/index/31
   # - dicts/sogou_shici
   # 中文维基词库，来源：https://github.com/felixonmars/fcitx5-pinyin-zhwiki
-  # - dicts/zhwiki-20210301
+  # - dicts/zhwiki-20210301 # 已删除
   
 ...

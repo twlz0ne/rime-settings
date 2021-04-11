@@ -31,32 +31,6 @@ vocabulary: essay-zh-hans
 因为	yiwnei
 
 
-# 叠字
-鑫	jinjinjin
-淼	shuishuishui
-垚	tututu
-焱	huohuohuo
-壵	shishishi
-掱	shoushoushou
-舙	shesheshe
-畾	tiantiantian
-孨	zizizi
-羴	yangyangyang
-矗	zhizhizhi
-尛	xiaoxiaoxiao
-毳	maomaomao
-麤	lululu
-鱻	yuyuyu
-猋	quanquanquan
-犇	niuniuniu
-驫	mamama
-骉	mamama
-㐂	qiqiqi
-龘	longlonglong
-# 其他拼字
-蟊	maochongchong
-
-
 # 符号
 ·	jiangehao
 ·	dian
@@ -83,6 +57,33 @@ vocabulary: essay-zh-hans
 武藤あやか	wu teng ling xiang
 
 
+# 叠字
+鑫	jinjinjin
+淼	shuishuishui
+垚	tututu
+焱	huohuohuo
+壵	shishishi
+掱	shoushoushou
+舙	shesheshe
+畾	tiantiantian
+孨	zizizi
+羴	yangyangyang
+矗	zhizhizhi
+尛	xiaoxiaoxiao
+毳	maomaomao
+麤	lululu
+鱻	yuyuyu
+猋	quanquanquan
+犇	niuniuniu
+驫	mamama
+骉	mamama
+㐂	qiqiqi
+龘	longlonglong
+# 其他拼字
+蟊	maochongchong
+飙	quanquanquanfeng
+飚	fenghuohuohuo
+
 # 扩展词语
 朙月拼音	mingyuepinyin
 放铳	fang chong
@@ -100,6 +101,7 @@ vocabulary: essay-zh-hans
 那你	na ni
 嘚瑟	de se
 帷幄	wei wo
+角色	jue se
 角色	jiao se
 哔哩	bi li
 黄栌	huang lu
@@ -179,5 +181,5 @@ vocabulary: essay-zh-hans
 趟地	tang di
 趟水	tang shui
 兔起鹘落	tu qi hu luo
-
+低伏	di fu
 
