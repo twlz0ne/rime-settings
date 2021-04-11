@@ -34,69 +34,69 @@ Mac 版	macban
 macOS 版	macosban
 
 # 自己补充的英文词汇
+.DS_Store	dsstore
+API	API
+Access	Access
+Ajax	Ajax
+BGM	BGM
+Big Sur	bigsur
 CEO	CEO
 CTO	CTO
-KTV	KTV
-HBO	HBO
-WC	WC
-SQL	SQL
-IQOS	IQOS
-emoji	emoji
-shit	shit
-gakki	gakki
-hey	hey
-Rime	Rime
-Git	Git
-Java	Java
-Golang	Golang
-Xcode	Xcode
-VSCode	VSCode
-JetBrains	JetBrains
-WebStorm	WebStorm
-PyCharm	PyCharm
-GoLand	GoLand
+Coding	Coding
+Edge	Edge
+Excel	Excel
 Facebook	Facebook
+Firefox	Firefox
+Git	Git
+GoLand	GoLand
+Golang	Golang
+HBO	HBO
+IQOS	IQOS
+Internet	Internet
+JSON	JSON
+Java	Java
+JetBrains	JetBrains
+KTV	KTV
+MariaDB	MariaDB
+Markdown	Markdown
+Microsoft Access	Access
+Microsoft SQL Server	SQLServer
+MongoDB	MongoDB
+MySQL	MySQL
+Oracle	Oracle
+Pornhub	Pornhub
+PostgreSQL	PostgreSQL
+PowerPoint	PowerPoint
+PowerPoint	ppt
+PyCharm	PyCharm
+Redis	Redis
+Rime	Rime
+SQL	SQL
+SQL Server	SQLServer
+SQLite	SQLite
+Sourcetree	Sourcetree
+Spiritfarer	Spiritfarer
+TCP/IP	tcpip
 Twitter	Twitter
 V2EX	verex
-Big Sur	bigsur
-Coding	Coding
-Pornhub	Pornhub
+VSCode	VSCode
+WC	WC
+Web	Web
+WebStorm	WebStorm
+Word	Word
+Xcode	Xcode
 demo	demo
-jpg	jpg
-png	png
+emoji	emoji
 exe	exe
+gakki	gakki
+hey	hey
 http	http
 https	https
-Excel	Excel
-Word	Word
-PowerPoint	ppt
-PowerPoint	PowerPoint
-Spiritfarer	Spiritfarer
-Firefox	Firefox
 iMazing	iMazing
-TCP/IP	tcpip
-Internet	Internet
-Markdown	Markdown
-Edge	Edge
 jQuery	jQuery
-Ajax	Ajax
-JSON	JSON
-Web	Web
-Sourcetree	Sourcetree
-API	API
-BGM	BGM
-.DS_Store	dsstore
-MySQL	MySQL
-SQLite	SQLite
-MongoDB	MongoDB
-Redis	Redis
-MariaDB	MariaDB
-Oracle	Oracle
-SQL Server	SQLServer
-Microsoft SQL Server	SQLServer
-PostgreSQL	PostgreSQL
-Access	Access
-Microsoft Access	Access
+jpg	jpg
+png	png
+shit	shit
 
 
 
@@ -521,7 +521,6 @@ ZEALER	zealer	100
 β 射线	beitashexian	100
 γ 刀	gamadao	100
 γ 射线	gamashexian	100
-	apple	100
 
 
 # 原装：
