@@ -95,7 +95,7 @@ patch:
     - derive/([qjx])ia$/$1ai/ # jai → jia
     - derive/([zcs])hi$/$1ih/ # zih → zhi cih → chi sih → shi
     - derive/([wrpsdfghklzcbm])en$/$1ne/ # zne → zen
-    - derive/([zcs])h(a|e|i|o|u|an|en|un|ui|ang|eng|ong|ou|ai|ei)$/h$1$2/ # hzi → zhi  hsang → shang
+    - derive/([zcs])h(a|e|i|o|u|an|en|un|ui|ang|eng|ong|ou|uo|ai|ei)$/h$1$2/ # hzi → zhi  hsang → shang
     - derive/([zcs])h([aeiou])ng$/$1hn$2g/ # chneg → cheng
     - derive/([qjx])ie$/$1ei/ # qei → qie
     - derive/([wfghkz])ei$/$1ie/ # fie → fei
