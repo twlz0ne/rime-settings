@@ -11,7 +11,7 @@
 
 ---	
 name: melt_eng		
-version: "2021-02-07"		
+version: "2021-04-19"		
 sort: by_weight
 vocabulary: essay-zh-hans
 # Easy English Nano 支持解析大写字母开头
@@ -38,6 +38,7 @@ macOS 版	macosban
 API	API
 Access	Access
 Ajax	Ajax
+BMW	BMW
 BGM	BGM
 Big Sur	bigsur
 CEO	CEO
@@ -58,6 +59,7 @@ JSON	JSON
 Java	Java
 JetBrains	JetBrains
 KTV	KTV
+MBP	MBP
 MariaDB	MariaDB
 Markdown	Markdown
 Microsoft Access	Access
@@ -73,6 +75,7 @@ PyCharm	PyCharm
 Redis	Redis
 Rime	Rime
 RION	RION
+SPA	SPA
 SQL	SQL
 SQL Server	SQLServer
 SQLite	SQLite
