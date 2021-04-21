@@ -10,7 +10,11 @@ version: "2021-04-11"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
-# 英文、中英 补充到 melt_eng 词典中
+# 随缘补充
+
+# [英文、中英]，补充到 melt_eng 词典中，支持大小写，如「python」→「Python」
+# [符号]，补充到 `opencc/one-to-many.txt` 中，支持超级简拼，如「hsd」→「华氏度 ℉」
+
 
 # 方便词
 儿	r
@@ -23,15 +27,6 @@ vocabulary: essay-zh-hans
 为什么	weisheme
 干什么	gansheme
 因为	yiwnei
-
-
-# 符号
-·	jiangehao
-·	dian
-°	du
-℃	sheshidu
-℉	huashidu
-	apple	100
 
 
 # 叠字

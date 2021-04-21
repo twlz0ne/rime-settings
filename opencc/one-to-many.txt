@@ -11,3 +11,11 @@ backspace	Backspace ⌫
 del	Del Delete ⌫
 esc	Esc Escape ⎋
 eject	Eject ⏏
+平方米	平方米 ㎡
+平方厘米	平方厘米 ㎠
+度	度 °
+摄氏度	摄氏度 ℃
+华氏度	华氏度 ℉
+间隔号	间隔号 ·
+点	点 ·
+apple	apple 
