@@ -101,7 +101,7 @@ patch:
     - derive/([wfghkz])ei$/$1ie/ # fie → fei
     - derive/([rtsghkzc])ui$/$1iu/ # hiu → hui
     - derive/([qjlxbnm])iu$/$1ui/ # qui → qiu
-    - derive/([r|t|y||s|d|g|h|k|l|z|c|n])ong$/$1ng/ # tng → tong
+    - derive/([rtysdghklzcn])ong$/$1ng/ # tng → tong
     - derive/([qypjlxbnm])in$/$1ni/ # lni → lin
     - derive/([aeo])ng$/n$1g/ # cnag → cang
     - derive/([qylxn])ue$/$1eu/ # xeu → xue
