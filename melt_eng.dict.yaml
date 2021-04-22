@@ -38,6 +38,7 @@ macOS 版	macosban
 API	API
 Access	Access
 Ajax	Ajax
+Bug	Bug
 BMW	BMW
 BGM	BGM
 Big Sur	bigsur
@@ -46,6 +47,7 @@ CTO	CTO
 Coding	Coding
 Edge	Edge
 Excel	Excel
+fuck	fuck
 Facebook	Facebook
 Firefox	Firefox
 Git	Git
@@ -91,7 +93,7 @@ WebStorm	WebStorm
 Word	Word
 Xcode	Xcode
 demo	demo
-emoji	emoji
+Emoji	Emoji
 exe	exe
 gakki	gakki
 hey	hey
@@ -1403,7 +1405,7 @@ bud	bud	100
 budget	budget	100
 buffalo	buffalo	100
 buffet	buffet	100
-bug	bug	100
+# bug	bug	100
 bugle	bugle	100
 build	build	100
 building	building	100
