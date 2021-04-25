@@ -82,7 +82,7 @@ patch:
     # 原装自动纠错
     - derive/([aeiou])ng$/$1gn/ # agn → ang
     # - derive/([dtngkhrzcs])o(u|ng)$/$1o/ # do → dou|dong 
-    - derive/([dtngkhrzcs])o(u)$/$1o/ # 改：do → dou
+    # - derive/([dtngkhrzcs])o(u)$/$1o/ # 改：do → dou
     - derive/ong$/on/ # lon → long  ton → tong ...
     - derive/ao$/oa/ # hoa → hao
     - derive/([iu])a(o|ng?)$/a$1$2/ # tain → tian  laing → liang  laio → liao
