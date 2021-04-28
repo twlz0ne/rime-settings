@@ -4,20 +4,23 @@
 # Easy English Nano使用的英文主词典，主要构成为2016考研词汇大纲和六级单词，数据量6K条。
 # 原作version 2017.03.31@tanzi
 # 修订version 2020.09.02@tumuyan
-# 修订version 2021-02-07@iDvel
 # 2019.10 把原省略字符的字典，改为全文字典，并进行了一些扩展
 # 2020.08 添加大写单词（放置在词典顶部），并对词条排序
-# 2021.02 合并了 瑾昀 <cokunhui@gmail.com> 的 cn_en 词典，并扩充和注释了一些词汇
-
+#
+# Easy English Nano 支持大写字母，输入小写也可以解析，手动输入大写可以减少候选项
+#
+##############################################################################
+# 更改：
+# 合并了 瑾昀 <cokunhui@gmail.com> 的 cn_en 词典
+# 扩充和注释了一些词汇
 ---	
 name: melt_eng		
-version: "2021-04-19"		
+version: "2021-04-23"		
 sort: by_weight
 vocabulary: essay-zh-hans
-# Easy English Nano 支持解析大写字母开头
 ...	
 
-# 自己补充的中英混输词汇
+# 补充的中英混输词汇
 U 盘	youpan
 B 站	bzhan
 V 站	vzhan
@@ -33,7 +36,7 @@ Windows 版	windowsban
 Mac 版	macban
 macOS 版	macosban
 
-# 自己补充的英文词汇
+# 补充的英文词汇
 .DS_Store	dsstore
 API	API
 Access	Access
@@ -45,12 +48,15 @@ Big Sur	bigsur
 CEO	CEO
 CTO	CTO
 Coding	Coding
+Django	Django
 Edge	Edge
 Excel	Excel
 fuck	fuck
+Flask	Flask
 Facebook	Facebook
 Firefox	Firefox
 Git	Git
+Go	Go
 GoLand	GoLand
 Golang	Golang
 HBO	HBO
@@ -68,6 +74,8 @@ Microsoft Access	Access
 Microsoft SQL Server	SQLServer
 MongoDB	MongoDB
 MySQL	MySQL
+Node	Node
+Node.js	Nodejs
 Oracle	Oracle
 Pornhub	Pornhub
 PostgreSQL	PostgreSQL
@@ -77,6 +85,8 @@ PyCharm	PyCharm
 Redis	Redis
 Rime	Rime
 RION	RION
+Rust	Rust
+segmentfault	segmentfault
 SPA	SPA
 SQL	SQL
 SQL Server	SQLServer
@@ -87,6 +97,8 @@ TCP/IP	tcpip
 Twitter	Twitter
 V2EX	verex
 VSCode	VSCode
+Vue	Vue
+Vue.js	Vuejs
 WC	WC
 Web	Web
 WebStorm	WebStorm
@@ -105,23 +117,6 @@ jpg	jpg
 png	png
 shit	shit
 
-
-
-
-# one to many，发现opencc中的txt里的配置如果是以英文开头的，需要这里先解析一下才能正确使用
-cmd	cmd
-ctrl	ctrl
-option	opt
-shift	shift
-tab	tab
-caps	caps
-return	return
-space	space
-enter	enter
-backspace	backspace
-del	del
-esc	esc
-eject	eject
 
 # 瑾昀 <cokunhui@gmail.com> 的 400 多个 cn_en 词典
 2B	erb	100

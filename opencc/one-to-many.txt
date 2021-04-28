@@ -18,7 +18,7 @@ eject	Eject ⏏
 华氏度	华氏度 ℉
 间隔号	间隔号 ·
 点	点 ·
-apple	apple 
+apple	Apple 
 对	对 √
 错	错 ×
 箭头	箭头 ↑ ↓ ← → ↖ ↙ ↗ ↘
