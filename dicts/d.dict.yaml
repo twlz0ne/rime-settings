@@ -6,7 +6,7 @@
 
 ---
 name: d
-version: "2021-04-11"
+version: "2021-04-29"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -514,6 +514,8 @@ vocabulary: essay-zh-hans
 设想	she xiang
 雾霾	wu mai
 枢密	shu mi
-
+研表究明	yan biao jiu ming
+细思极恐	xi si ji kong
+细思恐极	xi si kong ji
 
 

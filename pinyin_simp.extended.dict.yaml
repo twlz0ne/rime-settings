@@ -3,15 +3,15 @@
 
 ---
 name: pinyin_simp.extended
-version: "2021-04-09"
+version: "2021-04-29"
 sort: by_weight
 vocabulary: essay-zh-hans
 
 import_tables:
   # --------------------- 字表 --------------------- #
-  # - dicts/pinyin_simp_3500 # 《通用规范汉字表》的第一级 3500 常用字
+  - dicts/pinyin_simp_3500 # 《通用规范汉字表》的第一级 3500 常用字
   # - dicts/pinyin_simp_gb2312 # 根据 GB2312 字符集进行过滤
-  - dicts/pinyin_simp_8105 # 《通用规范汉字表》8105 个字
+  # - dicts/pinyin_simp_8105 # 《通用规范汉字表》8105 个字
   
 
   # --------------------- 基础词库 --------------------- #
@@ -29,7 +29,4 @@ import_tables:
   - dicts/sogou_yaoming
   # 搜狗宋词精选+古诗词名句+唐诗300首+诗词名句大全，去重+去掉两个字的词。 https://pinyin.sogou.com/dict/cate/index/31
   - dicts/sogou_shici
-  # 中文维基词库，来源：https://github.com/felixonmars/fcitx5-pinyin-zhwiki
-  # - dicts/zhwiki-20210301 # 已删除
-  
 ...
