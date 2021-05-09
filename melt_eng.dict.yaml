@@ -35,6 +35,7 @@ Win 版	winban
 Windows 版	windowsban
 Mac 版	macban
 macOS 版	macosban
+e招贷	ezhaodai
 
 # 补充的英文词汇
 .DS_Store	dsstore
@@ -82,6 +83,7 @@ PostgreSQL	PostgreSQL
 PowerPoint	PowerPoint
 PowerPoint	ppt
 PyCharm	PyCharm
+Roguelike	Roguelike
 Redis	Redis
 Rime	Rime
 RION	RION
@@ -116,7 +118,7 @@ jQuery	jQuery
 jpg	jpg
 png	png
 shit	shit
-
+Mod	Mod
 
 # 瑾昀 <cokunhui@gmail.com> 的 400 多个 cn_en 词典
 2B	erb	100
