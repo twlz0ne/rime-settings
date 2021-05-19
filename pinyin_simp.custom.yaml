@@ -9,7 +9,7 @@ patch:
     - name: ascii_punct
       reset: 0
       # states: [。，, ．，] # 永远不会切所以注释了
-    - name: one-to-many
+    - name: custom_symbols
       reset: 1
     - name: traditionalization
       reset: 0 # 如果不想每次切换 App 都自动变成简体，可以注释这里
@@ -38,14 +38,14 @@ patch:
   
   # 过滤器
   engine/filters:
-    - simplifier@one-to-many
+    - simplifier@custom_symbols
     - simplifier@traditionalize
     - uniquifier
 
-  # one-to-many，参考emoji的设置，自己改成了一些符号的映射
-  one-to-many:
-    opencc_config: one-to-many.json
-    option_name: one-to-many
+  # custom_symbols，参考 emoji 的设置，自己改成了一些符号的映射
+  custom_symbols:
+    opencc_config: custom_symbols.json
+    option_name: custom_symbols
 
   # 繁体
   traditionalize:

@@ -1,16 +1,16 @@
 {
-  "name": "one-to-many",
+  "name": "custom",
   "segmentation": {
     "type": "mmseg",
     "dict": {
       "type": "text",
-      "file": "one-to-many.txt"
+      "file": "custom_symbols.txt"
     }
   },
   "conversion_chain": [{
     "dict": {
       "type": "text",
-      "file": "one-to-many.txt"
+      "file": "custom_symbols.txt"
     }
   }]
 }
