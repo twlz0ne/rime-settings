@@ -26,6 +26,7 @@ U 盘	youpan
 B 站	bzhan
 V 站	vzhan
 P 站	pzhan
+大 V	dav
 QQ 音乐	qqyinyue
 QQ 拼音	qqpinyin
 QQ 会员	qqhuiyuan
@@ -36,7 +37,7 @@ Win 版	winban
 Windows 版	windowsban
 Mac 版	macban
 macOS 版	macosban
-e招贷	ezhaodai
+e 招贷	ezhaodai
 
 # 补充的英文词汇
 .DS_Store	dsstore
@@ -122,6 +123,10 @@ shit	shit
 Mod	Mod
 Yes	Yes
 No	No
+RimWorld	RimWorld
+Factorio	Factorio
+Sheldon	Sheldon
+
 
 # 瑾昀 <cokunhui@gmail.com> 的 400 多个 cn_en 词典
 2B	erb	100

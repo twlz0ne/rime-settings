@@ -64,6 +64,10 @@ vocabulary: essay-zh-hans
 あいだ飛鳥	ai tian fei niao
 安斋拉拉	an zhai la la
 安齋拉拉	an zhai la la
+彩美旬果	cai mei xun guo
+あやみ旬果	cai mei xun guo
+春咲凉	chun xiao liang
+春咲りょう	chun xiao liang
 蒂亚	di ya
 蒂亞	di ya
 东凛	dong lin
@@ -89,6 +93,8 @@ vocabulary: essay-zh-hans
 明里つむぎ	ming li chou
 七海缇娜	qi hai ti na
 七海ティナ	qi hai ti na
+桃谷绘里香	tao gu hui li xiang
+桃谷エリカ	tao gu hui li xiang
 辻井穗乃果	shi jing hui nai guo
 辻井ほのか	shi jing hui nai guo
 桥本有菜	qiao ben you cai
@@ -98,6 +104,7 @@ vocabulary: essay-zh-hans
 三上悠亚	san shang you ya
 三上悠亜	san shang you ya
 山岸逢花	shan an feng hua
+通野未帆
 藤森里穂	teng sen li hui
 桃乃木香奈	tao nai mu xiang nai
 桃乃木かな	tao nai mu xiang nai
@@ -111,6 +118,8 @@ vocabulary: essay-zh-hans
 星宮一花	xing gong yi hua
 星野娜美	xing ye na mei
 星野ナミ	xing ye na mei
+篠田步美	xiao tian bu mei
+篠田あゆみ	xiao tian bu mei
 柚木蒂娜	you mu di na
 柚木ティナ	you mu di na
 樱井步	ying jing bu
@@ -125,10 +134,13 @@ vocabulary: essay-zh-hans
 一ノ瀬アメリ	yi zhi lai ya mei li
 樱木凛	ying mu lin
 桜木凛	ying mu lin
+园田美樱	yuan tian mei ying
+園田みおん	yuan tian mei ying
 早川濑里奈	zao chuan lai li nai
 早川瀬里奈	zao chuan lai li nai
 椎名由奈	zhi ming you nai
 椎名ゆな	zhi ming you nai
+
 
 
 # 魔兽世界人物
@@ -534,3 +546,6 @@ vocabulary: essay-zh-hans
 拉夫德鲁
 多弗朗明哥
 乌托邦
+高斯磁
+高斯磁定律
+姚期智
