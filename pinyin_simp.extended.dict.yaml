@@ -22,6 +22,10 @@ import_tables:
   - dicts/d
 
 
+  # ----------------- 扩展词库（自己的） ----------------- #
+  - dicts/d_pokemon
+
+
   # --------------------- 扩展词库 --------------------- #
   # 搜狗成语俗语 https://pinyin.sogou.com/dict/detail/index/15097
   - dicts/sogou_chengyusuyu
