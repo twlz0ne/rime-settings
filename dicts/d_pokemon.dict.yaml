@@ -1,8 +1,11 @@
 # Rime dictionary
 # encoding: utf-8
 #
-# d_pokemon.dict.yaml
-#
+# https://github.com/iDvel/rime-settings/
+# 收集了宝可梦欧米伽红宝石的721只宝可梦，基本涵盖前作所有精灵。
+# 前面是官方译名版本，后面是民间译名版本。没有去重。
+# 来源：银雪白熊的宝石复刻721纪念版的 Excel 文件。 http://blog.sina.com.cn/s/blog_15d28d38c0102yviv.html
+
 
 ---
 name: d_pokemon
@@ -10,10 +13,6 @@ version: "2021-05-30"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
-# 收集了宝可梦欧米伽红宝石的721只宝可梦，基本涵盖前作所有精灵。
-# 前面是官方译名版本，后面是民间译名版本。没有去重。
-# 来源：银雪白熊的宝石复刻721纪念版的 Excel 文件。 http://blog.sina.com.cn/s/blog_15d28d38c0102yviv.html
-
 # 官方译名
 妙蛙种子
 妙蛙草
