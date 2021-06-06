@@ -38,8 +38,12 @@ Windows 版	windowsban
 Mac 版	macban
 macOS 版	macosban
 e 招贷	ezhaodai
+G 胖	gpang
 
 # 补充的英文词汇
+GitBook	GitBook
+Gboard	Gboard
+Chromium	Chromium
 .DS_Store	dsstore
 API	API
 Access	Access
@@ -128,7 +132,6 @@ Factorio	Factorio
 Sheldon	Sheldon
 GBA	GBA
 uBlacklist	uBlacklist
-
 
 # 瑾昀 <cokunhui@gmail.com> 的 400 多个 cn_en 词典
 2B	erb	100

@@ -13,8 +13,9 @@ vocabulary: essay-zh-hans
 # 平时顺手补充一些词汇
 
 # [英文、中英]，补充到 melt_eng 词典中，支持大小写，如「python」→「Python」
-# [符号]，补充到 `opencc/one-to-many.txt` 中，支持超级简拼，如「hsd」→「华氏度 ℉」
+# [符号]，补充到 `opencc/custom_symbols.txt` 中，支持超级简拼，如「hsd」→「华氏度 ℉」
 
+冇	mao
 
 # 方便词
 儿	r
@@ -28,6 +29,7 @@ vocabulary: essay-zh-hans
 干什么	gansheme
 因为	yiwnei
 可以	keiy
+可以	kyie
 怎么	zemne
 
 
@@ -234,3 +236,4 @@ vocabulary: essay-zh-hans
 欧米伽
 欧米伽红宝石
 霸凌
+田尻智
