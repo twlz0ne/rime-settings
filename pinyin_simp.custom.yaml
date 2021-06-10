@@ -18,7 +18,7 @@ patch:
   # 切换繁体快捷键
   key_binder/bindings/+:
     - {when: always, accept: Control+Shift+4, toggle: traditionalization}
-    - {when: always, accept: Control+slash, toggle: traditionalization} # Ctrl + /
+    - {when: always, accept: Control+slash, toggle: traditionalization}   # Ctrl + /
 
   # 挂载词库
   translator/dictionary: pinyin_simp.extended
@@ -61,9 +61,13 @@ patch:
     spelling_hints: 9
     enable_completion: true # 关闭后英文不会有提示，只会在打全时才会显示，体验不是很好
     enable_sentence: false
-    # initial_quality 值为负数时，在能得到中文结果的情况下英文永远不会出现在第一个候选项。
-    # 这里设置为 0，但同时会有单编码时被英文占据第一候选项的问题
+    # initial_quality 
+    # 设置为负数时，在能得到中文结果的情况下英文永远不会出现在第一个候选项。
+    # 设置为 1 时，在输入单个文字时，如「a」「de」，大量的英文单词会冲到汉字前面，造成选取困难。
+    # 设置为 0 时，但同时会有单编码时被英文占据第一候选项的问题
     # 建议在 custom_phrase 中设置单编码固顶字来解决这个问题
+    # 设置为 0 的另外一个问题：如「internet」，直到输入完成，该单词才变为第一候选项（「interne」时的结果是「一奈特人」）
+		# 不过总的来说，还是设置为 0 比较合适。
     initial_quality: 0 # -3
   # 令英文输入方案响应大写字母（ Shift + [a-z] ）
   speller/alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
@@ -107,7 +111,7 @@ patch:
     - derive/([qylxn])ue$/$1eu/ # xeu → xue
 
   # “/” 模式转为 “v” 模式，并增加识别大写字母
-  recognizer/patterns/punct: "^v([a-zA-Z]+|[0-9]0?)$" # "^/([a-z]+|[0-9]0?)$"
+  recognizer/patterns/punct: "^v([a-zA-Z]+|[0-9]0?)$" # 原： "^/([a-z]+|[0-9]0?)$"
   
   punctuator:
     # 引入自己的 symbols，全部修改为了“v”模式
