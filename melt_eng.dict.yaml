@@ -38,8 +38,15 @@ Mac 版	macban
 macOS 版	macosban
 e 招贷	ezhaodai
 G 胖	gpang
+Up 主	upzhu
 
 # 补充的英文词汇
+Instagram	Instagram
+Beta	Beta
+archive	archive
+Evernote	Evernote
+PDF	PDF
+QuickTime	QuickTime
 CSDN	CSDN
 Gitee	Gitee
 GitBook	GitBook
@@ -52,7 +59,6 @@ Ajax	Ajax
 Bug	Bug
 BMW	BMW
 BGM	BGM
-Big Sur	bigsur
 CEO	CEO
 CTO	CTO
 Coding	Coding
@@ -132,7 +138,22 @@ RimWorld	RimWorld
 Factorio	Factorio
 Sheldon	Sheldon
 GBA	GBA
+GBC	GBC
+Game Boy	GameBoy
 uBlacklist	uBlacklist
+macOS	macos	100
+macOS Sierra	macos	1
+macOS High Sierra	macos	2
+macOS Mojave	macos	3
+macOS Catalina	macos	4
+macOS Big Sur	macos	5
+macOS Monterey	macos	5
+Sierra	sierra
+High Sierra	highsierra
+Mojave	mojave
+Catalina	catalina
+Big Sur	bigsur
+Monterey	monterey
 
 # 瑾昀 <cokunhui@gmail.com> 的 400 多个 cn_en 词典
 2B	erb	100
@@ -356,8 +377,6 @@ MacBook	macbook	100
 MacBook Air	macbookair	100
 MacBook Pro	macbookpro	100
 MacID	macid	100
-macOS	macos	100
-macOS Big Sur	macosbigsur	100
 MacTips	mactips	100
 MacUpdate Desktop	macupdatedesktop	100
 Mailbox	mailbox	100
@@ -492,7 +511,7 @@ Tumblr	tumblr	100
 tvOS	tvos	100
 Tweetbot	tweetbot	100
 Twitter	twitter	100
-Typora	typora	100
+Typora	Typora	100
 U 盾	udun	100
 U 盘	upan	100
 U 形管	uxingguan	100
