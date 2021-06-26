@@ -1,8 +1,8 @@
 # Rime dictionary
 # encoding: utf-8
 #
+# https://github.com/iDvel/rime-settings/
 # 由 pinyin_simp 简化至 GB2312 （6763个字）
-# 
 
 ---
 name: pinyin_simp_gb2312

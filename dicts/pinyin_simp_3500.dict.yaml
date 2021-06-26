@@ -1,6 +1,7 @@
 # Rime dictionary
 # encoding: utf-8
 # 
+# https://github.com/iDvel/rime-settings/
 # 《通用规范汉字表（2013）》的一级字表: 3500 个字（加上多音字是3808字）
 # 注释掉了一些不常用的字，主要是比较生僻的多音字。 
 # 额外增加一些常用的字

@@ -1,12 +1,15 @@
 # Rime dictionary
 # encoding: utf-8
 #
+# https://github.com/iDvel/rime-settings/
 # 由 pinyin_simp 简化至 《通用规范汉字表》8105字
-#
+# 注释掉了一些不存在的多音字，如：旁（bang）
+# 注释掉了一些不常用的多音字，如：读（dou）
+# 一共注释掉了 100 多个，有需要的请打开注释
 
 ---
 name: pinyin_simp_8105
-version: "2021-02-24"
+version: "2021-06-27"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
