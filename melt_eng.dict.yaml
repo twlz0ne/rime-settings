@@ -36,11 +36,22 @@ Win 版	winban
 Windows 版	windowsban
 Mac 版	macban
 macOS 版	macosban
+Web 版	webban
+PC 端	pcduan
+Win 端	winduan
+Mac 端	macduan
+Web 端	webduan
 e 招贷	ezhaodai
 G 胖	gpang
 Up 主	upzhu
 
 # 补充的英文词汇
+YAML	YAML
+TOML	TOML
+Hexo	Hexo
+Hugo	Hugo
+undefined	undefined
+Epic	Epic
 Instagram	Instagram
 Beta	Beta
 archive	archive
