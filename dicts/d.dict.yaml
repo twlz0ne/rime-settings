@@ -11,15 +11,20 @@ sort: by_weight
 vocabulary: essay-zh-hans
 ...
 # 平时顺手补充一些词汇
-
-# [英文、中英]，补充到 melt_eng 词典中，支持大小写，如「python」→「Python」
+# [英文]，补充到 melt_eng 词典中
+# [中英混合词汇]，补充到 d_cn_en 中
 # [符号]，补充到 `opencc/custom_symbols.txt` 中，支持超级简拼，如「hsd」→「华氏度 ℉」
 
 冇	mao
+&nbsp;	nbsp
+<br>	br
+.DS_Store	dsstore
+
 
 # 方便词
 儿	r
 一	i
+一个	ig
 这	zh
 
 
@@ -241,3 +246,5 @@ vocabulary: essay-zh-hans
 公示
 激突
 激凸
+健怡
+健怡可乐

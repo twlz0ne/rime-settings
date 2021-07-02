@@ -12,40 +12,19 @@
 ##############################################################################
 # 更改：
 # 扩充和注释了一些词汇
-# 合并了 瑾昀 <cokunhui@gmail.com> 的 cn_en 词典
 ---	
 name: melt_eng		
-version: "2021-05-09"		
+version: "2021-07-02"		
 sort: by_weight
 vocabulary: essay-zh-hans
 ...	
-
-# 补充的中英混输词汇
-U 盘	youpan
-B 站	bzhan
-V 站	vzhan
-P 站	pzhan
-大 V	dav
-QQ 音乐	qqyinyue
-QQ 拼音	qqpinyin
-QQ 会员	qqhuiyuan
-QQ 输入法	qqshurufa
-Dock 栏	Docklan
-阿 Q 精神	aqjingshen
-Win 版	winban
-Windows 版	windowsban
-Mac 版	macban
-macOS 版	macosban
-Web 版	webban
-PC 端	pcduan
-Win 端	winduan
-Mac 端	macduan
-Web 端	webduan
-e 招贷	ezhaodai
-G 胖	gpang
-Up 主	upzhu
-
 # 补充的英文词汇
+iStat	iStat
+ClashX	ClashX
+tracker	tracker
+trackers	trackers
+qBittorrent	qBittorrent
+Bittorrent	Bittorrent
 YAML	YAML
 TOML	TOML
 Hexo	Hexo
@@ -63,7 +42,6 @@ Gitee	Gitee
 GitBook	GitBook
 Gboard	Gboard
 Chromium	Chromium
-.DS_Store	dsstore
 API	API
 Access	Access
 Ajax	Ajax
@@ -166,409 +144,310 @@ Catalina	catalina
 Big Sur	bigsur
 Monterey	monterey
 
-# 瑾昀 <cokunhui@gmail.com> 的 400 多个 cn_en 词典
-2B	erb	100
-2B	erbi	100
-阿 Q	aq	100
-阿 Q 正传	aqzhengzhuan	100
-单边 z 变换	danbianzbianhuan	100
-逗 B	doub	100
-逗 B	doubi	100
-哆啦 A 梦	duolaameng	100
-二 B	erb	100
-二 B	erbi	100
-卡拉 OK	kalaok	100
-牛 B	niub	100
-牛 B	niubi	100
-三 K 党	sankdang	100
-三 K 党	sankeidang	100
-傻 B	shab	100
-傻 B	shabi	100
-智能 ABC	zhinengabc	100
-装 B	zhuangb	100
-装 B	zhuangbi	100
-A 股	agu	100
-A 盘	apan	100
-A 片	apian	100
-AA 制	aazhi	100
-AcFUN	acfun	100
-Adobe	adobe	100
-AirDrop	airdrop	100
-Airmail	airmail	100
-AirPlay	airplay	100
-AirServer	airserver	100
-Alfred	alfred	100
-Amazon	amazon	100
-AMD	amd	100
-Amphetamine	amphetamine	100
-Android	android	100
-# Android	anzhuo	100
-AnyConnect	anyconnect	100
-Aperture	aperture	100
-App Store	appstore	100
-App Store Marketing Guidelines	appstoremarketingguidelines	100
-AppFridays	appfridays	100
-Apple	apple	100
-Apple Developer	appledeveloper	100
-Apple File System	applefilesystem	100
-Apple ID	appleid	100
-Apple Music	applemusic	100
-Apple News	applenews	100
-Apple Pay	applepay	100
-Apple Store	applestore	100
-Apple TV	appletv	100
-Apple Watch	applewatch	100
-AppleCare	applecare	100
-AppleCare+	applecare	100
-AppShopper	appshopper	100
-Arduino	arduino	100
-aText	atext	100
-ATI	ati	100
-ATM 机	atmji	100
-Atom	atom	100
-Axure	axure	100
-B 超	bchao	100
-B 股	bgu	100
-B 淋巴细胞	blinbaxibao	100
-B 盘	bpan	100
-B 细胞	bxibao	100
-Bartender	bartender	100
-BetterSnap Tool	bettersnaptool	100
-BetterTouchTool	bettertouchtool	100
-BetterZip	betterzip	100
-Brackets	brackets	100
-BundleHunt	bundlehunt	100
-Byword	byword	100
-C 盘	cpan	100
-C 语言	cyuyan	100
-Caffeine	caffeine	100
-Calcbot	calcbot	100
-Calibre	calibre	100
-CarPlay	carplay	100
-CDN	cdn	100
-Charles	charles	100
-CheatSheet	cheatsheet	100
-ChemBioDraw	chembiodraw	100
-CleanMyMac	cleanmymac	100
-Clear	clear	100
-CloudApp	cloudapp	100
-CloudMagic	cloudmagic	100
-Coda	coda	100
-CodeBox	codebox	100
-CodeKit	codekit	100
-CodeRunner	coderunner	100
-ColorSchemer	colorschemer	100
-ColorSnapper	colorsnapper	100
-Control Center	controlcenter	100
-Cornerstone	cornerstone	100
-Cornerstone	cs	100
-Cortana	cortana	100
-Curio	curio	100
-Current Mac Bundles	currentmacbundles	100
-D 盘	dpan	100
-DaisyDisk	daisydisk	100
-Dash	dash	100
-Datagraph	datagraph	100
-Day One	dayone	100
-Default Folder X	defaultfolderx	100
-Desktop	desktop	100
-Developer Preview	developerpreview	100
-DEVONthink	devonthink	100
-Disk Utility	diskutility	100
-Diumoo	diumoo	100
-DNA	dna	100
-Dock	dock	100
-Dropbox	dropbox	100
-Dropzone	dropzone	100
-DVD	dvd	100
-E 盘	epan	100
-EI Capitan	eicapitan	100
-Endnote	endnote	100
-Entropy	entropy	100
-ePub	epub	100
-Eureka	eureka	100
-Evernote	evernote	100
-ExFAT	exfat	100
-F 盘	fpan	100
-Fantastical	fantastical	100
-FileVault	filevault	100
-Final Cut Pro	finalcutpro	100
-Flickr	flickr	100
-Flux	flux	100
-Force Touch	forcetouch	100
-Forecast	forecast	100
-ForkLift	forklift	100
-Frank DeLoupe	frankdeloupe	100
-G 点	gdian	100
-G 盘	gpan	100
-Geekbench	geekbench	100
-Gemini	gemini	100
-Gestimer	gestimer	100
-GhostNote	ghostnote	100
-GhostTile	ghosttile	100
-Gif Brewery	gifbrewery	100
-Gists	gists	100
-GitHub	github	100
-Gmail	gmail	100
-GoagentX	goagentx	100
-Google	google	100
-Google	guge	100
-Google Music	googlemusic	100
-Graffle	graffle	100
-H 股	hgu	100
-H 盘	hpan	100
-Handoff	hangoff	100
-Hazel	hazel	100
-Home	home	100
-HomeKit	homekit	100
-HTML	html	100
-I 盘	ipan	100
-iA Writer	iawriter	100
-IBM	ibm	100
-iCloud	icloud	100
-iCloud Drive	iclouddrive	100
-iExplorer	iexplorer	100
-iFFmpeg	iffmpeg	100
-IFTTT	ifttt	100
-iMac	imac	150
-iMessage	imessage	100
-iMore	imore	100
-Inboard	inboard	100
-Instacast	instacast	100
-Instashare	instashare	100
-Intellij IDEA	intellijidea	100
-Intensify	intensify	100
-iOS	ios	100
-IP	ip	200
-IP 地址	ipdizhi	100
-IP 电话	ipdianhua	100
-IP 卡	ipka	100
-IP 地址	ipweizhi	100
-iPack	ipack	100
-iPad	ipad	120
-iPhone	iphone	150
-IPN	ipn	100
-iPod	ipod	100
-IPTV	iptv	100
-IPv4	ipvsi	100
-IPv6	ipvliu	100
-iStat Menus	istatmenus	100
-iTerm	iterm	100
-iTunes	itunes	100
-iTunes Connect	itunesconnect	100
-iTunes Match	itunesmatch	100
-iWatch	iwatch	100
-J 盘	jpan	100
-K 宝	kbao	100
-K 宝	keibao	100
-K 粉	kfen	100
-K 粉	keifen	100
-K 歌	kge	100
-K 歌	keige	100
-Kaleidoscope	kaleidoscope	100
-Karabiner	karabiner	100
-Keka	keka	100
-Keyboard Maestro	keyboardmaestro	100
-Keycard	keycard	100
-KeyCue	keycue	100
-Knock	knock	100
-LaTeXian	latexian	100
-LaTeXian	ltx	100
-Launcher	launcher	100
-Linux	linux	100
-Little Snitch	littlesnitch	100
-Live Photos	livephotos	100
-LiveReload	livereload	100
-LockScreen	lockscreen	100
-Mac	mac	100
-Mac App Store	macappstore	100
-Mac Rumors	macrumors	100
-MacAppDeals	macappdeals	100
-MacBook	macbook	100
-MacBook Air	macbookair	100
-MacBook Pro	macbookpro	100
-MacID	macid	100
-MacTips	mactips	100
-MacUpdate Desktop	macupdatedesktop	100
-Mailbox	mailbox	100
-MAMP PRO	mamppro	100
-Manico	manico	100
-Maple	maple	100
-MarkMyWords	markmywords	100
-MarsEdit	marsedit	100
-Mathtype	mathtype	100
-Microsoft	micrsoft	100
-MIPS	mips	100
-Moke	moke	100
-Moneywiz	moneywiz	100
-Moom	moom	100
-MP3	mpsan	100
-MP4	mpsi	100
-MplayerX	mplayerx	100
-Netflix	netflix	100
-Noizio	noizio	100
-Numbers	numbers	100
-nvALT	nvalt	100
-Nvidia	nvidia	100
-Office	office	100
-OmmWriter	ommwriter	100
-OmniFocus	omnifocus	100
-OmniGraffle	omnigraffle	100
-OmniOutliner	omnioutliner	100
-OmniPlan	omniplan	100
-OneNote	onenote	100
-OS X	osx	100
-OS	os	100
-Overcast	overcast	100
-Overflow	overflow	100
-Pages	pages	100
-PaintCode	paintcode	100
-Parallels Desktop	parallelsdesktop	100
-Password	password	100
-Paste	paste	100
-Paw	paw	100
-PayPal	paypal	100
-PhotoDesk	photodesk	100
-Photoshop	photoshop	100
-Picatext	picatext	100
-PingWest	pingwest	100
-Pixelmator	pixelmator	100
-Play by Play	playbyplay	100
-PlistEdit	plistedit	100
-PopClip	popclip	100
-POS 机	posji	100
-PowerPack	powerpack	100
-Privoxy	privoxy	100
-Pro	pro	100
-Promotee	promotee	100
-Proxifier	proxifier	100
-Public Beta	publicbeta	100
-Python	python	100
-Q 币	qbi	100
-QQ	qq	100
-QQ 号	qqhao	100
-QQ 号码	qqhaoma	100
-QQ 会员	qqhuiyuan	100
-QQ 空间	qqkongjian	100
-QQ 群	qqqun	100
-QQ 邮箱	qqyouxiang	100
-Quitter	quitter	100
-Quiver	quiver	100
-Rdio	rdio	100
-Readability	readability	100
-Readkit	readkit	100
-Regulex	regulex	100
-Remote	remote	100
-RescueTime	rescuetime	100
-Rime	rime	100
-Rime	zhongzhouyun	100
-Retina	retina	100
-Safari	safari	100
-Safari View Controller	safariviewcontroller	100
-SaneDesk	sanedesk	100
-Scrapbook	scrapbook	100
-ScreenFloat	screenfloat	100
-ScreenFlow	screenflow	100
-Scribble	scribble	100
-Scrivener	scrivener	100
-SDK	sdk	100
-Should I Sleep	shouldisleep	100
-SIM 卡	simka	100
-Simplenote	simplenote	100
-Siri	siri	100
-Sketch	sketch	100
-Slicy	slicy	100
-Snagit	snagit	100
-Snip	snip	100
-Sparkbox	sparkbox	100
-Sparrow	sparrow	100
-Speedtest	speedtest	100
-Spotify	spotify	100
-Spotlight	spotlight	100
-Spss	spss	100
-Squirrel	squirrel	100
-SSLEdge	ssledge	100
-StackSocial	stacksocial	100
-Sublime Text	sublimetext	100
-Surge	surge	100
-Swift	swift	100
-Symbol	symbol	100
-T 淋巴细胞	tlinbaxibao	100
-T 细胞	txibao	100
-T 型台	txingtai	100
-T 恤	txu	100
-T 恤衫	txushan	100
-Tag	tag	100
-TechWeb	techweb	100
-Telegram	telegram	100
-Terminal	terminal	100
-TestFlight	testflight	100
-Texshop	texshop	100
-Textastic	textastic	100
-TextExpander	textexpander	100
-TextWrangler	textwrangler	100
-The Unarchiver	theunarchiver	100
-Things	things	100
-Thunder	thunder	100
-Thunderbird	thunderbird	100
-Time Capsule	timecapsule	100
-Timing	timing	100
-TinkerTool	tinkertool	100
-Touch	touch	100
-Touch ID	touchid	100
-Tower	tower	100
-Trello	trello	100
-Tumblr	tumblr	100
-tvOS	tvos	100
-Tweetbot	tweetbot	100
-Twitter	twitter	100
-Typora	Typora	100
-U 盾	udun	100
-U 盘	upan	100
-U 形管	uxingguan	100
-Uber	uber	100
-uBlock	ublock	100
-UIM 卡	uimka	100
-Ulysses	ulysses	100
-USB	usb	100
-USIM 卡	usimka	100
-Versions	versions	100
-VPN	vpn	100
-Watch	watch	100
-watchOS	watchos	100
+
+# 瑾昀 <cokunhui@gmail.com> 的 cn_en 词典（纯英文部分）
+Apple	Apple
+Apple Watch	AppleWatch
+AppleCare	AppleCare
+AppleCare+	AppleCare+
+ATI	ATI
+Apple Store	AppleStore
+Apple TV	AppleTV
+Apple Developer	AppleDeveloper
+Apple File System	AppleFileSystem
+Apple ID	Apple ID
+Apple Music	AppleMusic
+Apple News	AppleNews
+Apple Pay	ApplePay
+AMD	AMD
+Amphetamine	Amphetamine
+Android	Android
+App Store	App Store
+AirDrop	AirDrop
+Alfred	Alfred
+Amazon	Amazon
+Adobe	Adobe
+Atom	Atom
+Axure	Axure
+Bartender	Bartender
+BetterSnap Tool	BetterSnapTool
+BetterTouchTool	BetterTouchTool
+BetterZip	BetterZip
+Brackets	Brackets
+BundleHunt	BundleHunt
+Byword	Byword
+Btitish	Btitish
+Caffeine	Caffeine
+Calcbot	Calcbot
+Calibre	Calibre
+CarPlay	CarPlay
+CDN	CDN
+Charles	Charles
+CheatSheet	CheatSheet
+ChemBioDraw	ChemBioDraw
+CleanMyMac	CleanMyMac
+CloudApp	CloudApp
+CloudMagic	CloudMagic
+Coda	Coda
+CodeBox	CodeBox
+CodeKit	CodeKit
+CodeRunner	CodeRunner
+ColorSchemer	ColorSchemer
+ColorSnapper	ColorSnapper
+Control Center	ControlCenter
+Cornerstone	Cornerstone
+Cortana	Cortana
+Curio	Curio
+Current Mac Bundles	CurrentMacBundles
+DaisyDisk	DaisyDisk
+Dash	Dash
+Datagraph	Datagraph
+Day One	DayOne
+Default Folder X	DefaultFolderX
+Desktop	Desktop
+Developer Preview	DeveloperPreview
+DEVONthink	DEVONthink
+Disk Utility	DiskUtility
+Diumoo	Diumoo
+DNA	DNA
+Dock	Dock
+Dropbox	Dropbox
+Dropzone	Dropzone
+DVD	DVD
+Endnote	Endnote
+Entropy	Entropy
+ePub	ePub
+Eureka	Eureka
+Evernote	Evernote
+ExFAT	ExFAT
+Fantastical	Fantastical
+FileVault	FileVault
+Final Cut Pro	FinalCutPro
+Flickr	Flickr
+Flux	Flux
+Force Touch	ForceTouch
+Forecast	Forecast
+ForkLift	ForkLift
+Frank DeLoupe	FrankDeLoupe
+Geekbench	Geekbench
+Gemini	Gemini
+Gestimer	Gestimer
+GhostNote	GhostNote
+GhostTile	GhostTile
+Gif Brewery	GifBrewery
+Gists	Gists
+GitHub	GitHub
+Gmail	Gmail
+GoagentX	GoagentX
+Google	Google
+Google Music	GoogleMusic
+Graffle	Graffle
+Handoff	Handoff
+Hazel	Hazel
+Home	Home
+HomeKit	HomeKit
+HTML	HTML
+iA Writer	iAWriter
+IBM	IBM
+iCloud	iCloud
+iCloud Drive	iCloudDrive
+iExplorer	iExplorer
+iFFmpeg	iFFmpeg
+IFTTT	IFTTT
+iMac	iMac
+iMessage	iMessage
+iMore	iMore
+Inboard	Inboard
+Instacast	Instacast
+Instashare	Instashare
+Intellij IDEA	IntellijIDEA
+Intensify	Intensify
+iOS	iOS
+IP	IP
+iPack	iPack
+iPad	iPad
+iPhone	iPhone
+IPN	IPN
+iPod	iPod
+IPTV	IPTV
+IPv4	IPv4
+IPv6	IPv6
+iStat Menus	iStatMenus
+iTerm	iTerm
+iTunes	iTunes
+iTunes Connect	iTunesConnect
+iTunes Match	iTunesMatch
+iWatch	iWatch
+Kaleidoscope	Kaleidoscope
+Karabiner	Karabiner
+Keka	Keka
+Keyboard Maestro	KeyboardMaestro
+Keycard	Keycard
+KeyCue	KeyCue
+Knock	Knock
+LaTeXian	LaTeXian
+LaTeXian	LaTeXian
+Launcher	Launcher
+Linux	Linux
+Little Snitch	LittleSnitch
+Live Photos	LivePhotos
+LiveReload	LiveReload
+LockScreen	LockScreen
+Mac	Mac
+Mac App Store	MacAppStore
+Mac Rumors	MacRumors
+MacAppDeals	MacAppDeals
+MacBook	MacBook
+MacBook Air	MacBookAir
+MacBook Pro	MacBookPro
+MacID	MacID
+MacTips	MacTips
+MacUpdate Desktop	MacUpdateDesktop
+Mailbox	Mailbox
+MAMP PRO	MAMPPRO
+Manico	Manico
+Maple	Maple
+MarkMyWords	MarkMyWords
+MarsEdit	MarsEdit
+Mathtype	Mathtype
+Microsoft	Microsoft
+MIPS	MIPS
+Moke	Moke
+Moneywiz	Moneywiz
+Moom	Moom
+MP3	MPs
+MP3	MPsan
+MP4	MPs
+MP4	MPsi
+MplayerX	MplayerX
+Netflix	Netflix
+Noizio	Noizio
+Numbers	Numbers
+nvALT	nvALT
+Nvidia	Nvidia
+Office	Office
+OmmWriter	OmmWriter
+OmniFocus	OmniFocus
+OmniGraffle	OmniGraffle
+OmniOutliner	OmniOutliner
+OmniPlan	OmniPlan
+OneNote	OneNote
+OS X	OS X
+OS	OS
+Overcast	Overcast
+Overflow	Overflow
+Pages	Pages
+PaintCode	PaintCode
+Parallels Desktop	ParallelsDesktop
+Password	Password
+Paste	Paste
+Paw	Paw
+PayPal	PayPal
+PhotoDesk	PhotoDesk
+Photoshop	Photoshop
+Picatext	Picatext
+PingWest	PingWest
+Pixelmator	Pixelmator
+Play by Play	PlaybyPlay
+PlistEdit	pliPlistEdit
+PopClip	PopClip
+PowerPack	PowerPack
+Privoxy	Privoxy
+Pro	Pro
+Promotee	Promotee
+Proxifier	Proxifier
+Public Beta	PublicBeta
+Python	Python
+Quitter	Quitter
+Quiver	Quiver
+Rdio	Rdio
+Readability	Readability
+Readkit	Readkit
+Regulex	Regulex
+Remote	Remote
+RescueTime	RescueTime
+Rime	Rime
+Retina	Retina
+Safari	Safari
+Safari View Controller	SafariViewController
+SaneDesk	SaneDesk
+Scrapbook	Scrapbook
+ScreenFloat	ScreenFloat
+ScreenFlow	ScreenFlow
+Scribble	Scribble
+Scrivener	Scrivener
+SDK	SDK
+Should I Sleep	ShouldISleep
+Simplenote	Simplenote
+Siri	Siri
+Sketch	Sketch
+Slicy	Slicy
+Snagit	Snagit
+Snip	Snip
+Sparkbox	Sparkbox
+Sparrow	Sparrow
+Speedtest	Speedtest
+Spotify	Spotify
+Spotlight	Spotlight
+Spss	Spss
+Squirrel	Squirrel
+SSLEdge	SSLEdge
+StackSocial	StackSocial
+Sublime Text	SublimeText
+Surge	Surge
+Swift	Swift
+Symbol	Symbol
+Tag	Tag
+TechWeb	TechWeb
+Telegram	Telegram
+Terminal	Terminal
+TestFlight	TestFlight
+Texshop	Texshop
+Textastic	Textastic
+TextExpander	TextExpander
+TextWrangler	TextWrangler
+The Unarchiver	TheUnarchiver
+Things	Things
+Thunder	Thunder
+Thunderbird	Thunderbird
+Time Capsule	TimeCapsule
+Timing	Timing
+TinkerTool	TinkerTool
+Touch	Touch
+Touch ID	TouchID
+Tower	Tower
+Trello	Trello
+Tumblr	Tumblr
+tvOS	tvOS
+Tweetbot	Tweetbot
+Twitter	Twitter
+Typora	Typora
+Uber	Uber
+uBlock	uBlock
+Ulysses	Ulysses
+USB	USB
+Versions	Versions
+VPN	VPN
+Watch	Watch
+watchOS	watchOS
 Wi-Fi	waifai	100
-Wi-Fi	wifi	100
-Widget	widget	100
-WiFi	waifai	100
-WiFi	wifi	100
-WiFi Explorer	wifiexplorer	100
-WiFi Scanner	wifiscanner	100
-Window Tidy	windowtidy	100
-Windows	windows	100
-Word	word	100
-Workflow	workflow	100
-WorkFlowy	workflowy	100
-WWDC	wwdc	100
-X 刀	xdao	100
-X 光	xguang	100
-X 染色体	xranseti	100
-X 射线	xshexian	100
-Xee	xee	100
-Xeon	xeon	100
-Xmind	xmind	100
-xScope	xscope	100
-XtraFinder	xtrafinder	100
-Y 染色体	yranseti	100
-YouTube	youtube	100
-z 变换	zbianhuan	100
-z 逆变换	znibianhuan	100
-ZEALER	zealer	100
-α 粒子	aerfalizi	100
-α 射线	aerfashexian	100
-β 粒子	beitalizi	100
-β 射线	beitashexian	100
-γ 刀	gamadao	100
-γ 射线	gamashexian	100
+Wi-Fi	WiFi	100
+Widget	Widget
+WiFi Explorer	WiFiExplorer
+WiFi Scanner	WiFiScanner
+Window Tidy	WindowTidy
+Windows	Windows
+Word	Word
+Workflow	Workflow
+WorkFlowy	WorkFlowy
+WWDC	WWDC
+Xee	Xee
+Xeon	Xeon
+Xmind	Xmind
+xScope	xScope
+XtraFinder	XtraFinder
+YouTube	YouTube
+ZEALER	ZEALER
 
 
 # 原装：

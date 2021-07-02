@@ -20,6 +20,7 @@ import_tables:
 
   # --------------------- 个人词库 --------------------- #
   - dicts/d
+  - dicts/d_cn_en
   - dicts/d_av
   - dicts/d_pokemon
   - dicts/d_wow
