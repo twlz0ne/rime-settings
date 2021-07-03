@@ -1,6 +1,9 @@
 cmd	Cmd Command ⌘
+command	Command ⌘
 ctrl	Ctrl Control ⌃
+control	Control ⌃
 opt	Option ⌥
+option	Option ⌥
 shift	Shift ⇧
 tab	Tab ⇥
 caps	Caps CapsLock ⇪

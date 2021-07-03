@@ -7,7 +7,7 @@
 
 ---
 name: d_av
-version: "2021-05-30"
+version: "2021-07-03"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -28,6 +28,8 @@ vocabulary: essay-zh-hans
 河北はるな	he bei chun cai
 吉泽明步	ji ze ming bu
 吉沢明歩	ji ze ming bu
+凉森玲梦	liang sen ling meng
+涼森れむ	liang sen ling meng
 林由奈	lin you nai
 林ゆな	lin you nai
 凛音桃花	lin yin tao hua
@@ -54,7 +56,7 @@ vocabulary: essay-zh-hans
 深田えいみ	shen tian yong mei
 三上悠亚	san shang you ya
 三上悠亜	san shang you ya
-山岸逢花	shan an feng hua
+山岸逢花
 通野未帆
 藤森里穂	teng sen li hui
 桃乃木香奈	tao nai mu xiang nai

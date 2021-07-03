@@ -5,15 +5,17 @@
 #
 # 中英混输词典，平常顺手补充一些
 # 拆分了 瑾昀 <cokunhui@gmail.com> 的 cn_en 词典
+# 编码部需要该使用小写
 
 ---
 name: d_cn_en
-version: "2021-07-02"
+version: "2021-07-03"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
 # 补充的中英词汇
 U 盘	you pan
+U 盘	u pan
 B 站	b zhan
 V 站	v zhan
 P 站	p zhan
@@ -22,7 +24,7 @@ QQ 音乐	qq yin yue
 QQ 拼音	qq pin yin
 QQ 会员	qq hui yuan
 QQ 输入法	qq shu ru fa
-Dock 栏	Dock lan
+Dock 栏	dock lan
 阿 Q 精神	a q jing shen
 Win 版	win ban
 Windows 版	windows ban
@@ -104,7 +106,6 @@ T 型台	txingtai	100
 T 恤	txu	100
 T 恤衫	txushan	100
 U 盾	udun	100
-U 盘	upan	100
 U 形管	uxingguan	100
 UIM 卡	uimka	100
 USIM 卡	usimka	100

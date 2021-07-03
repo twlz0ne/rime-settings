@@ -12,18 +12,28 @@
 ##############################################################################
 # 更改：
 # 扩充和注释了一些词汇
----	
-name: melt_eng		
-version: "2021-07-02"		
+---
+name: melt_eng
+version: "2021-07-03"
 sort: by_weight
 vocabulary: essay-zh-hans
-...	
+...
 # 补充的英文词汇
+DeepL	DeepL
+Homebrew	Homebrew
+brew	brew
+Finder	Finder
+Trojan	Trojan
+VMess	VMess
+Shadowsocks	Shadowsocks
+PC	PC
 iStat	iStat
 ClashX	ClashX
 tracker	tracker
 trackers	trackers
 qBittorrent	qBittorrent
+qBittorrent Enhanced Edition	qBittorrentEE
+qBittorrent Enhanced Edition	qBEE
 Bittorrent	Bittorrent
 YAML	YAML
 TOML	TOML
