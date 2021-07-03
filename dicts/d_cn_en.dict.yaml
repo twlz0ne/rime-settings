@@ -5,7 +5,11 @@
 #
 # 中英混输词典，平常顺手补充一些
 # 拆分了 瑾昀 <cokunhui@gmail.com> 的 cn_en 词典
-# 编码部需要该使用小写
+# 编码部需要使用小写
+#
+# 类似「P 站」「G 胖」这样的编码如果为「p zhan」「g pang」，会导致「mingp」「fangp」时无法出现「名牌 名片」「放屁」等候选项
+# 必须是写成「pzhan」「gpang」（去掉中间的空格），才不会导致上述问题。。。好奇怪喔
+#
 
 ---
 name: d_cn_en
@@ -14,18 +18,18 @@ sort: by_weight
 vocabulary: essay-zh-hans
 ...
 # 补充的中英词汇
-U 盘	you pan
-U 盘	u pan
-B 站	b zhan
-V 站	v zhan
-P 站	p zhan
-大 V	da v
+U 盘	youpan
+U 盘	upan
+B 站	bzhan
+V 站	vzhan
+P 站	pzhan
+大 V	dav
 QQ 音乐	qq yin yue
 QQ 拼音	qq pin yin
 QQ 会员	qq hui yuan
 QQ 输入法	qq shu ru fa
 Dock 栏	dock lan
-阿 Q 精神	a q jing shen
+阿 Q 精神	aq jing shen
 Win 版	win ban
 Windows 版	windows ban
 Mac 版	mac ban
@@ -36,7 +40,7 @@ Win 端	win duan
 Mac 端	mac duan
 Web 端	web duan
 e 招贷	e zhao dai
-G 胖	g pang
+G 胖	gpang
 Up 主	up zhu
 BOSS 直聘	boss zhi pin
 
