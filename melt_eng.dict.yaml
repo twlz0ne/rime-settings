@@ -19,6 +19,12 @@ sort: by_weight
 vocabulary: essay-zh-hans
 ...
 # 补充的英文词汇
+Apple Music	AppleM
+Apple Music	AppleMu
+Apple Music	AppleMus
+Apple Music	AppleMusi
+Apple Music	AppleMusic
+TED	TED
 DeepL	DeepL
 Homebrew	Homebrew
 brew	brew
@@ -166,7 +172,6 @@ Apple TV	AppleTV
 Apple Developer	AppleDeveloper
 Apple File System	AppleFileSystem
 Apple ID	Apple ID
-Apple Music	AppleMusic
 Apple News	AppleNews
 Apple Pay	ApplePay
 AMD	AMD
