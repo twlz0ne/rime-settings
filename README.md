@@ -10,7 +10,7 @@
 -   0.15.0 后  `charset_filter@gb2312` 失效了，放弃了「朙月拼音·简化字」方案，改用「袖珍简化字方案」 [rime](https://github.com/rime)/**[rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp)**  这样在 `*.userdb.txt` 中的也是简体词库了
 -   精简了字表
 -   华宇拼音（紫光拼音）的系统词库 http://unispim.com/wordlib/wordlib_detail.php?id=8
--   英文输入方案 Easy English Nano（支持大写字母） [mityliu](https://github.com/mityliu)/**[rime-custom](https://github.com/mityliu/rime-custom)**
+-   英文输入方案 Easy English Nano（支持大写字母）     [tumuyan](https://github.com/tumuyan)/**[rime-pinyin-simp](https://github.com/tumuyan/rime-pinyin-simp)**  
 -   繁体及对应简体提示 [rime/home/issues#388](https://github.com/rime/home/issues/388#issuecomment-504572224) 
 -   动态日期、时间、星期 [KyleBing](https://github.com/KyleBing)/**[rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)**
 -   所有标点符号直接上屏，「/」模式改为「v」模式，「/」直接上屏
