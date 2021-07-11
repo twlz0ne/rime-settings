@@ -19,6 +19,12 @@ sort: by_weight
 vocabulary: essay-zh-hans
 ...
 # 补充的英文词汇
+Rachel	Rachel
+uTools	uTool
+uTools	uTools
+AirPods	AirPods
+CallKit	CallKit
+OSS	OSS
 Apple Music	AppleM
 Apple Music	AppleMu
 Apple Music	AppleMus
@@ -115,7 +121,11 @@ Sourcetree	Sourcetree
 Spiritfarer	Spiritfarer
 TCP/IP	tcpip
 Twitter	Twitter
+V2EX	ver
 V2EX	verex
+VSCode	VSC
+VSCode	VSCo
+VSCode	VSCod
 VSCode	VSCode
 Vue	Vue
 Vue.js	Vuejs
