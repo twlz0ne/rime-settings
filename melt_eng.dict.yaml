@@ -19,6 +19,15 @@ sort: by_weight
 vocabulary: essay-zh-hans
 ...
 # 补充的英文词汇
+Telnet	Telnet
+IPv4	ipv4
+IPv6	ipv6
+IPv4	ipvsi
+IPv6	ipvliu
+Monica	Monica
+Unix	Unix
+Rick and Morty	RickandMorty
+Tokyo	Tokyo
 Rachel	Rachel
 uTools	uTool
 uTools	uTools
@@ -295,8 +304,6 @@ iPhone	iPhone
 IPN	IPN
 iPod	iPod
 IPTV	IPTV
-IPv4	IPv4
-IPv6	IPv6
 iStat Menus	iStatMenus
 iTerm	iTerm
 iTunes	iTunes
