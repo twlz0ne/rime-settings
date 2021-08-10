@@ -38,4 +38,6 @@ import_tables:
   - dicts/sogou_wow
   # 海贼王
   - dicts/sogou_one_piece
+  # 搜狗网络流行词
+  - dicts/sogou_liuxing
 ...
