@@ -6,7 +6,7 @@
 
 ---
 name: d
-version: "2021-07-26"
+version: "2021-08-10"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -15,10 +15,15 @@ vocabulary: essay-zh-hans
 # [英文]，补充到 melt_eng 词典中，支持补全提示及大写字母
 # [符号]，补充到 `opencc/custom_symbols.txt` 中，支持超级简拼，如「hsd」→「华氏度 ℉」
 
-冇	mao
 &nbsp;	nbsp
 <br>	br
 .DS_Store	dsstore
+
+
+# 不在字表中的字词（需要注音）
+冇	mao
+曱甴	yue you
+朙月拼音	ming yue pin yin
 
 
 # 方便词
@@ -69,7 +74,6 @@ vocabulary: essay-zh-hans
 
 
 # 扩展词语
-朙月拼音	ming yue pin yin
 放铳
 荣和	rong hu
 天和	tian hu
@@ -128,9 +132,9 @@ vocabulary: essay-zh-hans
 吱吱	zhi zhi
 逶蛇	wei yi
 尉迟	yu chi
-啰唆	luo suo
-啰啰唆唆	luo luo suo suo
-啰哩啰唆	luo li luo suo
+啰唆
+啰啰唆唆
+啰哩啰唆
 锵锵
 馥郁
 焙炒	bei chao
@@ -138,7 +142,7 @@ vocabulary: essay-zh-hans
 降将	xiang jiang
 扑哧	pu chi
 说服	shui fu
-雾都	wu du
+雾都
 参参差差
 叨教	tao jiao
 扈家庄	hu jia zhuang
@@ -155,15 +159,6 @@ vocabulary: essay-zh-hans
 兔起鹘落	tu qi hu luo
 低伏
 行拂乱其所为
-半藏	ban zang
-奥丽莎
-西格玛
-查莉娅
-巴蒂斯特
-布丽吉塔
-卢西奥
-莫伊拉
-禅雅塔
 瓦罐不离井上破
 将军难免阵前亡
 刑讯
@@ -216,14 +211,6 @@ vocabulary: essay-zh-hans
 高斯磁
 高斯磁定律
 姚期智
-尼弗迦德
-佛古斯
-篡位者
-白色火焰
-佛古斯
-叶奈法
-特莉丝
-梅利葛德
 欧米伽
 欧米伽红宝石
 霸凌
@@ -244,3 +231,12 @@ vocabulary: essay-zh-hans
 北狄
 群晖
 陈冠希
+极客
+既遂
+膈应
+奥恰洛夫
+口嫌体正
+口嫌体正直
+特朗普
+川普
+张嘉倪

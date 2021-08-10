@@ -7,12 +7,14 @@
 
 ---
 name: d_av
-version: "2021-07-26"
+version: "2021-08-10"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
 爱田飞鸟	ai tian fei niao
 あいだ飛鳥	ai tian fei niao
+爱乃娜美	ai nai na mei
+愛乃なみ	ai nai na mei
 安斋拉拉	an zhai la la
 安齋拉拉	an zhai la la
 长谷川理穗	chang gu chuan li hui
@@ -28,6 +30,8 @@ vocabulary: essay-zh-hans
 东凛	dong lin
 枫花恋	feng hua lian
 楓カレン	feng hua lian
+古川伊织	gu chuan yi zhi
+古川いおり	gu chuan yi zhi
 广濑里绪菜	guang lai li xu cai
 広瀬りおな	guang lai li xu cai
 河北春菜	he bei chun cai
@@ -50,8 +54,8 @@ vocabulary: essay-zh-hans
 目黒めぐみ	mu hei hui
 明里䌷	ming li chou
 明里つむぎ	ming li chou
-七海缇娜	qi hai ti na
-七海ティナ	qi hai ti na
+七海蒂娜	qi hai di na
+七海ティナ	qi hai di na
 桃谷绘里香	tao gu hui li xiang
 桃谷エリカ	tao gu hui li xiang
 辻井穗乃果	shi jing hui nai guo
@@ -65,9 +69,9 @@ vocabulary: essay-zh-hans
 山岸逢花
 通野未帆
 藤森里穂	teng sen li hui
-桃乃木	tao nai mu
 桃乃木香奈	tao nai mu xiang nai
 桃乃木かな	tao nai mu xiang nai
+桃乃木
 武藤绫香	wu teng ling xiang
 武藤あやか	wu teng ling xiang
 夏希栗	xia xi li
@@ -78,12 +82,18 @@ vocabulary: essay-zh-hans
 相沢みなみ	xiang ze nan
 星宫一花	xing gong yi hua
 星宮一花	xing gong yi hua
+星野景子	xing ye jing zi
+ほしの景子	xing ye jing zi
 星野娜美	xing ye na mei
 星野ナミ	xing ye na mei
 篠田步美	xiao tian bu mei
 篠田あゆみ	xiao tian bu mei
 柚木蒂娜	you mu di na
 柚木ティナ	you mu di na
+有贺由爱	you he you ai
+有賀ゆあ	you he you ai
+乙白沙也加	yi bai sha ye jia
+乙白さやか	yi bai sha ye jia
 樱井步	ying jing bu
 桜井あゆ	ying jing bu
 樱井彩	ying jing cai
