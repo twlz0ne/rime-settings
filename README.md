@@ -43,7 +43,7 @@
 
 <br>
 
-顺便推荐一下在 VSCode 中给 YAML 设置默认 Tab 行为的方法：（https://github.com/microsoft/vscode/issues/69011）
+顺便推荐一下在 VSCode 中给 YAML 设置默认 Tab 行为的方法：https://github.com/microsoft/vscode/issues/69011
 
 使 Tab 变成 2 个空格长度的 Tab（而不是空格），修改词库时很方便，不用总是手动调节了。
 
@@ -51,10 +51,10 @@
 
 ```json
     // Configure editor settings to be overridden for [yaml] language.
-	"[yaml]": {
-		"editor.insertSpaces": false,
-		"editor.tabSize": 2,
-		"editor.autoIndent": false,
-	},
+    "[yaml]": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 2,
+        "editor.autoIndent": false,
+    },
 ```
 
