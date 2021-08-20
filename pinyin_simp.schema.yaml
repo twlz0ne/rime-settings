@@ -41,7 +41,7 @@ engine:
   translators:
     - punct_translator
     - script_translator
-    - reverse_lookup_translator
+    # - reverse_lookup_translator
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba

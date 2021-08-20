@@ -3,20 +3,19 @@ patch:
     - schema: pinyin_simp
   
   # 候选词个数
-  menu/page_size: 5   
+  menu/page_size: 5
 
-  # Caps 只切换大小写
-  ascii_composer/good_old_caps_lock: true
-  # 去除其他按键功能
+  # 下面设置的效果：不用 CapsLock 和 Shift 切换输入法，切换输入法使用自定义按键，如 Ctrl/Cmd + 空格
+  ascii_composer/good_old_caps_lock: true # Caps 只切换大小写
   ascii_composer/switch_key:
-    Caps_Lock: commit_text # commit_code 上屏拼音的英文字母；commit_text 上屏拼音拼出的词语
+    Caps_Lock: commit_text # 打字打到一半时按下了Caps后：commit_code 上屏拼音的英文字母；commit_text 上屏拼音拼出的词语
     Shift_L: noop
     Shift_R: noop
     Control_L: noop
     Control_R: noop
 
   switcher/hotkeys:
-    - "Control+grave"
+    - "Control+grave" # Ctrl + `
 
   # 按键绑定 https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
   key_binder/bindings:
