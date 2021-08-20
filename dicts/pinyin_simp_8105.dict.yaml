@@ -3,17 +3,34 @@
 #
 # https://github.com/iDvel/rime-settings/
 # 由 pinyin_simp 简化至 《通用规范汉字表》8105字
+#
 # 注释掉了一些不存在的多音字，如：旁（bang）
 # 注释掉了一些不常用的多音字，如：读（dou）
-# 一共注释掉了 100 多个，有需要的请打开注释
+# 注释掉了一些几乎只在词组中使用的单字，如：「秘鲁」的秘（bi）
+# 一共注释掉了将近 200 个，有发现打不出来的请解开注释
+#
+# 额外增加一些不在《通用规范汉字表》中，但是可能会用到的字、词
 
 ---
 name: pinyin_simp_8105
-version: "2021-06-27"
+version: "2021-08-20"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
+# ext：
+〇	ling	248
+囧	jiong	2904
+屌	diao	556
+艹	cao	231
+肏	cao	298
+冇	mao
+曱甴	yue you
+朙月拼音	ming yue pin yin
+佇列	zhu lie
+黯黮	an dan
 
+
+# 8105；
 蚆	ba	1
 朳	ba	1
 胈	ba	1
