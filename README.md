@@ -15,7 +15,7 @@
 -   动态日期、时间、星期 [KyleBing](https://github.com/KyleBing)/**[rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)**
 -   所有标点符号直接上屏，「/」模式改为「v」模式，「/」直接上屏
 -   没有 emoji，只在 `symbols` 里保留了不到 10 个常用的，如需要可参考 [maomiui](https://github.com/maomiui)/**[rime](https://github.com/maomiui/rime)** 、[fkxxyz](https://github.com/fkxxyz)/**[rime-cloverpinyin](https://github.com/fkxxyz/rime-cloverpinyin)** 等
--   增加了许多全拼纠错（手速太快经常按错😅）
+-   增加了许多全拼纠错（手速太快经常按错 😅）
 -   参考谷歌、《现代汉语规范词典》、[异形词整理表](https://wucuozi.com/cuobiezi/yixingzi/)、[错别字辨析](https://wucuozi.com/bian/ ) 修正了大量的异形词、错别字
 
 <br>
@@ -46,6 +46,8 @@
 顺便推荐一下在 VSCode 中给 YAML 设置默认 Tab 行为的方法：https://github.com/microsoft/vscode/issues/69011
 
 使 Tab 变成 2 个空格长度的 Tab（而不是空格），修改词库时很方便，不用总是手动调节了。
+
+建议配置都折腾完了再启用这个，因为配置文件中如果使用了 Tab 来缩进会产生一些意想不到的错误。。。
 
 `.../.vscode/settings.json`：
 
