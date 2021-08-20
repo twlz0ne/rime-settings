@@ -19,6 +19,60 @@ sort: by_weight
 vocabulary: essay-zh-hans
 ...
 # 补充的英文词汇
+Wunderlist	Wunderlist
+VMware	VMw
+VMware	VMwa
+VMware	VMwar
+VMware	VMware
+Fusion	Fusion
+VMware Fusion	VMwareF
+VMware Fusion	VMwareFu
+VMware Fusion	VMwareFus
+VMware Fusion	VMwareFusi
+VMware Fusion	VMwareFusio
+VMware Fusion	VMwareFusion
+Vanilla	Vanilla
+Ubisoft	Ubisoft
+Twitch	Twitch
+Todoist	Todoist
+TeamViewer	TeamViewer
+Sleep Cycle	SleepC
+Sleep Cycle	SleepCy
+Sleep Cycle	SleepCyc
+Sleep Cycle	SleepCycl
+Sleep Cycle	SleepCycle
+Sony	Sony
+PDF Expert	PDFE
+PDF Expert	PDFEx
+PDF Expert	PDFExp
+PDF Expert	PDFExpe
+PDF Expert	PDFExper
+PDF Expert	PDFExpert
+OSCHINA	OSCHINA
+Navicat	Navicat
+Navicat Premium	NavicatP
+Navicat Premium	NavicatPr
+Navicat Premium	NavicatPre
+Navicat Premium	NavicatPrem
+Navicat Premium	NavicatPremi
+Navicat Premium	NavicatPremiu
+Navicat Premium	NavicatPremium
+NameSilo	NameSilo
+localhost	localhost
+Musixmatch	Musixmatch
+G Suite	GSuite
+Visa	Visa
+CloudXNS	CloudXNS
+Bitwarden	Bitwarden
+BitComet	BitComet
+Bitbucket	Bitbucket
+Google Photos	GoogleP
+Google Photos	GooglePh
+Google Photos	GooglePho
+Google Photos	GooglePhot
+Google Photos	GooglePhoto
+Google Photos	GooglePhotos
+LyricsX	LyricsX
 OneDrive	OneDrive
 Xbox	Xbox
 Xbox One	XboxOne
@@ -64,6 +118,11 @@ uTools	uTools
 AirPods	AirPods
 CallKit	CallKit
 OSS	OSS
+YouTube Music	YouTubeM
+YouTube Music	YouTubeMu
+YouTube Music	YouTubeMus
+YouTube Music	YouTubeMusi
+YouTube Music	YouTubeMusic
 Apple Music	AppleM
 Apple Music	AppleMu
 Apple Music	AppleMus
@@ -84,10 +143,10 @@ tracker	tracker
 trackers	trackers
 qBittorrent	qBittorrent
 qBittorrent	qBit
-qBittorrent Enhanced Edition	qBittorrentEE
-qBittorrent Enhanced Edition	qBitEE
-qBittorrent Enhanced Edition	qBEE
 qBittorrent Enhanced Edition	qEE
+qBittorrent Enhanced Edition	qBEE
+qBittorrent Enhanced Edition	qBitEE
+qBittorrent Enhanced Edition	qBittorrentEE
 Bittorrent	Bittorrent
 YAML	YAML
 TOML	TOML
@@ -164,6 +223,7 @@ Spiritfarer	Spiritfarer
 TCP/IP	tcpip
 Twitter	Twitter
 V2EX	ver
+V2EX	vere
 V2EX	verex
 VSCode	VSC
 VSCode	VSCo
@@ -200,13 +260,19 @@ GBA	GBA
 GBC	GBC
 Game Boy	GameBoy
 uBlacklist	uBlacklist
-macOS	macos	100
-macOS Sierra	macos	1
-macOS High Sierra	macos	2
-macOS Mojave	macos	3
-macOS Catalina	macos	4
-macOS Big Sur	macos	5
-macOS Monterey	macos	5
+macOS	macOS	100
+macOS Sierra	macOS	1
+macOS High Sierra	macOS	2
+macOS Mojave	macOS	3
+macOS Catalina	macOS	4
+macOS Big Sur	macOS	5
+macOS Monterey	macOS	6
+macOS Sierra	macOSSierra
+macOS High Sierra	macOSHighSierra
+macOS Mojave	macOSMojave
+macOS Catalina	macOSCatalina
+macOS Big Sur	macOSBigSur
+macOS Monterey	macOSMonterey
 Sierra	sierra
 High Sierra	highsierra
 Mojave	mojave
@@ -6595,7 +6661,7 @@ virgin	virgin	100
 virtual	virtual	100
 virtue	virtue	100
 virus	virus	100
-visa	visa	100
+# visa	visa	100
 viscous	viscous	100
 visible	visible	100
 vision	vision	100
