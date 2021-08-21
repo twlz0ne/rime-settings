@@ -7,7 +7,7 @@
 
 ---
 name: d_av
-version: "2021-08-10"
+version: "2021-08-21"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -104,6 +104,7 @@ vocabulary: essay-zh-hans
 桜空もも	ying kong tao
 宇都宫紫苑	yu du gong zi yuan
 宇都宮しをん	yu du gong zi yuan
+伊藤舞雪
 一之濑亚美莉	yi zhi lai ya mei li
 一ノ瀬アメリ	yi zhi lai ya mei li
 樱木凛	ying mu lin
