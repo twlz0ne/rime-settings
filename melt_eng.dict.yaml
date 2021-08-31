@@ -19,6 +19,8 @@ sort: by_weight
 vocabulary: essay-zh-hans
 ...
 # 补充的英文词汇
+Polo	Polo
+Code Runner	CodeRunner
 AfterShokz Aeropex	AfterShokzAeropex
 AfterShokz	AfterShokz
 Aeropex	Aeropex
@@ -266,6 +268,9 @@ Markdown	Markdow
 Markdown	Markdown
 Microsoft Access	Access
 Microsoft SQL Server	SQLServer
+MongoDB	Mong
+MongoDB	Mongo
+MongoDB	MongoD
 MongoDB	MongoDB
 MySQL	MySQL
 Node	Node
@@ -373,9 +378,9 @@ Adobe	Adobe
 Atom	Atom
 Axure	Axure
 Bartender	Bartender
-BetterSnap Tool	BetterSnapTool
-BetterTouchTool	BetterTouchTool
-BetterZip	BetterZip
+Better Snap Tool	BetterSnapTool
+Better Touch Tool	BetterTouchTool
+Better Zip	BetterZip
 Brackets	Brackets
 BundleHunt	BundleHunt
 Byword	Byword
@@ -388,21 +393,20 @@ CDN	CDN
 Charles	Charles
 CheatSheet	CheatSheet
 ChemBioDraw	ChemBioDraw
-CleanMyMac	CleanMyMac
+Clean My Mac	CleanMyMac
 CloudApp	CloudApp
 CloudMagic	CloudMagic
 Coda	Coda
 CodeBox	CodeBox
 CodeKit	CodeKit
-CodeRunner	CodeRunner
-ColorSchemer	ColorSchemer
-ColorSnapper	ColorSnapper
+Color Schemer	ColorSchemer
+Color Snapper	ColorSnapper
 Control Center	ControlCenter
 Cornerstone	Cornerstone
 Cortana	Cortana
 Curio	Curio
 Current Mac Bundles	CurrentMacBundles
-DaisyDisk	DaisyDisk
+Daisy Disk	DaisyDisk
 Dash	Dash
 Datagraph	Datagraph
 Day One	DayOne
