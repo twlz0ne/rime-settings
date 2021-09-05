@@ -19,6 +19,12 @@ sort: by_weight
 vocabulary: essay-zh-hans
 ...
 # 补充的英文词汇
+DataGrip	DataGrip
+Benjamin	Benjamin
+AlphaGo	AlphaGo
+Valve	Valve
+CS:GO	CSGO
+Tesla	Tesla
 Polo	Polo
 Code Runner	CodeRunner
 AfterShokz Aeropex	AfterShokzAeropex
@@ -6666,7 +6672,6 @@ validity	validity	100
 valley	valley	100
 valuable	valuable	100
 value	value	100
-valve	valve	100
 van	van	100
 vanish	vanish	100
 vanity	vanity	100
