@@ -28,8 +28,8 @@ import_tables:
   # --------------------- 扩展词库 --------------------- #
   # 搜狗扩展词库
   - dicts/sogou_liuxing      # 网络流行词
-  - dicts/sogou_chengyusuyu  # 成语俗语
-  - dicts/sogou_shici        # 搜狗宋词精选+古诗词名句+唐诗300首+诗词名句大全，去重+去掉两个字的词
+  # - dicts/sogou_chengyusuyu  # 成语俗语
+  # - dicts/sogou_shici        # 搜狗宋词精选+古诗词名句+唐诗300首+诗词名句大全，去重+去掉两个字的词
   - dicts/sogou_yaoming      # 药品名称
   - dicts/sogou_wow          # 魔兽世界
   - dicts/sogou_one_piece    # 海贼王
