@@ -7,14 +7,14 @@
 ## 基本套路：
 
 -   Squirrel 0.15.2 简中全拼
--   0.15.0 后  `charset_filter@gb2312` 失效了，放弃了「朙月拼音·简化字」方案，改用「袖珍简化字方案」 [rime](https://github.com/rime)/**[rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp)**  这样在 `*.userdb.txt` 中的也是简体词库了
--   精简了字表
--   华宇拼音（紫光拼音）的系统词库 http://unispim.com/wordlib/wordlib_detail.php?id=8
--   英文输入方案 Easy English Nano（支持大写字母）     [tumuyan](https://github.com/tumuyan)/**[rime-pinyin-simp](https://github.com/tumuyan/rime-pinyin-simp)**  
--   繁体及对应简体提示 [rime/home/issues#388](https://github.com/rime/home/issues/388#issuecomment-504572224) 
+-   「袖珍简化字方案」 [rime](https://github.com/rime)/**[rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp)**  配合简体字表和词库，这样在 `*.userdb.txt` 中的也是简体的了
+-   《通用规范汉语表》8105 字表   [iDvel](https://github.com/iDvel)/**[The-Table-of-General-Standard-Chinese-Characters](https://github.com/iDvel/The-Table-of-General-Standard-Chinese-Characters)**  
+-   华宇野风系统词库 [华宇拼音输入法论坛 - 华语野风系统词库](http://bbs.pinyin.thunisoft.com/forum.php?mod=viewthread&tid=30049)
+-   英文输入方案 Easy English Nano（支持大写字母） [tumuyan](https://github.com/tumuyan)/**[rime-pinyin-simp](https://github.com/tumuyan/rime-pinyin-simp)**  
+-   简繁切换 [rime/home/issues#388](https://github.com/rime/home/issues/388#issuecomment-504572224) 
 -   动态日期、时间、星期 [KyleBing](https://github.com/KyleBing)/**[rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)**
 -   所有标点符号直接上屏，「/」模式改为「v」模式，「/」直接上屏
--   没有 emoji，只在 `symbols` 里保留了不到 10 个常用的，如需要可参考 [maomiui](https://github.com/maomiui)/**[rime](https://github.com/maomiui/rime)** 、[fkxxyz](https://github.com/fkxxyz)/**[rime-cloverpinyin](https://github.com/fkxxyz/rime-cloverpinyin)** 等
+-   没有 emoji，如需要可参考 [maomiui](https://github.com/maomiui)/**[rime](https://github.com/maomiui/rime)** 、[fkxxyz](https://github.com/fkxxyz)/**[rime-cloverpinyin](https://github.com/fkxxyz/rime-cloverpinyin)** 等
 -   增加了许多全拼纠错（手速太快经常按错 😅）
 -   参考谷歌、《现代汉语规范词典》、[异形词整理表](https://wucuozi.com/cuobiezi/yixingzi/)、[错别字辨析](https://wucuozi.com/bian/ ) 修正了大量的异形词、错别字
 
@@ -22,24 +22,35 @@
 
 ## 精简字表
 
-原版字表 17K+ 的字，而《通用规范汉字表》才只收录了 8K 多个字。
+袖珍简化方案原版字表 17K+ 的字，而《通用规范汉字表》才只收录了 8105 个字。
 
-如果不是需要大字库的相关文字工作者，推荐使用精简后的字表。
+如果不是需要大字库的文字相关工作者，推荐使用精简后的字表。
 
-3500 字表推荐配合维基词库等巨型词库，不喜欢大词库的可以使用 8105 字的。
+使用了自己整理的完全正确注音的字表并加上了四叶草方案的字频。
 
-字表通过 [shengdoushi](https://github.com/shengdoushi)/**[common-standard-chinese-characters-table](https://github.com/shengdoushi/common-standard-chinese-characters-table)** 在「袖珍简化字方案」原字表中过滤形成，保留了原方案的词频，并注释掉了将近 200 个错误、废弃或不常用的多音字，如发现某多音字无法打出，请解开注释。
+<br>
 
--   `pinyin_simp_3500` 《通用规范汉字表》的第一级 3500 常用字
--   `pinyin_simp_gb2312` GB2312 6763个字
--   `pinyin_simp_8105` 《通用规范汉字表》 8105 字（推荐）
--   `pinyin_simp.dict` 原版袖珍简化字词库，大约一万七千个字左右
+## 系统词库
+
+同样的，原方案词库中有大量的异形词和错别字，找到了“华语野风系统词库”，感谢原作者的辛苦整理，几乎已经修正了所有的异形词和错别字。
+
+<br>
+
+## 感谢：上手时参考过的主要仓库和博客
+
+[maomiui](https://github.com/maomiui)/**[rime](https://github.com/maomiui/rime)** 详细的图文教程及实例
+
+[fkxxyz](https://github.com/fkxxyz)/**[rime-cloverpinyin](https://github.com/fkxxyz/rime-cloverpinyin)** 四叶草拼音输入方案
+
+[placeless](https://github.com/placeless)/**[squirrel_config](https://github.com/placeless/squirrel_config)**  [鼠须管配置 2021](https://placeless.net/blog/rime-squirrel-customization-2021) 见过的最酷炫的只有两个候选项的小鹤双形 
+
+[Rime方案製作詳解](https://rime-aca.tumblr.com/post/67241713724/rime方案製作詳解)
 
 <br>
 
 ## 其他
 
-在  `custom_phrase.txt` 中可以设置某些字词永远只出现在前 N 个候选项，但是这样设置之后，这些字词就不能与正常的字共同造词。现在不知道如何能完美的固定某些字词的候选项顺序。  
+在  `custom_phrase.txt` 中可以设置某些字词永远只出现在前 N 个候选项，但是这样设置之后，这些字词就不能与正常的字共同造词（自造词无法被记住）。现在不知道如何能完美的固定某些字词的候选项顺序。  
 
 <br>
 
